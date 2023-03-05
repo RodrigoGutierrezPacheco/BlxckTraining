@@ -41,9 +41,9 @@ function Navbar() {
     //   )}
     // </nav>
 		<nav className="row">
-			<img className="pesaRusa" src="images/pesaRusa.png" alt="" />
+			<img className="logoNav" src="images/pesaRusa.png" alt="" />
 			<h1>Blxck Trainig</h1>
-			<img className="pesaRusa" src="images/menu.png" alt="" />
+			<img className="logoNav" src="images/menu.png" alt="" />
 		</nav>
   );
 }

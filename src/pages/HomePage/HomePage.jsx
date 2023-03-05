@@ -31,7 +31,14 @@ function HomePage() {
 					<img className="medida" src="images/medida.png" alt="" />
 					<h1 className="black r">Medidas Antropometricas. Mediciones de pliegues cutaneos para la valoracion de la cantidad del tejido adiposo subcutaneo.</h1>
 				</div>
+				<h1 className="red ">¿Estas buscando un cambio en tu vida?</h1>
+				<h2 className="justify y">¡Unete ya! a nuestro programa de entrenamiento de hasta 5 semanas, todas nuestras rutinas estan diseñadas especificamente para ti. Contactanos para mayor informacion</h2>
+				<button className="button1">¡Contactanos!</button>
 			</div>
+			<footer className="footer">
+				<h1 className="lFooter">Blxck Training</h1>
+				<img className="iFooter" src="images/blxckLogo.png" alt="" />
+			</footer>
     </div>
   );
 }
