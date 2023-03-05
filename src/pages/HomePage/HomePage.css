@@ -1,0 +1,82 @@
+.box1{
+	background-color: black;
+}
+
+.red{
+	color: red;
+}
+
+.white{
+	color:white;
+}
+
+.justify{
+	text-align: justify;
+	margin-left: 10%;
+}
+
+.blxck{
+	width: 50%;
+}
+
+.q{
+	width: 70%;
+	margin-left: 5%;
+}
+
+.w{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.button{
+	background-color: red;
+	color: white;
+	margin: 2px solid black;
+	width: 70%;
+	height: 3rem;
+	font-size: 2rem;
+	margin-top: 1%;
+	margin-bottom: 5%;
+}
+
+.e{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.incluye{
+	width: 30%;
+}
+
+.r{
+	font-size: 100%;
+	text-align: start;
+	margin-top: 10%;
+	width: 50%;
+}
+
+.t{
+	margin-left: 2%;
+	margin-top: 10%;
+}
+
+.box2{
+	background-color: black;
+	height: 8rem;
+}
+
+.box3{
+	color:black;
+}
+
+.contacto{
+	height: 50%;
+	margin-top: 5%;
+}
+
+.medida{
+	width: 20%;
+	height: 10%;
+	margin-top: 10%;
+}
