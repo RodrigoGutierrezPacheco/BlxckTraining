@@ -42,7 +42,7 @@ function Navbar() {
     // </nav>
 		<nav className="row">
 			<img className="logoNav l" src="images/pesaRusa.png" alt="" />
-			<h1>Blxck Trainig</h1>
+			<h1 className="btNv">Blxck Trainig</h1>
 			<img className="logoNav o" src="images/menu.png" alt="" />
 		</nav>
   );
