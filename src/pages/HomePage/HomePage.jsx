@@ -7,7 +7,7 @@ function HomePage() {
        <img className="blxck" src="images/blxckLogo.png" alt="" />
 			 <h1 className="red justify q">!Unete a nuestra comunidad!</h1>
 			 <h3 className="white justify w">Nuestro programa de entrenamiento es un conjunto de métodos, actividades y ejercicios que sirven para desarrollar la condición física. un buen entrenamiento junto con una buena recuperación, son la clave para cumplir tus objetivos.</h3>
-			 <button className="button">!Inscribete ahora!</button>
+			 <button className="button1 ins">!Inscribete ahora!</button>
 			</div>
 			<div>
 				<h1 className="red e">¿Que incluyen nuestros programas de entrenamiento?</h1>
