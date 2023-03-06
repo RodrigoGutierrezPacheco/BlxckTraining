@@ -10,6 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import IsPrivate from "./components/IsPrivate/IsPrivate";
 import IsAnon from "./components/IsAnon/IsAnon";
 
+import MiRutina from "./pages/MiRutina/miRutina";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<HomePage />} />
+				<Route path="/miRutina" element={<MiRutina/>}/> 
 
         <Route
           path="/profile"
