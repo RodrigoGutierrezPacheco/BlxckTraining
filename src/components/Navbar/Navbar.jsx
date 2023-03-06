@@ -43,6 +43,10 @@ function Navbar() {
 		window.location.href = "/"
 	}
 
+	function whatsapp(){
+		window.location.href="https://api.whatsapp.com/send?phone=525638686467"
+	}
+
   return (
     // <nav>
     //   <Link to="/">
@@ -89,9 +93,9 @@ function Navbar() {
       >
 				<div>
 					<h1 onClick={closeModal}>X</h1>
-					<h1 className="red menuTexto">Menu</h1>
+					<h1 onClick={home} className="red menuTexto">Inicio</h1>
 					<h1 onClick={miRutina}>Mi Rutina</h1>
-					<h1 className="red menuTexto">Contacto</h1>
+					<h1 onClick={whatsapp} className="red menuTexto">Contacto</h1>
 				</div>
       </Modal>
 		</nav>
