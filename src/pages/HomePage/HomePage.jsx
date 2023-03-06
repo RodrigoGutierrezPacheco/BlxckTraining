@@ -1,13 +1,17 @@
 import "./HomePage.css";
 
 function HomePage() {
+
+	function whatsapp(){
+		window.location.href = "https://api.whatsapp.com/send?phone=525638686467"
+	}
   return (
     <div>
 			<div className="box1">
        <img className="blxck" src="images/blxckLogo.png" alt="" />
 			 <h1 className="red justify q">!Unete a nuestra comunidad!</h1>
 			 <h3 className="white justify w">Nuestro programa de entrenamiento es un conjunto de métodos, actividades y ejercicios que sirven para desarrollar la condición física. un buen entrenamiento junto con una buena recuperación, son la clave para cumplir tus objetivos.</h3>
-			 <button className="button1 ins">!Inscribete ahora!</button>
+			 <button className="button1 ins" onClick={whatsapp}>!Inscribete ahora!</button>
 			</div>
 			<div>
 				<h1 className="red e">¿Que incluyen nuestros programas de entrenamiento?</h1>
@@ -33,7 +37,7 @@ function HomePage() {
 				</div>
 				<h1 className="red ">¿Estas buscando un cambio en tu vida?</h1>
 				<h2 className="justify y">¡Unete ya! a nuestro programa de entrenamiento de hasta 5 semanas, todas nuestras rutinas estan diseñadas especificamente para ti. Contactanos para mayor informacion</h2>
-				<button className="button1">¡Contactanos!</button>
+				<button className="button1" onClick={whatsapp}>¡Contactanos!</button>
 			</div>
 			<footer className="footer">
 				<h1 className="lFooter">Blxck Training</h1>
