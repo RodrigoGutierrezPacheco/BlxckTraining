@@ -146,7 +146,7 @@ const MiRutina = () => {
  function elevacionesFrontalesMartillo(){
 	Swal.fire({
 		title: 'Elevaciones Frontales Martillo con Mancuernas',
-		imageUrl: 'images/elevacionesFrontalesMartillo.jpeg',
+		imageUrl: 'images/elevacionesFrontalesMartillo.webp',
 		imageWidth: 400,
 		imageHeight: 200,
 		imageAlt: 'Custom image',
