@@ -90,7 +90,7 @@ function Navbar() {
 				<div>
 					<h1 onClick={closeModal}>X</h1>
 					<h1 className="red menuTexto">Menu</h1>
-					<h1 onClick={miRutina}></h1>
+					<h1 onClick={miRutina}>Mi Rutina</h1>
 					<h1 className="red menuTexto">Contacto</h1>
 				</div>
       </Modal>
