@@ -28,7 +28,7 @@ const MiRutina = () => {
     setIsOpen(false);
   }
 
-	function ppm(){
+	function pressPechoMaquina(){
 		Swal.fire({
 			title: 'Press Pecho en Maquina',
 			imageUrl: 'images/pressPechoMaquina.jpeg',
@@ -52,9 +52,84 @@ const MiRutina = () => {
 		})
 	}
 
-const usuario = prompt("Ingresa tu usuario")
+ function user(){
+ }
 
-if(usuario === "rodrigo" || usuario === "Rodrigo" || usuario === "pepe" || usuario === "Pepe"){
+ function pressMilitarMaquina(){
+	Swal.fire({
+		title: 'Press Militar en Maquina',
+		imageUrl: 'images/pmm.png',
+		imageWidth: 400,
+		imageHeight: 200,
+		imageAlt: 'Custom image',
+		confirmButtonText: "Entendido",
+		confirmButtonColor:"black",
+	})
+ }
+
+ function pulldownMaquina(){
+	Swal.fire({
+		title: 'Pulldown en Maquina',
+		imageUrl: 'images/ppm.webp',
+		imageWidth: 400,
+		imageHeight: 200,
+		imageAlt: 'Custom image',
+		confirmButtonText: "Entendido",
+		confirmButtonColor:"black",
+	})
+ }
+
+ function curlBicepsZ(){
+	Swal.fire({
+		title: 'Curl Biceps con barra Z',
+		imageUrl: 'images/curlBicepsZDePie.jpeg',
+		imageWidth: 400,
+		imageHeight: 200,
+		imageAlt: 'Custom image',
+		confirmButtonText: "Entendido",
+		confirmButtonColor:"black",
+	})
+ }
+
+ function copa2Manos(){
+	Swal.fire({
+		title: 'Copa a 2 Manos',
+		imageUrl: 'images/copa2Manos.jpg',
+		imageWidth: 400,
+		imageHeight: 200,
+		imageAlt: 'Custom image',
+		confirmButtonText: "Entendido",
+		confirmButtonColor:"black",
+	})
+ }
+
+ function sentadillaMancuerna(){
+	Swal.fire({
+		title: 'Sentadilla con Mancuerna',
+		imageUrl: 'images/sentadillaMancuerna.webp',
+		imageWidth: 400,
+		imageHeight: 200,
+		imageAlt: 'Custom image',
+		confirmButtonText: "Entendido",
+		confirmButtonColor:"black",
+	})
+ }
+
+ function pesoMuertoMancuerna(){
+	Swal.fire({
+		title: 'Peso Muerto con Mancuerna',
+		imageUrl: 'images/pesoMuertoMancuerna.webp',
+		imageWidth: 400,
+		imageHeight: 200,
+		imageAlt: 'Custom image',
+		confirmButtonText: "Entendido",
+		confirmButtonColor:"black",
+	})
+ }
+
+	const usuario = prompt("Ingresa tu Usuario")
+
+  if(usuario === "rodrigo" || usuario === "Rodrigo" || usuario === "pepe" || usuario === "Pepe"|| usuario === "itzi" || usuario === "Itzi"){
 	return (	
 		<div>
 			<div className='miRutina'>
@@ -63,14 +138,14 @@ if(usuario === "rodrigo" || usuario === "Rodrigo" || usuario === "pepe" || usuar
 			</div>
 			<Collapsible className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}} trigger="Semana 1">
 				<div className='justify'>
-					<h1 className='red'>Dia 1 Pecho-Triceps</h1>
-					<p>1.-Press pecho en maquina <a className='red'>4 series 15 repeticiones</a><a onClick={ppm
-					}>▶️</a></p>
-					<p>2.-Aperturas en maquina <a className='red'>4 series 15 repeticiones</a><a onClick={am}>▶️</a></p>
-					<p>3.-Lagartijas 4 <a className='red'>4 series 15 repeticiones</a><a>▶️</a></p>
-					<p>4.-Fondos en maquina <a className='red'>4 series 15 repeticiones</a><a>▶️</a></p>
-					<p>5.-Copa a 2 manos <a className='red'>4 series 15 repeticiones</a><a>▶️</a></p>
-					<p>6.-Jalones con cuerda en polea alta <a className='red'>4 series 15 repeticiones</a><a>▶️</a></p>
+					<h1 className='red'>Dia 1 Fullbody</h1>
+					<p>1.-Press militar en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pressMilitarMaquina}>▶️</a></p>
+					<p>2.-Press pecho en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pressPechoMaquina}>▶️</a></p>
+					<p>3.-Pulldown en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pulldownMaquina}>▶️</a></p>
+					<p>4.-Curl biceps con barra z de pie <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={curlBicepsZ}>▶️</a></p>
+					<p>5.-Copa a 2 manos <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={copa2Manos}>▶️</a></p>
+					<p>6.-Sentadilla con mancuerna <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={sentadillaMancuerna}>▶️</a></p>
+					<p>7.-Peso muerto con mancuerna <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pesoMuertoMancuerna}>▶️</a></p>
 				</div>
 				<hr />
 				<div className='justify'>
@@ -163,7 +238,7 @@ if(usuario === "rodrigo" || usuario === "Rodrigo" || usuario === "pepe" || usuar
 
 export default MiRutina
 
-// if(usuario === "rodrigo" || "Rodrigo"|| "pepe"){
+// if(usuario === "rodrigo" || usuario === "Rodrigo" || usuario === "pepe" || usuario === "Pepe"){
 // 	return (	
 // 		<div>
 // 			<div className='miRutina'>
