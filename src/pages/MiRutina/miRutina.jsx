@@ -139,13 +139,13 @@ const MiRutina = () => {
 			<Collapsible className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}} trigger="Semana 1">
 				<div className='justify'>
 					<h1 className='red'>Dia 1 Fullbody</h1>
-					<p>1.-Press militar en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pressMilitarMaquina}>▶️</a></p>
-					<p>2.-Press pecho en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pressPechoMaquina}>▶️</a></p>
-					<p>3.-Pulldown en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pulldownMaquina}>▶️</a></p>
-					<p>4.-Curl biceps con barra z de pie <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={curlBicepsZ}>▶️</a></p>
-					<p>5.-Copa a 2 manos <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={copa2Manos}>▶️</a></p>
-					<p>6.-Sentadilla con mancuerna <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={sentadillaMancuerna}>▶️</a></p>
-					<p>7.-Peso muerto con mancuerna <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a><a onClick={pesoMuertoMancuerna}>▶️</a></p>
+					<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press militar en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a></p>
+					<p>2.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a></p>
+					<p>3.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en maquina <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a></p>
+					<p>4.-<a onClick={curlBicepsZ}>▶️</a>Curl biceps con barra z de pie <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a></p>
+					<p>5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a></p>
+					<p>6.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla con mancuerna <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a></p>
+					<p>7.-<a onClick={pesoMuertoMancuerna}>▶️</a>Peso muerto con mancuerna <a className='red'>4 series 8/10 repeticiones | 2ex/2con</a></p>
 				</div>
 				<hr />
 				<div className='justify'>
