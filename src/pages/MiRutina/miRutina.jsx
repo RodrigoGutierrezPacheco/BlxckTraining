@@ -1,6 +1,5 @@
 import React from 'react'
-import Accordion from 'react-bootstrap/Accordion';
-
+import Collapsible from 'react-collapsible';
 const MiRutina = () => {
 	return (
 		<div>
@@ -8,32 +7,56 @@ const MiRutina = () => {
 			 <img className='blxck' src="images/blxckLogo.png" alt="" />
 		   <h1 className='red'>Bienvenidx</h1>
 			</div>
-			<Accordion defaultActiveKey={['0']} alwaysOpen>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header classname="red">Accordion Item #1</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-      <Accordion.Item eventKey="1">
-        <Accordion.Header>Accordion Item #2</Accordion.Header>
-        <Accordion.Body>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </Accordion.Body>
-      </Accordion.Item>
-    </Accordion>
+			<Collapsible className='dia ' trigger="Semana 1">
+      <p>
+        This is the collapsible content. It can be any element or React
+        component you like.
+      </p>
+      <p>
+        It can even be another Collapsible component. Check out the next
+        section!
+      </p>
+    </Collapsible>
+		<Collapsible className='dia black' trigger="Semana 2">
+      <p>
+        This is the collapsible content. It can be any element or React
+        component you like.
+      </p>
+      <p>
+        It can even be another Collapsible component. Check out the next
+        section!
+      </p>
+    </Collapsible>
+		<Collapsible className='dia' trigger="Semana 3">
+      <p>
+        This is the collapsible content. It can be any element or React
+        component you like.
+      </p>
+      <p>
+        It can even be another Collapsible component. Check out the next
+        section!
+      </p>
+    </Collapsible>
+		<Collapsible className='dia black' trigger="Semana 4">
+      <p>
+        This is the collapsible content. It can be any element or React
+        component you like.
+      </p>
+      <p>
+        It can even be another Collapsible component. Check out the next
+        section!
+      </p>
+    </Collapsible>
+		<Collapsible className='dia' trigger="Semana 5">
+      <p>
+        This is the collapsible content. It can be any element or React
+        component you like.
+      </p>
+      <p>
+        It can even be another Collapsible component. Check out the next
+        section!
+      </p>
+    </Collapsible>
 		</div>
 	)
 }

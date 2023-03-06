@@ -155,4 +155,18 @@
 	.miRutina{
 		background-color: black;
 	}
+
+	.dia{
+		font-size: 5rem;
+	}
+
+	.black{
+		background-color: black;
+		color: white;
+	}
+
+	.white{
+		background-color: white;
+		color:black;
+	}
 }
