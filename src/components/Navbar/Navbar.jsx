@@ -35,6 +35,14 @@ function Navbar() {
     setIsOpen(false);
   }
 
+	function miRutina(){
+		window.location.href = "/miRutina"
+	}
+
+	function home(){
+		window.location.href = "/"
+	}
+
   return (
     // <nav>
     //   <Link to="/">
@@ -69,8 +77,8 @@ function Navbar() {
     // </nav>
 		
 		<nav className="row">
-			<img className="logoNav l" src="images/pesaRusa.png" alt="" />
-			<h1 className="btNv">Blxck Trainig</h1>
+			<img onClick={home} className="logoNav l" src="images/pesaRusa.png" alt="" />
+			<h1 onClick={home} className="btNv">Blxck Trainig</h1>
 			<img onClick={openModal} className="logoNav o" src="images/menu.png" alt="" />
 			<Modal
         isOpen={modalIsOpen}
@@ -80,9 +88,10 @@ function Navbar() {
         contentLabel="Example Modal"
       >
 				<div>
-					<h1>Menu</h1>
-					<h1>Mi Rutina</h1>
-					<h1>Contacto</h1>
+					<h1 onClick={closeModal}>X</h1>
+					<h1 className="red menuTexto">Menu</h1>
+					<h1 onClick={miRutina}>Mi Rutina</h1>
+					<h1 className="red menuTexto">Contacto</h1>
 				</div>
       </Modal>
 		</nav>
