@@ -220,6 +220,11 @@ const MiRutina = () => {
 				<h1>Dia 5</h1>
 				<h1>Dia 6</h1>
 		</Collapsible>
+		<button className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
+		<footer className="footer">
+				<h1 className="lFooter">Blxck Training</h1>
+				<img className="iFooter" src="images/blxckLogo.png" alt="" />
+			</footer>
 		</div>
 	)
 } else {
@@ -229,6 +234,7 @@ const MiRutina = () => {
 	return(
 		<h1>Contactanos para tu Programa de Entrenamiento</h1>
 	)
+
 }
 
 
