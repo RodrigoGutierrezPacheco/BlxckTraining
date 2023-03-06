@@ -54,7 +54,7 @@ const MiRutina = () => {
 
 const usuario = prompt("Ingresa tu usuario")
 
-if(usuario === "rodrigo" || "Rodrigo"|| "pepe"){
+if(usuario === "rodrigo" || usuario === "Rodrigo" || usuario === "pepe" || usuario === "Pepe"){
 	return (	
 		<div>
 			<div className='miRutina'>
