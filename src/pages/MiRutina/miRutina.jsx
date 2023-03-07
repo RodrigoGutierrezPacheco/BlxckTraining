@@ -369,14 +369,14 @@ function aperturasMaquina(){
 				<h1>Dia 5</h1>
 				<h1>Dia 6</h1>
 		</Collapsible>
-		<button className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
+		<button onClick={whatsapp} className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
 		<footer className="footer">
 				<h1 className="lFooter">Blxck Training</h1>
 				<img className="iFooter" src="images/blxckLogo.png" alt="" />
 			</footer>
 		</div>
 	)
-    } else if(usuario === "pepe"){
+    } else if(usuario === "pepe"||usuario==="dani"||usuario==="Dani"||usuario==="dani "||usuario==="Dani "){
 			return(
 				<div>
 	<div className='miRutina'>
@@ -467,7 +467,7 @@ function aperturasMaquina(){
 		<h1>Dia 5</h1>
 		<h1>Dia 6</h1>
 </Collapsible>
-<button className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
+<button onClick={whatsapp} className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
 <footer className="footer">
 		<h1 className="lFooter">Blxck Training</h1>
 		<img className="iFooter" src="images/blxckLogo.png" alt="" />
