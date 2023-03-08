@@ -47,7 +47,8 @@ function HomePage() {
 			</div>
 			<div className="noCel">
 				<img src="images/blxckLogo.png" alt="" />
-				<h1>Ingresa desde tu celular</h1>
+				<h1 className="red">Ingresa desde tu celular</h1>
+				<h2>Las vitas en computadora estan en mantenimiento</h2>
 			</div>
     </div>
   );
