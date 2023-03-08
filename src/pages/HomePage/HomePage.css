@@ -5,6 +5,10 @@
 		font-weight: 100;
 	
 	}
+
+	.noCel{
+		display: none;
+	}
 	
 	.box1{
 		background-color: black;
