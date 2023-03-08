@@ -283,7 +283,7 @@ function aperturasMaquina(){
 		<div>
 			<div className='miRutina'>
 			 <img className='blxck' src="images/blxckLogo.png" alt="" />
-			 <h1 className='red'>Bienvenida {usuario}</h1>
+			 <h1 className='red'>Bienvenidx {usuario}</h1>
 			</div>
 			{/* Rutina Semana #1  */}
 			<Collapsible className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}} trigger="Semana 1">
