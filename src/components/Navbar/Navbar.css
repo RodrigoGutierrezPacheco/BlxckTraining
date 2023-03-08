@@ -12,3 +12,11 @@ nav{
 	background-color: black;
 	color: white;
 }
+
+@media(min-width:501px){
+	.width{
+		display: none;
+	}
+
+
+}

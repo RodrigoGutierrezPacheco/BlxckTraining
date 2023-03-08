@@ -6,6 +6,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
 
+
 function Navbar() {
   // Subscribe to the AuthContext to gain access to
   // the values from AuthContext.Provider's `value` prop
@@ -80,7 +81,7 @@ function Navbar() {
     //   )}
     // </nav>
 		
-		<nav className="row">
+		<nav className="row width media">
 			<img onClick={home} className="logoNav l" src="images/pesaRusa.png" alt="" />
 			<h1 onClick={home} className="btNv">Blxck Trainig</h1>
 			<img onClick={openModal} className="logoNav o" src="images/menu.png" alt="" />

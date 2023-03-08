@@ -188,3 +188,20 @@
 		margin-bottom: 7rem;
 	}
 }
+
+@media(min-width:501px){
+	.width{
+		display: none;
+		background-color: black;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.noCel{
+		background-color: black;
+		color: white;
+		height: 90rem;
+	}
+}

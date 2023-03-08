@@ -7,6 +7,7 @@ function HomePage() {
 	}
   return (
     <div>
+			<div className="width">
 			<div className="box1">
        <img className="blxck" src="images/blxckLogo.png" alt="" />
 			 <h1 className="red justify q">!Unete a nuestra comunidad!</h1>
@@ -43,6 +44,11 @@ function HomePage() {
 				<h1 className="lFooter">Blxck Training</h1>
 				<img className="iFooter" src="images/blxckLogo.png" alt="" />
 			</footer>
+			</div>
+			<div className="noCel">
+				<img src="images/blxckLogo.png" alt="" />
+				<h1>Ingresa desde tu celular</h1>
+			</div>
     </div>
   );
 }
