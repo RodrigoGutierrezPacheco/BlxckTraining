@@ -285,9 +285,11 @@ function aperturasMaquina(){
 			 <img className='blxck' src="images/blxckLogo.png" alt="" />
 			 <h1 className='red'>Bienvenida {usuario}</h1>
 			</div>
+			{/* Rutina Semana #1  */}
 			<Collapsible className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}} trigger="Semana 1">
 				<div className='justify'>
 					<h1 className='red'>Dia 1 Hombro-Biceps-Triceps</h1>
+					<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 					<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press militar en maquina <a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con mancuernas<a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>3.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>Elevaciones frontales con mancuernas<a className='red'> 4 series 12/15 repeticiones</a></p>
@@ -295,30 +297,36 @@ function aperturasMaquina(){
 					<p>5.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl biceps martillo con mancuerna<a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>6.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina<a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>7.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos<a className='red'> 4 series 12/15 repeticiones</a></p>
+					<p className='red'>*Termina con programa cardio S8-Principiante-Nivel1</p>
 				</div>
 				<hr />
 				<div className='justify'>
-					<h1>Dia 2 Pierna</h1>
+ 				  <h1>Dia 2 Pierna</h1>
+					 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 					<p>1.-<a onClick={extencionCuadriceps}>▶️</a>Extencion Cuadriceps en Maquina <a className='red'>4 series 15 repeticiones</a></p>
 					<p>2.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral en Maquina<a className='red'>4 series 15 repeticiones</a></p>
 					<p>3.-<a onClick={abduccion}>▶️</a>Abdduccion<a className='red'>4 series 15 repeticiones</a></p>
 					<p>4.-<a onClick={adduccion}>▶️</a>Adduccion<a className='red'>4 series 15 repeticiones</a></p>
 					<p>5.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla con Mancuerna<a className='red'>4 series 15 repeticiones</a></p>
 					<p>6.-<a onClick={pesoMuertoMancuerna}>▶️</a>Peso Muerto con Mancuerna<a className='red'>4 series 15 repeticiones</a></p>
+					<p className='red'>*Termina con programa cardio S8-Principiante-Nivel1</p>
 				</div>
 				<hr />
 				<div className='justify'>
-					<h1 className='red'>Dia 3 Pecho-Espalda</h1>
+				  <h1 className='red'>Dia 3 Pecho-Espalda</h1>
+					<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 					<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina<a className='red'>4 series 15 repeticiones</a></p>
 					<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina<a className='red'>4 series 15 repeticiones</a></p>
 					<p>3.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'>4 series 15 repeticiones</a></p>
 					<p>4.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'>4 series 15 repeticiones</a></p>
 					<p>5.-<a onClick={pulloverPoleaAlta}>▶️</a>Pullover Polea Alta<a className='red'>4 series 15 repeticiones</a></p>
 					<p>6.-<a onClick={hiperextencionesMaquina}>▶️</a>Hiperextenciones<a className='red'>4 series 15 repeticiones</a></p>
+					<p className='red'>*Termina con programa cardio S8-Principiante-Nivel1</p>
 				</div>
 				<hr />
 				<div className='justify'>
-				<h1 className='red'>Dia 4 Hombro-Biceps-Triceps</h1>
+				  <h1 className='red'>Dia 4 Hombro-Biceps-Triceps</h1>
+					<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 					<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press militar en maquina <a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con mancuernas<a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>3.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>Elevaciones frontales con mancuernas<a className='red'> 4 series 12/15 repeticiones</a></p>
@@ -326,16 +334,19 @@ function aperturasMaquina(){
 					<p>5.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl biceps martillo con mancuerna<a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>6.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina<a className='red'> 4 series 12/15 repeticiones</a></p>
 					<p>7.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos<a className='red'> 4 series 12/15 repeticiones</a></p>
+					<p className='red'>*Termina con programa cardio S8-Principiante-Nivel1</p>
 				</div>
 				<hr />
 				<div className='justify'>
 					<h1 className='red'>Dia 5 fullbody</h1>
-					<p>1.-<a>▶️</a>Press pecho en maquina <a className='red'>4 series 15 repeticiones</a></p>
-					<p>2.-<a>▶️</a>Aperturas en maquina <a className='red'>4 series 15 repeticiones</a></p>
-					<p>3.-<a>▶️</a>Lagartijas 4 <a className='red'>4 series 15 repeticiones</a></p>
-					<p>4.-<a>▶️</a>Fondos en maquina <a className='red'>4 series 15 repeticiones</a></p>
-					<p>5.-<a>▶️</a>Copa a 2 manos <a className='red'>4 series 15 repeticiones</a></p>
-					<p>6.-<a>▶️</a>Jalones con cuerda en polea alta <a className='red'>4 series 15 repeticiones</a></p>
+					<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+					<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'>4 series 15 repeticiones</a></p>
+					<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className='red'>4 series 15 repeticiones</a></p>
+					<p>3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas<a className='red'>4 series 15 repeticiones</a></p>
+					<p>4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina <a className='red'>4 series 15 repeticiones</a></p>
+					<p>5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className='red'>4 series 15 repeticiones</a></p>
+					<p>6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado<a className='red'>4 series 15 repeticiones</a></p>
+					<p className='red'>*Termina con programa cardio S8-Principiante-Nivel1</p>
 				</div>
 		</Collapsible>
 		<Collapsible className='dia black1' trigger="Semana 2" triggerWhenOpen="Semana 2" triggerStyle={{fontSize:'5rem'}}>
