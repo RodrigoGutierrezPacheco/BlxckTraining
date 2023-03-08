@@ -277,7 +277,8 @@ function aperturasMaquina(){
 
 	const usuario = prompt("Ingresa tu Usuario")
 
-  if(usuario==="Flor"||usuario==="flor"||usuario==="migue"||usuario==="Migue"){
+	//Rutina #1 de Adaptacion
+  if(usuario==="Flor"||usuario==="flor"||usuario==="migue"||usuario==="Migue"||usuario==="Alejandra"||usuario==="Alejandra "||usuario==="alejandra"||usuario==="alejandra "){
 	return (	
 		<div>
 			<div className='miRutina'>
