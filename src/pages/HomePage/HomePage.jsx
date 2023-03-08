@@ -31,11 +31,11 @@ function HomePage() {
 					<img className="contacto" src="images/contacto.png" alt="" />
 					<h1 className="white r">Seguimiento diario con los coaches.</h1>
 				</div>
-				<div className="box3 row">
+				{/* <div className="box3 row">
 					<h1 className="black t">4.-</h1>
 					<img className="medida" src="images/medida.png" alt="" />
-					<h1 className="black r">Medidas Antropometricas. Mediciones de pliegues cutaneos para la valoracion de la cantidad del tejido adiposo subcutaneo.</h1>
-				</div>
+					<h1 className="black r">Medidas Antropometricas. Mediciones de pliegues cutaneos para la valoracion de la cantidad del tejido adiposo subcutaneo.a <a className="red">*costo extra*</a></h1>
+				</div> */}
 				<h1 className="red ">¿Estas buscando un cambio en tu vida?</h1>
 				<h2 className="justify y">¡Unete ya! a nuestro programa de entrenamiento de hasta 5 semanas, todas nuestras rutinas estan diseñadas especificamente para ti. Contactanos para mayor informacion</h2>
 				<button className="button1" onClick={whatsapp}>¡Contactanos!</button>
