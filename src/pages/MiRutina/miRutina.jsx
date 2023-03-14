@@ -169,7 +169,7 @@ const MiRutina = () => {
 
  function fondosMaquina(){
 	Swal.fire({
-		title: 'Peso Muerto con Mancuerna',
+		title: 'Fondos en Maquina',
 		imageUrl: 'images/fondosMaquina.jpg',
 		imageWidth: 400,
 		imageHeight: 200,
@@ -278,13 +278,14 @@ function aperturasMaquina(){
 	const usuario = prompt("Ingresa tu Usuario")
 
 	//Rutina #1 de Adaptacion
-  if(usuario==="Flor"||usuario==="flor"||usuario==="migue"||usuario==="Migue"||usuario==="Alejandra"||usuario==="Alejandra "||usuario==="alejandra"||usuario==="alejandra "||usuario==="itzi"||usuario==="itzi "){
+  if(usuario==="Flor"||usuario==="flor"||usuario==="migue"||usuario==="Migue"||usuario==="Alejandra"||usuario==="Alejandra "||usuario==="alejandra"||usuario==="alejandra "||usuario==="itzi"||usuario==="itzi "||usuario==="PepeGymRat14"){
 	return (	
 		<div>
 			<div className='miRutina'>
 			 <img className='blxck' src="images/blxckLogo.png" alt="" />
 			 <h1 className='red'>Bienvenidx {usuario}</h1>
 			</div>
+			{/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
 			{/* Rutina Semana #1  */}
 			<Collapsible className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}} trigger="Semana 1">
 				<div className='justify'>
@@ -455,7 +456,7 @@ function aperturasMaquina(){
 			</footer>
 		</div>
 	)
-    } else if(usuario === "pepe"||usuario==="dani"||usuario==="Dani"||usuario==="dani "||usuario==="Dani "){
+    } else if(usuario==="Dani "){
 			return(
 				<div>
 	<div className='miRutina'>
