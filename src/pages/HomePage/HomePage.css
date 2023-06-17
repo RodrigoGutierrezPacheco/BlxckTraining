@@ -1,0 +1,215 @@
+@media (max-width:700px){
+	body{
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 100;
+	
+	}
+
+	.noCel{
+		display: none;
+	}
+	
+	.box1{
+		background-color: black;
+	}
+	
+	.red{
+		color: red;
+	}
+	
+	.white{
+		color:white;
+		font-weight: 100;
+	}
+	
+	.justify{
+		text-align: justify;
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	.blxck{
+		width: 50%;
+	}
+	
+	.q{
+		width: 70%;
+		margin-left: 5%;
+		font-weight: 100;
+	}
+	
+	.w{
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	.button{
+		background-color: red;
+		color: white;
+		border: 20px solid rgb(255, 0, 0);
+		width: 70%;
+		height: 3rem;
+		font-size: 2rem;
+		margin-top: 1%;
+		margin-bottom: 10%;
+	}
+	
+	.e{
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	.incluye{
+		width: 30%;
+	}
+	
+	.r{
+		font-size: 100%;
+		text-align: start;
+		margin-top: 10%;
+		width: 50%;
+	}
+	
+	.t{
+		margin-left: 2%;
+		margin-top: 10%;
+	}
+	
+	.box2{
+		background-color: black;
+		height: 8rem;
+	}
+	
+	.box3{
+		color:black;
+	}
+	
+	.contacto{
+		height: 50%;
+		margin-top: 5%;
+	}
+	
+	.medida{
+		width: 20%;
+		height: 10%;
+		margin-top: 10%;
+	}
+	
+	.y{
+		width: 90%;
+		margin-left: 5%;
+	}
+	
+	.button1{
+		color: white;
+		background-color: red;
+		border: none;
+		width: 50%;
+		height: 2rem;
+		font-size: 1.5rem;
+		margin-bottom: 5%;
+		border-radius: 1rem;
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 100;
+	}
+	
+	.logoNav{
+		width:2.5rem;
+		height: 2.5rem;
+		margin-top: 1rem;
+	}
+	
+	.footer{
+		background-color: black;
+		color: white;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		height: 10vh;
+	}
+	
+	.lFooter{
+		font-size: 2rem;
+		margin-top: 6%;
+	}
+	
+	.iFooter{
+		width: 20%;
+	}
+	
+	.ins{
+		font-size: 1.2rem;
+	}
+	
+	.l{
+		margin-left: 3%;
+	}
+	
+	.o{
+		margin-right: 3%;
+	}
+	
+	.btNv{
+		font-size: 2rem;
+	}
+	
+	.menuTexto{
+		width: 10rem;
+	}
+	
+	.miRutina{
+		background-color: black;
+	}
+
+	.dia{
+		font-size: 5rem;
+	}
+
+	.black1{
+		background-color: black;
+		color: white;
+	}
+
+	.white1{
+		background-color: white;
+		color:black;
+	}
+
+	.button2{
+		color: white;
+		background-color: red;
+		border: none;
+		width: 50%;
+		height: 6rem;
+		font-size: 1.5rem;
+		margin-bottom: 5%;
+		border-radius: 1rem;
+		font-family: 'Bebas Neue', cursive;
+		font-weight: 100;
+	}
+
+	.u{
+		height: 45vh;
+	}
+}
+
+@media(min-width:701px){
+	.width{
+		display: none;
+		background-color: black;
+	}
+
+	nav{
+		display: none;
+	}
+
+	.noCel{
+		background-color: black;
+		color: white;
+		height: 100vh;
+	}
+
+	.red{
+		color: red;
+	}
+}
