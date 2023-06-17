@@ -18,7 +18,9 @@ const MiRutina = () => {
   }, []);
 
 	const handleLogin = () => {
-		const allowedUsernames = process.env.REACT_APP_USERNAME.split(',');
+		const allowedUsernames = [
+			"Alejandra","alejandra","pepe","Pepe","Dani","dani","itzi","Itzi","Flori","flori","migue","Migue"
+		]
 		if (allowedUsernames.includes(username)) {
 			setLoggedIn(true);
 			localStorage.setItem('loggedIn', 'true');
@@ -917,7 +919,7 @@ const MiRutina = () => {
 		<div>
 		{loggedIn ? (
 			<div>
-				{username === username ? 
+				{username === "alejandra"||"Alejandra" ? 
 							 <div>
 							 <div className='miRutina'>
 								<img className='blxck' src="images/blxckLogo.png" alt="" />
