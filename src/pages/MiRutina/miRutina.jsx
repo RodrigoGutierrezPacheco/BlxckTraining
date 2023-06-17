@@ -1320,7 +1320,7 @@ const MiRutina = () => {
 						/>
 					</div>
 					{userNotFound && <h1>Usuario no encontrado</h1>}
-					<button className='button1' type="button" onClick={handleLogin}>
+					<button className='button1 title' type="button" onClick={handleLogin}>
 						Iniciar sesión
 					</button>
 				</form>
