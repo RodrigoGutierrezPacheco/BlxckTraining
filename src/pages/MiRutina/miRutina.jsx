@@ -1306,19 +1306,21 @@ const MiRutina = () => {
 				null}
 			</div>
 		) : (
-			<div>
+			<div className='inicio'>
 				<h2>Iniciar sesión</h2>
+				<img className='png' src="images/pesa-rusa.png" alt="" />
 				<form>
-					<div>
-						<label>Nombre de usuario:</label>
+					<div className='inicio'>
+						<label className='start title'>Nombre de usuario:</label>
 						<input
 							type="text"
 							value={username}
 							onChange={(e) => setUsername(e.target.value)}
+							className='input'
 						/>
 					</div>
 					{userNotFound && <h1>Usuario no encontrado</h1>}
-					<button type="button" onClick={handleLogin}>
+					<button className='button1' type="button" onClick={handleLogin}>
 						Iniciar sesión
 					</button>
 				</form>
