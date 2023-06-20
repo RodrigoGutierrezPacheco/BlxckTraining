@@ -13,7 +13,7 @@ nav{
 	color: white;
 }
 
-@media(min-width:600px){
+@media(min-width:701px){
 	.width{
 		display: none;
 	}

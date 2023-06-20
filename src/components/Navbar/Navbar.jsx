@@ -81,10 +81,10 @@ function Navbar() {
     //   )}
     // </nav>
 		
-		<nav className="row width media">
-			<img onClick={home} className="logoNav l" src="images/pesaRusa.png" alt="" />
-			<h1 onClick={home} className="btNv">Blxck Trainig</h1>
-			<img onClick={openModal} className="logoNav o" src="images/menu.png" alt="" />
+		<nav className="row width media pointer">
+			<img onClick={home} className="logoNav l pointer" src="images/pesaRusa.png" alt="" />
+			<h1 onClick={home} className="btNv pointer">Blxck Trainig</h1>
+			<img onClick={openModal} className="logoNav o pointer" src="images/menu.png" alt="" />
 			<Modal
         isOpen={modalIsOpen}
         onAfterOpen={afterOpenModal}
@@ -93,10 +93,10 @@ function Navbar() {
         contentLabel="Example Modal"
       >
 				<div>
-					<h1 onClick={closeModal}>X</h1>
-					<h1 onClick={home} className="red menuTexto">Inicio</h1>
-					<h1 onClick={miRutina}>Mi Rutina</h1>
-					<h1 onClick={whatsapp} className="red menuTexto">Contacto</h1>
+					<h1 onClick={closeModal} className="pointer">X</h1>
+					<h1 onClick={home} className="red menuTexto pointer">Inicio</h1>
+					<h1 onClick={miRutina} className="pointer">Mi Rutina</h1>
+					<h1 onClick={whatsapp} className="red menuTexto pointer">Contacto</h1>
 				</div>
       </Modal>
 		</nav>
