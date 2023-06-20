@@ -95,7 +95,7 @@ const MiRutina = () => {
             </button>
           </form>
 					<div className="flex">
-							<h1 className="title">Problemas para iniciar sesion?</h1>
+							<h1 className="title">Problemas para iniciar sesión?</h1>
 							<button className="button1 title" onClick={whatsapp}>Contacto</button>
 						</div>
         </div>
