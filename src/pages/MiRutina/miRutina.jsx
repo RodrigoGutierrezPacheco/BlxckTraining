@@ -19,7 +19,7 @@ const MiRutina = () => {
 
 	const handleLogin = () => {
 		const allowedUsernames = [
-			"Alejandra","alejandra","pepe","Pepe","Dani","dani","itzi","Itzi","Flori","flori","migue","Migue"
+			"Alejandra","alejandra","pepe","Pepe","Dani","dani","itzi","Itzi","Flori","flori","migue","Migue","jesus","Jesus"
 		]
 		if (allowedUsernames.includes(username)) {
 			setLoggedIn(true);
