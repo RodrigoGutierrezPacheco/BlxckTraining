@@ -6,6 +6,11 @@ import Ejercicios from '../Ejercicios';
 import users from '../Users/Users';
 
 const MiRutina = () => {
+
+	function whatsapp(){
+		window.location.href="https://api.whatsapp.com/send?phone=525638686467"
+	}
+
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
@@ -89,6 +94,10 @@ const MiRutina = () => {
               Iniciar sesión
             </button>
           </form>
+					<div className="flex">
+							<h1 className="title">Problemas para iniciar sesion?</h1>
+							<button className="button1 title" onClick={whatsapp}>Contacto</button>
+						</div>
         </div>
       )}
     </div>
