@@ -8,6 +8,7 @@ const users = [
   { username: 'eca', password: '7' },
   { username: 'arroyo', password: '8' },
 	{ username: 'jesus', password: '9' },
+	{ username: 'dalet', password: 'dalet' },
 ];
 
 export default users;
