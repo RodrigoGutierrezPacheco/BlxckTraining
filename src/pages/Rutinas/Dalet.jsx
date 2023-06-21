@@ -927,7 +927,7 @@ const Dalet = () => {
 	</Collapsible> 
 	{/* Rutina Semana #2  */}
 	<Collapsible open={false} className='dia black1' trigger="Semana 2" triggerWhenOpen="Semana 2" triggerStyle={{fontSize:'5rem'}}>
-	<div className='justify'>
+	{/* <div className='justify'>
 				<h1>--Dia 1 Pierna</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>5 series 8-12 repeticiones,velocidad de ejecucion controlada menos en peso muerto y hipthrust, peso necesario para sacar mismas repeticiones en todas las series, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso , velocidad de ejecucion lenta a excepcion del peso muerto</p>
@@ -996,11 +996,11 @@ const Dalet = () => {
 				<p>5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className='red'></a></p>
 				<p>6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel1</p>
-			</div>
+			</div> */}
 	</Collapsible>
 	{/*Rutina Semana #3*/}
 	<Collapsible open={false} className='dia' trigger="Semana 3" triggerWhenOpen="Semana 3" triggerStyle={{fontSize:'5rem'}}>
-	<div className='justify'>
+	{/* <div className='justify'>
 	<h1>--Dia 1 Pierna</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>5 series 8-12 repeticiones,velocidad de ejecucion controlada menos en peso muerto y hipthrust, peso necesario para sacar mismas repeticiones en todas las series, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso , velocidad de ejecucion lenta a excepcion del peso muerto</p>
@@ -1073,11 +1073,11 @@ const Dalet = () => {
 				<p>5.-<a onClick={pulloverPoleaAlta}>▶️</a>pullover en polea alta<a className='red'></a></p>
 				<p>6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 3</p>
-			</div>
+			</div> */}
 	</Collapsible>
 	{/* Rutina semana 4 */}
 	<Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
-	<div className='justify'>
+			{/* <div className='justify'>
 				<h1 className='red'>Dia 1 Hombro-Bicep-tricep</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>5 series 8-12 repeticiones, peso pesado ritmo controlado, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
@@ -1146,11 +1146,11 @@ const Dalet = () => {
 				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
 				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
-			</div>
+			</div> */}
 	</Collapsible>
 	{/* Rutina semana 5 */}
 	<Collapsible open={false} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
-	<div className='justify'>
+	{/* <div className='justify'>
 				<h1 className='red'>Dia 1 Torso</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
@@ -1220,7 +1220,7 @@ const Dalet = () => {
 				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
 				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
-			</div>
+			</div> */}
 	</Collapsible>
 	<button onClick={whatsapp} className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
 	<footer className="footer">
