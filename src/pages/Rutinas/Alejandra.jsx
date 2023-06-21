@@ -852,6 +852,7 @@ const Alejandra = () => {
 
 	return (
 		<div>
+			<h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1>
 		{/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
 		{/* Rutina Semana #1  */}
 		<Collapsible open={false} trigger="Semana 1" className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}}>
