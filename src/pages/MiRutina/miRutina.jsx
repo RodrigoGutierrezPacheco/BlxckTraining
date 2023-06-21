@@ -4,17 +4,18 @@ import Collapsible from 'react-collapsible';
 import Alejandra from '../Rutinas/Alejandra';
 import Ejercicios from '../Ejercicios';
 import users from '../Users/Users';
+import Dalet from '../Rutinas/Dalet';
 
 const MiRutina = () => {
-
-	function whatsapp(){
-		window.location.href="https://api.whatsapp.com/send?phone=525638686467"
-	}
+  function whatsapp() {
+    window.location.href = 'https://api.whatsapp.com/send?phone=525638686467';
+  }
 
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
   const [userNotFound, setUserNotFound] = useState(false);
+  const [userRoutine, setUserRoutine] = useState(null);
 
   useEffect(() => {
     const isLoggedIn = localStorage.getItem('loggedIn');
@@ -24,6 +25,17 @@ const MiRutina = () => {
       setUsername(savedUsername);
     }
   }, []);
+
+  useEffect(() => {
+    switch (username) {
+      case 'dalet':
+        setUserRoutine(<Dalet />);
+        break;
+      default:
+        setUserRoutine(<Alejandra />);
+        break;
+    }
+  }, [username]);
 
   const handleLogin = (event) => {
     event.preventDefault();
@@ -57,47 +69,51 @@ const MiRutina = () => {
     <div>
       {loggedIn ? (
         <div>
-          <div className='miRutina'>
-            <img className='blxck' src="images/blxckLogo.png" alt="" />
-            <h1 className='red'>Bienvenidx {username}</h1>
-            <button className='button1' onClick={handleLogout}>Cerrar sesión</button>
+          <div className="miRutina">
+            <img className="blxck" src="images/blxckLogo.png" alt="" />
+            <h1 className="red">Bienvenidx {username}</h1>
+            <button className="button1" onClick={handleLogout}>
+              Cerrar sesión
+            </button>
           </div>
-          <Alejandra />
+          {userRoutine}
         </div>
       ) : (
-        <div className='inicio'>
+        <div className="inicio">
           <h2>Iniciar sesión</h2>
           <Ejercicios />
-          <img className='png' src="images/pesa-rusa.png" alt="" />
+          <img className="png" src="images/pesa-rusa.png" alt="" />
           <form onSubmit={handleLogin}>
-            <div className='inicio'>
-              <label className='start title'>Nombre de usuario:</label>
+            <div className="inicio">
+              <label className="start title">Nombre de usuario:</label>
               <input
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                className='input'
+                className="input"
               />
             </div>
-            <div className='inicio'>
-              <label className='start title'>Contraseña:</label>
+            <div className="inicio">
+              <label className="start title">Contraseña:</label>
               <input
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 pattern="[a-zA-Z0-9]*"
-                className='input'
+                className="input"
               />
             </div>
             {userNotFound && <h1>Credenciales inválidas</h1>}
-            <button className='button1 title' type="submit">
+            <button className="button1 title" type="submit">
               Iniciar sesión
             </button>
           </form>
-					<div className="flex">
-							<h1 className="title">Problemas para iniciar sesión?</h1>
-							<button className="button1 title" onClick={whatsapp}>Contacto</button>
-						</div>
+          <div className="flex">
+            <h1 className="title">Problemas para iniciar sesión?</h1>
+            <button className="button1 title" onClick={whatsapp}>
+              Contacto
+            </button>
+          </div>
         </div>
       )}
     </div>
@@ -105,4 +121,5 @@ const MiRutina = () => {
 };
 
 export default MiRutina;
+
 

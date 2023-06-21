@@ -3,7 +3,7 @@ import Ejercicios from '../Ejercicios'
 import Swal from 'sweetalert2'
 import Collapsible from 'react-collapsible'
 
-const Alejandra = () => {
+const Dalet = () => {
 
 	function whatsapp(){
 		window.location.href="https://api.whatsapp.com/send?phone=525638686467"
@@ -854,7 +854,7 @@ const Alejandra = () => {
 		<div>
 		{/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
 		{/* Rutina Semana #1  */}
-		<Collapsible open={false} trigger="Semana 1" className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}}>
+		<Collapsible open={true} trigger="Semana 1" className='dia ' triggerWhenOpen="Semana 1"  triggerStyle={{fontSize:'5rem'}}>
 			<div className='justify'>
 				<h1 className='red'>Dia 1 Full-Body</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1149,7 +1149,7 @@ const Alejandra = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 5 */}
-	<Collapsible open={true} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 				<h1 className='red'>Dia 1 Torso</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1231,4 +1231,4 @@ const Alejandra = () => {
 	)
 }
 
-export default Alejandra
+export default Dalet
