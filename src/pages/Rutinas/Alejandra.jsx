@@ -874,23 +874,23 @@ const Alejandra = () => {
 			<div className='justify'>
 				 <h1>Dia 2 Pierna</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				 <p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20-22 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				 <p>1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
-				 <p>2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina<a className='red'></a></p>
-				 <p>3.-<a onClick={sentadillaMancuerna}>▶️</a>sentadilla sin peso<a className='red'></a></p>
-				 <p>4.-<a onClick={desplanteBulgaro}>▶️</a>desplantes bulgaros sin peso<a className='red'></a></p>
-				 <p>5.-<a onClick={pesoMuertoMancuerna}>▶️</a>peso muerto con mancuerna<a className='red'></a></p>
-				 <p>6.-<a onClick={adduccion}>▶️</a>adducciones en maquina<a className='red'></a></p>
-				 <p>7.-<a onClick={abduccion}>▶️</a>abducciones en maquina<a className='red'></a></p>
-				 <p>8.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen libre<a className='red'></a></p>
-				 <p>9.-<a onClick={pantorrillaLibre}>▶️</a>pantorrilla en maquina<a className='red'></a></p>
+				 {/* <p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20-22 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p> */}
+				 <p>1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'> 3 series 1-2-3-4-5-4-3-2-1 poco peso</a></p>
+				 <p>2.-<a onClick={extencionCuadriceps}>▶️</a>extenciones en maquina<a className='red'> 4 series de 6-10 reps pesado</a></p>
+				 <p>3.-<a onClick={sentadillaMancuerna}>▶️</a>sentadilla con mancuerna<a className='red'> 4 series de 6-10 reps pesado</a></p>
+				 <p>4.-<a onClick={desplanteBulgaro}>▶️</a>desplantes bulgaros<a className='red'> 4 series de 6-10 reps pesado</a></p>
+				 <p>5.-<a onClick={pesoMuertoMancuerna}>▶️</a>peso muerto con mancuerna<a className='red'> 4 series de 6-8 reps pesado</a></p>
+				 <p>6.-<a onClick={adduccion}>▶️</a>adducciones en maquina<a className='red'> 4 series de 10-15 pesado/moderado</a></p>
+				 <p>7.-<a onClick={abduccion}>▶️</a>abducciones en maquina<a className='red'> 4 series de 8-12 reps pesado/moderado</a></p>
+				 <p>8.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen inferior<a className='red'> 4 series al fallo</a></p>
+				 <p>9.-<a onClick={pantorrillaLibre}>▶️</a>pantorrilla en maquina<a className='red'> 4 series al fallo peso pesado</a></p>
 				 <p className='red'>*Termina con programa cardio S8-Principiante-Nivel 3</p>
 			</div>
 			<hr />
 			<div className='justify'>
-				<h1 className='red'>Dia 3 Empuje</h1>
+				<h1 className='red'>Dia 3 espalda-biceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20-22 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				{/* <p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20-22 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p> */}
 				<p>1.-<a onClick={pressMilitarBarraPie}>▶️</a>Press militar con barra de pie<a className='red'></a></p>
 				<p>2.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>aperturas para posterior en polea<a className='red'></a></p>
 				<p>3.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho con mancuernas<a className='red'></a></p>
