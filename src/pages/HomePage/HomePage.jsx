@@ -12,7 +12,8 @@ function HomePage() {
 			<div className="box1">
        <img className="blxck" src="images/blxckLogo.png" alt="" />
 			 <h1 className="red justify q">!Únete a nuestra comunidad!</h1>
-			 <h3 className="white justify w">Nuestro programa de entrenamiento es un conjunto de métodos, actividades y ejercicios que sirven para desarrollar la condición física. un buen entrenamiento junto con una buena recuperación, son la clave para cumplir tus objetivos.</h3>
+			 <h3 className="white justify w">
+				Nuestro programa de entrenamiento te ayudará a mejorar tu condición física y alcanzar tus objetivos. Con sesiones personalizadas y seguimiento diario, combinamos métodos, actividades y ejercicios para maximizar tu rendimiento. ¡Únete y transforma tu vida! Contáctanos para más información.</h3>
 			 <motion.button whileTap={{scale:1.1}} whileHover={{scale:1.1}} className="button1 ins" onClick={whatsapp}>!Inscríbete ahora!</motion.button>
 			</div>
 			<div>
