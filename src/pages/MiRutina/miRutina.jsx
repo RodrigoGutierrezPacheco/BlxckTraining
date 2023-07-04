@@ -37,24 +37,25 @@ const MiRutina = () => {
     }
   }, [username]);
 
-  const handleLogin = (event) => {
-    event.preventDefault();
-    const user = users.find((user) => user.username === username.toLowerCase());
-    if (user && user.password === password) {
-      setLoggedIn(true);
-      localStorage.setItem('loggedIn', 'true');
-      localStorage.setItem('username', username);
-      setUserNotFound(false);
-    } else {
-      Swal.fire({
-        icon: 'error',
-        title: 'Credenciales inválidas',
-        text: 'El nombre de usuario o la contraseña son incorrectos.',
-      });
-      setLoggedIn(false);
-      setUserNotFound(true);
-    }
-  };
+	const handleLogin = (event) => {
+		event.preventDefault();
+		const user = users.find((user) => user.username.toLowerCase() === username.toLowerCase());
+		if (user && user.password === password) {
+			setLoggedIn(true);
+			localStorage.setItem('loggedIn', 'true');
+			localStorage.setItem('username', user.username); // Save the actual username in lowercase
+			setUserNotFound(false);
+		} else {
+			Swal.fire({
+				icon: 'error',
+				title: 'Credenciales inválidas',
+				text: 'El nombre de usuario o la contraseña son incorrectos.',
+			});
+			setLoggedIn(false);
+			setUserNotFound(true);
+		}
+	};
+	
 
   const handleLogout = () => {
     setLoggedIn(false);
