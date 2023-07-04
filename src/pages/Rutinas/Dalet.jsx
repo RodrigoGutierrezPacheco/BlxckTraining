@@ -1021,14 +1021,15 @@ const Dalet = () => {
 				 <h1>Dia 2 Empuje</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>4 series 15 repeticiones, peso necesario para sacar las 15 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina agarre cerrado<a className='red'></a></p>
-				<p>2.-<a onClick={elevacionesFrontalesDisco}>▶️</a>elevaciones frontales con disco<a className='red'></a></p>
-				<p>3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>hombro posterior en polea<a className='red'></a></p>
-				<p>4.-<a onClick={lagartijasMilitares}>▶️</a>lagartijas militares<a className='red'></a></p>
-				<p>5.-<a onClick={patadasMancuernas}>▶️</a>patadas con mancuerna<a className='red'></a></p>
-				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
-				<p>7.-<a onClick={desplanteBulgaro}>▶️</a>desplante bulgaro sin peso<a className='red'></a></p>
-				<p>8.-<a onClick={crunchesPiernasArriba}>▶️</a>abdominales<a className='red'> 4 series de 30 segundos</a></p>
+				<p>1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas<a className='red'></a></p>
+				<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>elevaciones laterales con mancuerna<a className='red'></a></p>
+				<p>3.-<a onClick={remoMentonBarra}>▶️</a>remo al menton con barra<a className='red'></a></p>
+				<p>4.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho con mancuernas<a className='red'></a></p>
+				<p>5.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas con mancuernas en banco inclinado<a className='red'></a></p>
+				<p>6.-<a onClick={lagartijasMilitares}>▶️</a>lagartijas<a className='red'></a></p>
+				<p>7.-<a onClick={pressFrancesMancuernas}>▶️</a>press frances con mancuernas<a className='red'></a></p>
+				<p>8.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta<a className='red'></a></p>
+				<p>8.-<a onClick={crunchMaquina}>▶️</a>abdomen en maquina<a className='red'> 4 series de 30 segundos</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
 			</div>
 			<hr />
