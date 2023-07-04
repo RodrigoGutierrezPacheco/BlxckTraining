@@ -5,6 +5,7 @@ import Alejandra from '../Rutinas/Alejandra';
 import Ejercicios from '../Ejercicios';
 import users from '../Users/Users';
 import Dalet from '../Rutinas/Dalet';
+import Prueba from '../Rutinas/Prueba';
 
 const MiRutina = () => {
   function whatsapp() {
@@ -26,16 +27,20 @@ const MiRutina = () => {
     }
   }, []);
 
-  useEffect(() => {
-    switch (username) {
-      case 'dalet':
-        setUserRoutine(<Dalet />);
-        break;
-      default:
-        setUserRoutine(<Alejandra />);
-        break;
-    }
-  }, [username]);
+	useEffect(() => {
+		switch (username.toLowerCase()) {
+			case 'dalet':
+				setUserRoutine(<Dalet />);
+				break;
+			case 'prueba':
+				setUserRoutine(<Prueba />);
+				break;
+			default:
+				setUserRoutine(<Alejandra />);
+				break;
+		}
+	}, [username, password]);
+	
 
 	const handleLogin = (event) => {
 		event.preventDefault();
