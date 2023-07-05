@@ -861,6 +861,18 @@ const Alejandra = () => {
 		})
 		}
 
+		function pressPechoBarraInclinado(){
+			Swal.fire({
+				title: 'Press pecho con barra en banco inclinado',
+				imageUrl: 'images/pressPechoBarraInclinado.gif',
+				imageWidth: 200,
+				imageHeight: 200,
+				imageAlt: 'Custom image',
+				confirmButtonText: "Entendido",
+				confirmButtonColor:"black",
+			})
+			}
+
 
 	return (
 		<div>
@@ -946,6 +958,7 @@ const Alejandra = () => {
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>pesado: 5 series 8-12 reps movimientos controlados</p>
 				 <p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				 <p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
 				 <p>1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina a 1 pierna<a className='red'>-ligero</a></p>
 				 <p>2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina a 1 pierna<a className='red'>-ligero</a></p>
 				 <p>3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla en smith o barra<a className='red'>-pesado</a></p>
@@ -959,17 +972,19 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-					<h1 className='red'>Dia 2 Full-Body</h1>
+				<h1 className='red'>Dia 2 Brazo</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>5 series 8-12 repeticiones, peso necesario para sacar mismas repeticiones en todas las series, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press militar en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
-				<p>3.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'></a></p>
-				<p>4.-<a onClick={curlBicepsMaquina}>▶️</a>curl biceps en maquina<a className='red'></a></p>
-				<p>5.-<a onClick={fondosMaquina}>▶️</a>fondos para triceps en maquina<a className='red'></a></p>
-				<p>6.-<a onClick={prensaCerrada}>▶️</a>prensa apertura a la anchura de la cadera<a className='red'></a></p>
-				<p>7.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral sentado en maquina<a className='red'></a></p>
-				<p>8.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen en maquina<a className='red'></a></p>
+				<p className='red'>pesado: 5 series 8-12 reps movimientos controlados</p>
+				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pressMilitarBarraPie}>▶️</a>Press con barra de pie<a className='red'>-pesado</a></p>
+				<p>2.-<a onClick={elevacionesLateralesPoleaBaja}>▶️</a>elevaciones laterales en polea baja<a className='red'>-ligero</a></p>
+				<p>3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>aperturas para posterior en polea baja<a className='red'>-ligero</a></p>
+				<p>4.-<a onClick={pressPechoBarraInclinado}>▶️</a>press pecho con barra en banco inclinado<a className='red'>-pesado</a></p>
+				<p>5.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas en banco inclinado<a className='red'>-ligero</a></p>
+				<p>6.-<a onClick={fondosMaquina}>▶️</a>fondos en maquina<a className='red'>-pesado</a></p>
+				<p>7.-<a onClick={pressFrancesMancuernas}>▶️</a>press frances con mancuernas<a className='red'>-pesado</a></p>
+				<p>8.-<a onClick={crunchesSuelo}>▶️</a>crunches en suelo<a className='red'>-ligero</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 3</p>
 			</div>
 			<hr />
