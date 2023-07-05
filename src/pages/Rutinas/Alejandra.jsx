@@ -954,7 +954,7 @@ const Alejandra = () => {
 	{/* Rutina Semana #2  */}
 	<Collapsible open={true} className='dia black1' trigger="Semana 2" triggerWhenOpen="Semana 2" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
-				<h1>--Dia 1 Pierna</h1>
+				<h1>Dia 1 Pierna</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>pesado: 5 series 8-12 reps movimientos controlados</p>
 				 <p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
