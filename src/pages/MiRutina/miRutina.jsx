@@ -44,11 +44,11 @@ const MiRutina = () => {
 
 	const handleLogin = (event) => {
 		event.preventDefault();
-		const user = users.find((user) => user.username.toLowerCase() === username.toLowerCase());
+		const user = users.find((user) => user.username.toLowerCase() === username.toLowerCase().trim());
 		if (user && user.password === password) {
 			setLoggedIn(true);
 			localStorage.setItem('loggedIn', 'true');
-			localStorage.setItem('username', user.username); // Save the actual username in lowercase
+			localStorage.setItem('username', user.username.toLowerCase());
 			setUserNotFound(false);
 		} else {
 			Swal.fire({
