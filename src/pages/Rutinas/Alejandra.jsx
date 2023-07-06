@@ -972,7 +972,7 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				<h1 className='red'>Dia 2 Brazo</h1>
+				<h1 className='red'>Dia 2 Empuje</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>pesado: 5 series 8-12 reps movimientos controlados</p>
 				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
@@ -989,15 +989,19 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				<h1 className='red'>Dia 3 Empuje</h1>
+				<h1 className='red'>Dia 3 Espalda-Biceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>5 series 8-12 repeticiones, peso necesario para sacar mismas repeticiones en todas las series, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pressMilitarBarraPie}>▶️</a>Press militar con barra de pie<a className='red'></a></p>
-				<p>2.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>aperturas para posterior en polea<a className='red'></a></p>
-				<p>3.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho con mancuernas<a className='red'></a></p>
-				<p>4.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas con mancuernas en banco inclinado<a className='red'></a></p>
-				<p>5.-<a onClick={fondosMaquina}>▶️</a>fondos en maquina<a className='red'></a></p>
-				<p>6.-<a onClick={patadasMancuernas}>▶️</a>patada con mancuerna en banco<a className='red'></a></p>
+				<p className='red'>pesado: 5 series 8-12 reps movimientos controlados</p>
+				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en maquina<a className='red'>-ligero</a></p>
+				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea<a className='red'>-pesado</a></p>
+				<p>3.-<a onClick={pulloverPoleaAlta}>▶️</a>pulldown over polea alta<a className='red'>-ligero</a></p>
+				<p>4.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion<a className='red'>-pesado</a></p>
+				<p>5.-<a onClick={curlConcentrado}>▶️</a>curl concentrado<a className='red'>-pesado</a></p>
+				<p>6.-<a onClick={curlBicepsPoleaBajaCuerda}>▶️</a>curl biceps en polea baja con cuerda<a className='red'>-pesado</a></p>
+				<p>7.-<a onClick={hiperextencionesMaquina}>▶️</a>Hiperextenciones en maquina<a className='red'>-ligero</a></p>
+				<p>8.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>Encogimientos con mancuernas<a className='red'>-pesado</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
