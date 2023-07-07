@@ -1008,14 +1008,16 @@ const Alejandra = () => {
 			<div className='justify'>
 				<h1 className='red'>Dia 4 pierna</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>5 series 8-12 repeticiones, peso necesario para sacar mismas repeticiones en todas las series, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className='red'></a></p>
-				<p>2.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps maquina a 1 pierna<a className='red'></a></p>
-				<p>3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla estricta con mancuerna *hasta abajo*<a className='red'></a></p>
-				<p>4.-<a onClick={desplantesEstaticos}>▶️</a>desplantes estaticos con barra<a className='red'></a></p>
-				<p>5.-<a onClick={prensaSumo}>▶️</a>prensa sumo para femoral<a className='red'></a></p>
-				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina<a className='red'></a></p>
-				<p>7.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina<a className='red'></a></p>
+				<p className='red'>pesado: 5 series 8-12 reps movimientos controlados</p>
+				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className='red'>-ligero</a></p>
+				<p>2.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps maquina a 1 pierna<a className='red'>-pesado</a></p>
+				<p>3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla estricta con mancuerna *hasta abajo*<a className='red'>-pesado</a></p>
+				<p>4.-<a onClick={desplantesEstaticos}>▶️</a>desplantes estaticos con barra<a className='red'>-ligero</a></p>
+				<p>5.-<a onClick={prensaSumo}>▶️</a>prensa sumo para femoral<a className='red'>-pesado</a></p>
+				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina<a className='red'>-pesado</a></p>
+				<p>7.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina<a className='red'>-pesado</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
