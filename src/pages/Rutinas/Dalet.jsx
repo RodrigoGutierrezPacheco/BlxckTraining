@@ -999,7 +999,7 @@ const Dalet = () => {
 			</div>
 	</Collapsible>
 	{/*Rutina Semana #3*/}
-	<Collapsible open={true} className='dia' trigger="Semana 3" triggerWhenOpen="Semana 3" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia' trigger="Semana 3" triggerWhenOpen="Semana 3" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 	<h1>--Dia 1 Pierna</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1077,19 +1077,21 @@ const Dalet = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 4 */}
-	<Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
-			{/* <div className='justify'>
+	<Collapsible open={true} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
+			<div className='justify'>
 				<h1 className='red'>Dia 1 Hombro-Bicep-tricep</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>5 series 8-12 repeticiones, peso pesado ritmo controlado, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press militar en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={elevacionesFrontalesDisco}>▶️</a>Elevaciones frontales con disco<a className='red'></a></p>
-				<p>3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Hombro posterior en polea baja<a className='red'></a></p>
-				<p>4.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos de hombros con mancuernas<a className='red'></a></p>
-				<p>5.-<a onClick={curlBicepsMaquinaScott}>▶️</a>curl biceps en maquina scott<a className='red'></a></p>
-				<p>6.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion de pie<a className='red'></a></p>
-				<p>7.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta<a className='red'></a></p>
-				<p>8.-<a onClick={fondosMaquina}>▶️</a>fondos en maquina<a className='red'></a></p>
+				<p className='red'>pesado: 5 series 8-12 reps movimientos controlados</p>
+				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press militar neutro con mancuernas<a className='red'>-pesado</a></p>
+				<p>2.-<a onClick={elevacionesFrontalesDisco}>▶️</a>Elevaciones frontales con barra<a className='red'>-ligero</a></p>
+				<p>3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Hombro posterior en polea baja<a className='red'>-ligero</a></p>
+				<p>4.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos de hombros con mancuernas<a className='red'>-pesado</a></p>
+				<p>5.-<a onClick={curlBicepsMaquinaScott}>▶️</a>curl biceps en maquina scott<a className='red'>-pesado</a></p>
+				<p>6.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion de pie<a className='red'>-ligero</a></p>
+				<p>7.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta<a className='red'>-pesado</a></p>
+				<p>8.-<a onClick={fondosMaquina}>▶️</a>fondos entre bancos<a className='red'>-ligero</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
@@ -1147,7 +1149,7 @@ const Dalet = () => {
 				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
 				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
-			</div> */}
+			</div>
 	</Collapsible>
 	{/* Rutina semana 5 */}
 	<Collapsible open={false} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
