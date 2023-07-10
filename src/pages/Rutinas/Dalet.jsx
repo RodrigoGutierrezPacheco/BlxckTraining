@@ -1091,7 +1091,7 @@ const Dalet = () => {
 				<p>5.-<a onClick={curlBicepsMaquinaScott}>▶️</a>curl biceps en maquina scott<a className='red'>-pesado</a></p>
 				<p>6.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion de pie<a className='red'>-ligero</a></p>
 				<p>7.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta<a className='red'>-pesado</a></p>
-				<p>8.-<a onClick={fondosMaquina}>▶️</a>fondos entre bancos<a className='red'>-ligero</a></p>
+				<p>8.-<a onClick={fondosBanco}>▶️</a>fondos entre bancos<a className='red'>-ligero</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
