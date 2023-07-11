@@ -1096,17 +1096,18 @@ const Dalet = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				 <h1>Dia 2 Espalda</h1>
-				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>5 series 8-12 repeticiones, peso pesado ritmo controlado, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea<a className='red'></a></p>
-				<p>2.-<a onClick={remoMaquina}>▶️</a>remo en maquina<a className='red'></a></p>
-				<p>3.-<a onClick={remoMancuerna}>▶️</a>remo con mancuerna<a className='red'></a></p>
-				<p>4.-<a onClick={pulloverPoleaAlta}>▶️</a>pullover en polea alta<a className='red'></a></p>
-				<p>5.-<a onClick={espaldaBajaMaquina}>▶️</a>espalda baja en maquina<a className='red'></a></p>
-				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral sentado<a className='red'></a></p>
-				<p>7.-<a onClick={prensaSumo}>▶️</a>prensa tipo sumo<a className='red'></a></p>
-				<p>8.-<a onClick={pantorrillaLibre}>▶️</a>pantorrilla en maquina<a className='red'></a></p>
+				 <h1>Dia 2 Espalda-femoral-biceps</h1>
+				 <p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
+				 <p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				 <p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea<a className='red'>-pesado</a></p>
+				<p>2.-<a onClick={remoMaquina}>▶️</a>remo en maquina<a className='red'>-pesado</a></p>
+				<p>3.-<a onClick={remoMancuerna}>▶️</a>remo con mancuerna<a className='red'>-pesado</a></p>
+				<p>4.-<a onClick={pulloverPoleaAlta}>▶️</a>pullover en polea alta<a className='red'>-pesado</a></p>
+				<p>5.-<a onClick={espaldaBajaMaquina}>▶️</a>espalda baja en maquina<a className='red'>-ligero</a></p>
+				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral sentado<a className='red'>-pesado</a></p>
+				<p>7.-<a onClick={prensaSumo}>▶️</a>prensa tipo sumo<a className='red'>-pesado</a></p>
+				<p>8.-<a onClick={pantorrillaLibre}>▶️</a>pantorrilla en maquina<a className='red'>-pesado</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
