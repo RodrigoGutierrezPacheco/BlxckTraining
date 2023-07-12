@@ -1112,16 +1112,17 @@ const Dalet = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				<h1 className='red'>Dia 3 pecho-espalda</h1>
-				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 15 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className='red'></a></p>
-				<p>3.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'></a></p>
-				<p>4.-<a onClick={remoMaquina}>▶️</a>remo en maquina<a className='red'></a></p>
-				<p>5.-<a onClick={pulloverPoleaAlta}>▶️</a>pullover en polea alta<a className='red'></a></p>
-				<p>6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className='red'></a></p>
-				<p className='red'>*Termina con programa cardio S8-Principiante-Nive3</p>
+				<h1 className='red'>Dia 3 pecho-Triceps-cuadriceps</h1>
+				<p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
+				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'>-pesado</a></p>
+				<p>2.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className='red'>-pesado</a></p>
+				<p>3.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas en banco inclinado<a className='red'>-ligero</a></p>
+				<p>4.-<a onClick={copa2Manos}>▶️</a>copa 2 manos<a className='red'>-pesado</a></p>
+				<p>5.-<a onClick={fondosMaquina}>▶️</a>fondos en maquina<a className='red'>-pesado</a></p>
+				<p>6.-<a onClick={crunchesPiernasArriba}>▶️</a>crunches en suelo<a className='red'>-ligero</a></p>
+				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
 			<div className='justify'>
