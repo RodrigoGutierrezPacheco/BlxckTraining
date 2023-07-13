@@ -1073,15 +1073,16 @@ const Alejandra = () => {
 			<hr />
 			<div className='justify'>
 				<h1 className='red'>Dia 3 Jalon</h1>
-				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 15 repeticiones, peso necesario para sacar las 15 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'></a></p>
-				<p>2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'></a></p>
-				<p>3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas<a className='red'></a></p>
-				<p>4.-<a onClick={curlBicepsMaquinaScott}>▶️</a>Curl biceps en maquina Scott<a className='red'></a></p>
-				<p>5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas tipo sumo<a className='red'></a></p>
-				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina<a className='red'></a></p>
-				<p>7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina<a className='red'></a></p>
+				<p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
+				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'>-pesado</a></p>
+				<p>2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'>-pesado</a></p>
+				<p>3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas<a className='red'>-pesado</a></p>
+				<p>4.-<a onClick={curlBicepsMaquinaScott}>▶️</a>Curl biceps en maquina Scott<a className='red'>-pesado</a></p>
+				<p>5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas tipo sumo<a className='red'>-pesado</a></p>
+				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina<a className='red'>-pesado</a></p>
+				<p>7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina<a className='red'>-pesado</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
 			</div>
 			<hr />
@@ -1101,16 +1102,16 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-			<h1 className='red'>Dia 5 pecho-espalda</h1>
-				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>5 series 8-12  repeticiones, peso elevado-pesado , descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>*.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen para inferior<a className='red'>4 series de 15-20 reps</a></p>
-				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className='red'></a></p>
-				<p>3.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'></a></p>
-				<p>4.-<a onClick={remoMaquina}>▶️</a>remo en maquina<a className='red'></a></p>
-				<p>5.-<a onClick={pulloverPoleaAlta}>▶️</a>pullover en polea alta<a className='red'></a></p>
-				<p>6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className='red'></a></p>
+			<h1 className='red'>Dia 5 Full</h1>
+			<p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
+				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'>-pesado</a></p>
+				<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className='red'>-pesado</a></p>
+				<p>3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas<a className='red'>-ligero</a></p>
+				<p>4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina <a className='red'>-pesado</a></p>
+				<p>5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className='red'>-pesado</a></p>
+				<p>6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado<a className='red'>-pesado</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 3</p>
 			</div>
 	</Collapsible>
