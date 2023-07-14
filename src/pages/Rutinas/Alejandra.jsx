@@ -942,6 +942,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				<h1 className='red'>Dia 5 fullbody</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20-22 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'></a></p>
 				<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className='red'></a></p>
 				<p>3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas<a className='red'></a></p>
