@@ -847,7 +847,43 @@ const Dalet = () => {
 		confirmButtonText: "Entendido",
 		confirmButtonColor:"black",
 	})
-	}
+}
+
+	function elevacionesLateralesMancuernasSentado(){
+		Swal.fire({
+			title: 'elevaciones laterales en banco con mancuernas',
+			imageUrl: 'images/elevacionesLateralesMancuernasSentado.gif',
+			imageWidth: 200,
+			imageHeight: 200,
+			imageAlt: 'Custom image',
+			confirmButtonText: "Entendido",
+			confirmButtonColor:"black",
+		})
+		}
+
+		function pressArnoldSentado(){
+			Swal.fire({
+				title: 'press arnold con mancuernas sentado',
+				imageUrl: 'images/pressArnoldSentado.gif',
+				imageWidth: 200,
+				imageHeight: 200,
+				imageAlt: 'Custom image',
+				confirmButtonText: "Entendido",
+				confirmButtonColor:"black",
+			})
+			}
+
+			function fondosAsistidos(){
+				Swal.fire({
+					title: 'fondos asistidos en maquina',
+					imageUrl: 'images/fondosMaquinaAsistida.jpg',
+					imageWidth: 200,
+					imageHeight: 200,
+					imageAlt: 'Custom image',
+					confirmButtonText: "Entendido",
+					confirmButtonColor:"black",
+				})
+				}
 
 
 	return (
@@ -1077,7 +1113,7 @@ const Dalet = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 4 */}
-	<Collapsible open={true} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
 			<div className='justify'>
 				<h1 className='red'>Dia 1 Hombro-Bicep-tricep</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1157,20 +1193,20 @@ const Dalet = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 5 */}
-	<Collapsible open={false} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
-	{/* <div className='justify'>
-				<h1 className='red'>Dia 1 Torso</h1>
+	<Collapsible open={true} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
+	<div className='justify'>
+				<h1 className='red'>Dia 1 hombro-triceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas de pie<a className='red'></a></p>
-				<p>2.-<a onClick={pulldownSupino}>▶️</a>pulldown agarre supino "invertido"<a className='red'></a></p>
-				<p>3.-<a onClick={cristosBancoInclinado}>▶️</a>cristos en banco inclinado<a className='red'></a></p>
-				<p>4.-<a onClick={curlBicepsPoleaBajaCuerda}>▶️</a>curl biceps en polea baja con cuerdas<a className='red'></a></p>
-				<p>5.-<a onClick={jalonTrasNucaPoleaAlta}>▶️</a>jalones tras nuca en polea alta<a className='red'></a></p>
-				<p>6.-<a onClick={sentadillaBarra}>▶️</a>sentadilla con barra<a className='red'></a></p>
-				<p>7.-<a onClick={pesoMuertoPoleaBaja}>▶️</a>peso muerto en polea baja<a className='red'></a></p>
-				<p>8.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina<a className='red'></a></p>
-				<p>9.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className='red'></a></p>
+				<p className='red'>todo 4 series 20 reps movimientos fluidos</p>
+				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p>1.-<a onClick={pressMilitarBarraPie}>▶️</a>press militar de pie con barra<a className='red'></a></p>
+				<p>2.-<a onClick={elevacionesLateralesMancuernasSentado}>▶️</a>elevaciones laterales en banco<a className='red'></a></p>
+				<p>3.-<a onClick={remoMentonBarra}>▶️</a>remo al menton con barra<a className='red'></a></p>
+				<p>4.-<a onClick={pressArnoldSentado}>▶️</a>press arnold con mancuernas<a className='red'></a></p>
+				<p>5.-<a onClick={patadasMancuernas}>▶️</a>patadas con mancuerna<a className='red'></a></p>
+				<p>6.-<a onClick={fondosAsistidos}>▶️</a>fondos maquina asistida<a className='red'></a></p>
+				<p>7.-<a onClick={copaUnaMano}>▶️</a>copa 1 mano<a className='red'></a></p>
+				<p>8.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
@@ -1228,7 +1264,7 @@ const Dalet = () => {
 				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
 				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
-			</div> */}
+			</div>
 	</Collapsible>
 	<button onClick={whatsapp} className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
 	<footer className="footer">
