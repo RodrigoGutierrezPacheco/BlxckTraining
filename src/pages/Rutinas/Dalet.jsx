@@ -885,6 +885,57 @@ const Dalet = () => {
 				})
 				}
 
+				function elevacionesLateralesInclinado(){
+					Swal.fire({
+						title: 'elevaciones laterales inclinado con mancuernas',
+						imageUrl: 'images/elevacionesLateralesInclinado.gif',
+						imageWidth: 200,
+						imageHeight: 200,
+						imageAlt: 'Custom image',
+						confirmButtonText: "Entendido",
+						confirmButtonColor:"black",
+					})
+					}
+
+					function curlBicepsInclinado(){
+						Swal.fire({
+							title: 'curl de biceps con mancuernas en banco inclinado',
+							imageUrl: 'images/curlBicepsInclinado.gif',
+							imageWidth: 200,
+							imageHeight: 200,
+							imageAlt: 'Custom image',
+							confirmButtonText: "Entendido",
+							confirmButtonColor:"black",
+						})
+						}
+
+						function curlInvertidoBarra(){
+							Swal.fire({
+								title: 'curl de biceps invetrido con barra',
+								imageUrl: 'images/curlInvertidoBarra.gif',
+								imageWidth: 200,
+								imageHeight: 200,
+								imageAlt: 'Custom image',
+								confirmButtonText: "Entendido",
+								confirmButtonColor:"black",
+							})
+							}
+
+							function remoBarra(){
+								Swal.fire({
+									title: 'remo con barra',
+									imageUrl: 'images/remoBarra.gif',
+									imageWidth: 200,
+									imageHeight: 200,
+									imageAlt: 'Custom image',
+									confirmButtonText: "Entendido",
+									confirmButtonColor:"black",
+								})
+								}
+
+
+				
+
 
 	return (
 		<div>
@@ -1211,17 +1262,17 @@ const Dalet = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				 <h1>Dia 2 cuadriceps</h1>
+				 <h1>Dia 2 espalda-trapecio-biceps</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={prensaCerrada}>▶️</a>prensa para cuadriceps posicion cerrada<a className='red'></a></p>
-				<p>3.-<a onClick={desplantesEstaticos}>▶️</a>desplante estatico con mancuernas<a className='red'></a></p>
-				<p>4.-<a onClick={sentadillaMancuerna}>▶️</a>sentadilla<a className='red'></a></p>
-				<p>5.-<a onClick={sentadillaIsometrica}>▶️</a>sentadilla isometrica<a className='red'></a></p>
-				<p>6.-<a onClick={abduccion}>▶️</a>abducciones en maquina<a className='red'></a></p>
-				<p>7.-<a onClick={hipThrust}>▶️</a>hip thrust con mancuerna<a className='red'></a></p>
-				<p>8.-<a onClick={pantorrillaLibre}>▶️</a>pantorrilla en maquina<a className='red'></a></p>
+				<p>1.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'></a></p>
+				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown agarre abierto en polea<a className='red'></a></p>
+				<p>3.-<a onClick={remoBarra}>▶️</a>remo con barra<a className='red'></a></p>
+				<p>4.-<a onClick={remoMancuerna}>▶️</a>remo con mancuerna<a className='red'></a></p>
+				<p>5.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos con mancuernas<a className='red'></a></p>
+				<p>6.-<a onClick={elevacionesLateralesInclinado}>▶️</a>elevaciones laterales para trapecio<a className='red'></a></p>
+				<p>7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps en banco inclinado<a className='red'></a></p>
+				<p>8.-<a onClick={curlInvertidoBarra}>▶️</a>curl invertido con barra <a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
