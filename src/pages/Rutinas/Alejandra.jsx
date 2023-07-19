@@ -956,6 +956,30 @@ const Alejandra = () => {
 											confirmButtonColor:"black",
 										})
 										}
+	function pressPechoInclinadoMancuernas(){
+		Swal.fire({
+			title: 'press pecho inclinado con mancuernas',
+			imageUrl: 'images/pressPechoInclinadoMancuernas.gif',
+			imageWidth: 200,
+			imageHeight: 200,
+			imageAlt: 'Custom image',
+			confirmButtonText: "Entendido",
+			confirmButtonColor:"black",
+			})
+			}
+									
+	function crossOverPoleaAlta(){
+		Swal.fire({
+		title: 'crossover en polea alta',
+		imageUrl: 'images/crossoverPoleaAlta.gif',
+		imageWidth: 200,
+		imageHeight: 200,
+		imageAlt: 'Custom image',
+		confirmButtonText: "Entendido",
+		confirmButtonColor:"black",
+		})
+		}
+										
 		
 
 
@@ -1236,14 +1260,14 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				<h1 className='red'>Dia 3 pecho-espalda</h1>
+				<h1 className='red'>Dia 3 pecho-triceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className='red'></a></p>
-				<p>3.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'></a></p>
-				<p>4.-<a onClick={remoMaquina}>▶️</a>remo en maquina<a className='red'></a></p>
-				<p>5.-<a onClick={pulloverPoleaAlta}>▶️</a>pullover en polea alta<a className='red'></a></p>
+				<p>2.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho banco plano con mancuernas<a className='red'></a></p>
+				<p>3.-<a onClick={pressPechoInclinadoMancuernas}>▶️</a>press pecho inclinado con mancuernas<a className='red'></a></p>
+				<p>4.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas en banco inclinado<a className='red'></a></p>
+				<p>5.-<a onClick={crossOverPoleaAlta}>▶️</a>cross over polea alta en polea<a className='red'></a></p>
 				<p>6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nive3</p>
 			</div>
