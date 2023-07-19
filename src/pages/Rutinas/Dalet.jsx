@@ -1302,7 +1302,7 @@ const Dalet = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				<h1 className='red'>Dia 3 pecho-triceps</h1>
+				<h1 className='red'>Dia 3 pecho</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
