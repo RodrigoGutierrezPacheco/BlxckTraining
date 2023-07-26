@@ -32,6 +32,9 @@ const MiRutina = () => {
 			case 'dalet':
 				setUserRoutine(<Dalet />);
 				break;
+				case 'jesus':
+					setUserRoutine(<Dalet />);
+					break;
 			case 'prueba':
 				setUserRoutine(<Prueba />);
 				break;
