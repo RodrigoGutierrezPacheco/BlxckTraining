@@ -1227,7 +1227,7 @@ const Alejandra = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 4 */}
-	<Collapsible open={true} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 				<h1 className='red'>Dia 1 hombro-triceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1301,11 +1301,11 @@ const Alejandra = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 5 */}
-	<Collapsible open={false} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
-	{/* <div className='justify'>
+	<Collapsible open={true} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
+	<div className='justify'>
 				<h1 className='red'>Dia 1 Torso</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				<p className='red'>6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas de pie<a className='red'></a></p>
 				<p>2.-<a onClick={pulldownSupino}>▶️</a>pulldown agarre supino "invertido"<a className='red'></a></p>
 				<p>3.-<a onClick={cristosBancoInclinado}>▶️</a>cristos en banco inclinado<a className='red'></a></p>
@@ -1321,7 +1321,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				 <h1>Dia 2 cuadriceps</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				 <p className='red'>6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps en maquina<a className='red'></a></p>
 				<p>2.-<a onClick={prensaCerrada}>▶️</a>prensa para cuadriceps posicion cerrada<a className='red'></a></p>
 				<p>3.-<a onClick={desplantesEstaticos}>▶️</a>desplante estatico con mancuernas<a className='red'></a></p>
@@ -1336,7 +1336,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				<h1 className='red'>Dia 3 pecho-espalda</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				<p className='red'>6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
 				<p>2.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className='red'></a></p>
 				<p>3.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'></a></p>
@@ -1349,7 +1349,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				<h1>Dia 4 Jalon</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				<p className='red'>6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'></a></p>
 				<p>2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'></a></p>
 				<p>3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas<a className='red'></a></p>
@@ -1363,7 +1363,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				<h1 className='red'>Dia 5 Empuje</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				<p className='red'>6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
 				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina<a className='red'></a></p>
 				<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>elevaciones laterales con mancuerna<a className='red'></a></p>
 				<p>3.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
@@ -1372,7 +1372,7 @@ const Alejandra = () => {
 				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
 				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
-			</div> */}
+			</div>
 	</Collapsible>
 	<button onClick={whatsapp} className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
 	<footer className="footer">
