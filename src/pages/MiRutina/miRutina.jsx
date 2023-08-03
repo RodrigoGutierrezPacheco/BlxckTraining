@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Swal from 'sweetalert2';
 import Collapsible from 'react-collapsible';
 import Alejandra from '../Rutinas/Alejandra';
+import Alejandro from '../Rutinas/Alejandro';
 import Ejercicios from '../Ejercicios';
 import users from '../Users/Users';
 import Dalet from '../Rutinas/Dalet';
@@ -37,6 +38,9 @@ const MiRutina = () => {
 					break;
 			case 'prueba':
 				setUserRoutine(<Prueba />);
+				break;
+			case 'alejandro':
+				setUserRoutine(<Alejandro/>);
 				break;
 			default:
 				setUserRoutine(<Alejandra />);
