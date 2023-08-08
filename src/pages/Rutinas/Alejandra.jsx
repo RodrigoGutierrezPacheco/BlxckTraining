@@ -1003,6 +1003,30 @@ const Alejandra = () => {
 		confirmButtonColor:"black",
 		})
 		}
+
+		function curlAlternado(){
+			Swal.fire({
+			title: 'curl alternado con mancuernas',
+			imageUrl: 'images/curlAlternado.gif',
+			imageWidth: 200,
+			imageHeight: 200,
+			imageAlt: 'Custom image',
+			confirmButtonText: "Entendido",
+			confirmButtonColor:"black",
+			})
+			}
+			function pajaros(){
+				Swal.fire({
+				title: 'pajaros con mancuernas',
+				imageUrl: 'images/pajaros.gif',
+				imageWidth: 200,
+				imageHeight: 200,
+				imageAlt: 'Custom image',
+				confirmButtonText: "Entendido",
+				confirmButtonColor:"black",
+				})
+				}
+						
 								
 		
 
@@ -1017,15 +1041,15 @@ const Alejandra = () => {
 				<h1 className='red'>Dia 1 Hombro-Tricep</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				<p className='red'>80% de esfuerzo</p>
-				<p>1.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Press Militar con barra sentado<a className='red'> 4 series de 8-10 reps</a></p>
+				<p>1.-<a onClick={pressMilitarBarraSentado}>▶️</a>Press Militar con barra sentado<a className='red'> 4 series de 8-10 reps</a></p>
 				<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con mancuernas sentado<a className='red'> 3 series de 12-15 reps</a></p>
-				<p>3.-<a onClick={pressMilitarMaquina}>▶️</a>elevaciones frontales con mancuernas<a className='red'> 3 series de 12-15 reps</a></p>
-				<p>4.-<a onClick={pressMilitarMaquina}>▶️</a>Pajaros con mancuernas<a className='red'> 3 series de 12-15 reps</a></p>
-				<p>5.-<a onClick={remoMentonBarra}>▶️</a>Facepull con polea<a className='red'> 3 series de 12-15 reps</a></p>
-				<p>6.-<a onClick={fondosBanco}>▶️</a>encogimientos con mancuernas<a className='red'> 4 series de 10-12 reps</a></p>
-				<p>7.-<a onClick={fondosMaquina}>▶️</a>curl biceps con barra<a className='red'> 3 series de 10-12 reps</a></p>
-				<p>8.-<a onClick={crunchSuelo}>▶️</a>curl de biceps alternado<a className='red'> 3 series de 10-12 reps</a></p>
-				<p>9.-<a onClick={crunchSuelo}>▶️</a>curl martillo<a className='red'> 3 series de 10-12 reps</a></p>
+				<p>3.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>elevaciones frontales con mancuernas<a className='red'> 3 series de 12-15 reps</a></p>
+				<p>4.-<a onClick={pajaros}>▶️</a>Pajaros con mancuernas<a className='red'> 3 series de 12-15 reps</a></p>
+				<p>5.-<a onClick={facepull}>▶️</a>Facepull con polea<a className='red'> 3 series de 12-15 reps</a></p>
+				<p>6.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos con mancuernas<a className='red'> 4 series de 10-12 reps</a></p>
+				<p>7.-<a onClick={curlInvertidoBarra}>▶️</a>curl biceps invertido con barra<a className='red'> 3 series de 10-12 reps</a></p>
+				<p>8.-<a onClick={curlAlternado}>▶️</a>curl de biceps alternado<a className='red'> 3 series de 10-12 reps</a></p>
+				<p>9.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>curl martillo<a className='red'> 3 series de 10-12 reps</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 3</p>
 			</div>
 			<hr />
