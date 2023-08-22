@@ -1037,6 +1037,39 @@ const Alejandra = () => {
 					confirmButtonColor:"black",
 					})
 					}
+					function remoNeutroPolea(){
+						Swal.fire({
+						title: 'sentadilla frontal con barra',
+						imageUrl: 'images/remoNeutroPolea.webp',
+						imageWidth: 200,
+						imageHeight: 200,
+						imageAlt: 'Custom image',
+						confirmButtonText: "Entendido",
+						confirmButtonColor:"black",
+						})
+						}
+						function dominadasAsistidas(){
+							Swal.fire({
+							title: 'sentadilla frontal con barra',
+							imageUrl: 'images/dominadasAsistidas.png',
+							imageWidth: 200,
+							imageHeight: 200,
+							imageAlt: 'Custom image',
+							confirmButtonText: "Entendido",
+							confirmButtonColor:"black",
+							})
+							}
+							function espaldaBajaLibre(){
+								Swal.fire({
+								title: 'sentadilla frontal con barra',
+								imageUrl: 'images/espaldaBajaLibre.gif',
+								imageWidth: 200,
+								imageHeight: 200,
+								imageAlt: 'Custom image',
+								confirmButtonText: "Entendido",
+								confirmButtonColor:"black",
+								})
+								}
 							
 						
 								
@@ -1222,18 +1255,15 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				 <h1>Dia 2 Empuje</h1>
-				 <p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
-				 <p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
-				 <p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
-				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina agarre cerrado<a className='red'>-pesado</a></p>
-				<p>2.-<a onClick={elevacionesFrontalesDisco}>▶️</a>elevaciones frontales con disco<a className='red'>-ligero</a></p>
-				<p>3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>hombro posterior en polea<a className='red'>-ligero</a></p>
-				<p>4.-<a onClick={lagartijasMilitares}>▶️</a>lagartijas militares<a className='red'>-pesado</a></p>
-				<p>5.-<a onClick={patadasMancuernas}>▶️</a>patadas con mancuerna<a className='red'>-ligero</a></p>
-				<p>6.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>Press pecho con mancuernas<a className='red'>-pesado</a></p>
-				<p>7.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className='red'>-pesado</a></p>
-				<p>8.-<a onClick={crunchesPiernasArriba}>▶️</a>abdominales<a className='red'>-ligero</a></p>
+				 <h1>Dia 2 espalda y biceps</h1>
+				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descando de 1-2 minutos maximo entre series </p>
+				<p>1.-<a onClick={remoNeutroPolea}>▶️</a>remo neutro en polea<a className='red'>4 series de 10-12 reps al 70%-80%</a></p>
+				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea<a className='red'>4 series de 10-12 reps al 70%-80%</a></p>
+				<p>3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas<a className='red'>4 series al fallo</a></p>
+				<p>4.-<a onClick={curlBicepsZ}>▶️</a>curl biceps con barra<a className='red'>3 series de 12-15 reps al 60%-70%</a></p>
+				<p>5.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>martillos biceps<a className='red'>3 series de 12-15 reps al 60%-70%</a></p>
+				<p>6.-<a onClick={espaldaBajaLibre}>▶️</a>espalda baja libre<a className='red'>3 series de 12-15 reps al 60%-70%</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
