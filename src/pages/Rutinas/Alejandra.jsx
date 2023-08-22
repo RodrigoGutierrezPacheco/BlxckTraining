@@ -1258,12 +1258,12 @@ const Alejandra = () => {
 				 <h1>Dia 2 espalda y biceps</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descando de 1-2 minutos maximo entre series </p>
-				<p>1.-<a onClick={remoNeutroPolea}>▶️</a>remo neutro en polea<a className='red'>4 series de 10-12 reps al 70%-80%</a></p>
-				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea<a className='red'>4 series de 10-12 reps al 70%-80%</a></p>
-				<p>3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas<a className='red'>4 series al fallo</a></p>
-				<p>4.-<a onClick={curlBicepsZ}>▶️</a>curl biceps con barra<a className='red'>3 series de 12-15 reps al 60%-70%</a></p>
-				<p>5.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>martillos biceps<a className='red'>3 series de 12-15 reps al 60%-70%</a></p>
-				<p>6.-<a onClick={espaldaBajaLibre}>▶️</a>espalda baja libre<a className='red'>3 series de 12-15 reps al 60%-70%</a></p>
+				<p>1.-<a onClick={remoNeutroPolea}>▶️</a>remo neutro en polea<a className='red'> 4 series de 10-12 reps al 70%-80%</a></p>
+				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea<a className='red'> 4 series de 10-12 reps al 70%-80%</a></p>
+				<p>3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas<a className='red'> 4 series al fallo</a></p>
+				<p>4.-<a onClick={curlBicepsZ}>▶️</a>curl biceps con barra<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>5.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>martillos biceps<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>6.-<a onClick={espaldaBajaLibre}>▶️</a>espalda baja libre<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
