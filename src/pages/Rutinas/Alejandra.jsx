@@ -1243,7 +1243,7 @@ const Alejandra = () => {
 	<div className='justify'>
 	<h1 className='red'>Dia 1 Pierna y gluteos</h1>
 		<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descando de 1-2 minutos maximo entre series </p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
 				 <p>1.-<a onClick={sentadillaFrontalBarra}>▶️</a>sentadilla frontal con barra<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
 				 <p>2.-<a onClick={prensaCerrada}>▶️</a>prensa para cuadriceps<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
 				 <p>3.-<a onClick={hipThrust}>▶️</a>hip trhust con barra<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
@@ -1257,7 +1257,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				 <h1>Dia 2 espalda y biceps</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descando de 1-2 minutos maximo entre series </p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
 				<p>1.-<a onClick={remoNeutroPolea}>▶️</a>remo neutro en polea<a className='red'> 4 series de 10-12 reps al 70%-80%</a></p>
 				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea<a className='red'> 4 series de 10-12 reps al 70%-80%</a></p>
 				<p>3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas<a className='red'> 4 series al fallo</a></p>
@@ -1269,9 +1269,8 @@ const Alejandra = () => {
 			<hr />
 			<div className='justify'>
 				<h1 className='red'>Dia 3 Jalon</h1>
-				<p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
-				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
-				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
 				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'>-pesado</a></p>
 				<p>2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'>-pesado</a></p>
 				<p>3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas<a className='red'>-pesado</a></p>
@@ -1283,26 +1282,26 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-			<h1>Dia 4 Empuje</h1>
-			<p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
-				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
-				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
-				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina agarre cerrado<a className='red'>-pesado</a></p>
-				<p>2.-<a onClick={elevacionesFrontalesDisco}>▶️</a>elevaciones frontales con disco<a className='red'>-pesado</a></p>
-				<p>3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>hombro posterior en polea<a className='red'>-pesado</a></p>
-				<p>4.-<a onClick={lagartijasMilitares}>▶️</a>lagartijas militares<a className='red'>-ligero</a></p>
-				<p>5.-<a onClick={patadasMancuernas}>▶️</a>patadas con mancuerna<a className='red'>-ligero</a></p>
-				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'>-pesado</a></p>
-				<p>7.-<a onClick={desplanteBulgaro}>▶️</a>desplante bulgaro sin peso<a className='red'>-ligero</a></p>
-				<p>8.-<a onClick={crunchesPiernasArriba}>▶️</a>abdominales<a className='red'> 4 series de 30 segundos</a></p>
-				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
+				<h1>Día 4 Empuje - Hipertrofia</h1>
+				<p className='red'>*Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*</p>
+				<p className='red'>Ejecución de los ejercicios en 3-4 segundos, descanso de 1-2 minutos máximo entre series. Percepción de esfuerzo: 7-8/10</p> 
+				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a> Press Militar en máquina agarre cerrado<a className='red'> 4 series de 8-10 repeticiones al 80%</a></p>
+				<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a> Elevaciones laterales con mancuernas<a className='red'> 3 series de 12 repeticiones al 70%</a></p>
+				<p>3.-<a onClick={facepull}>▶️</a> Face Pull en polea<a className='red'> 3 series de 12 repeticiones al 70%</a></p>
+				<p>4.-<a onClick={lagartijasMilitares}>▶️</a> Push-ups o lagartijas regulares<a className='red'> 3 series de 12-15 repeticiones al 70%</a></p>
+				<p>5.-<a onClick={fondosBanco}>▶️</a> Fondos para tríceps en máquina/banco<a className='red'> 3 series de 10-12 repeticiones al 80%</a></p>
+				<p>6.-<a onClick={desplantesEstaticos}>▶️</a> desplantes con mancuernas<a className='red'> 3 series de 10 repeticiones por pierna al 75%</a></p>
+				<p>7.-<a onClick={prensaCerrada}>▶️</a> Prensa de piernas en máquina<a className='red'> 4 series de 8-10 repeticiones al 80%</a></p>
+				<p>8.-<a onClick={crunchMaquina}>▶️</a> Crunches abdominales<a className='red'> 4 series de 20 repeticiones al 70%</a></p>
+				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2*</p>
 			</div>
+
+
 			<hr />
 			<div className='justify'>
 			<h1 className='red'>Dia 5 Full</h1>
-			<p className='red'>pesado: 5 series 8-12 reps, movimiento controlado, 2 segundos concentrico 2 segundos excentrico /2 segundos bajada 2 segundos subida / </p>
-				<p className='red'>ligero: 4 series 15-20 reps movimientos fluidos</p>
-				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+			<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
 				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'>-pesado</a></p>
 				<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className='red'>-pesado</a></p>
 				<p>3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas<a className='red'>-ligero</a></p>
