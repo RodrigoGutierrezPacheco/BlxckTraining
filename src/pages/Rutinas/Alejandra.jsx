@@ -1282,7 +1282,7 @@ const Alejandra = () => {
 			</div>
 			<hr />
 			<div className='justify'>
-				<h1>Día 4 Empuje - Hipertrofia</h1>
+				<h1>Día 4 Empuje</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*</p>
 				<p className='red'>Ejecución de los ejercicios en 3-4 segundos, descanso de 1-2 minutos máximo entre series. Percepción de esfuerzo: 7-8/10</p> 
 				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a> Press Militar en máquina agarre cerrado<a className='red'> 4 series de 8-10 repeticiones al 80%</a></p>
