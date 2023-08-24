@@ -6,6 +6,7 @@ import Alejandro from '../Rutinas/Alejandro';
 import Ejercicios from '../Ejercicios';
 import users from '../Users/Users';
 import Dalet from '../Rutinas/Dalet';
+import Basico1 from '../Rutinas/Basico1';
 import Prueba from '../Rutinas/Prueba';
 
 const MiRutina = () => {
@@ -41,6 +42,12 @@ const MiRutina = () => {
 				break;
 			case 'alejandro':
 				setUserRoutine(<Alejandro/>);
+				break;
+			case 'susy':
+			case 'ale':
+			case 'mire':
+			case 'ale':
+				setUserRoutine(<Basico1/>)
 				break;
 			default:
 				setUserRoutine(<Alejandra />);
