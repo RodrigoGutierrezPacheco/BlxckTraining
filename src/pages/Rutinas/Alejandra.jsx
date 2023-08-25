@@ -1301,7 +1301,7 @@ const Alejandra = () => {
 			<div className='justify'>
 			<h1 className='red'>Dia 5 Full</h1>
 			<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
+				 <p className='red'>Todos los ejercicios 4 series de 8-10 repeticiones al 80%</p>
 				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'>-pesado</a></p>
 				<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className='red'>-pesado</a></p>
 				<p>3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas<a className='red'>-ligero</a></p>
