@@ -1312,42 +1312,41 @@ const Alejandra = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 4 */}
-	{/* <Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 				<h1 className='red'>Dia 1 hombro-triceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>todo 4 series 20 reps movimientos fluidos</p>
-				<p className='red'>Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
-				<p>1.-<a onClick={pressMilitarBarraPie}>▶️</a>press militar de pie con barra<a className='red'></a></p>
-				<p>2.-<a onClick={elevacionesLateralesMancuernasSentado}>▶️</a>elevaciones laterales en banco<a className='red'></a></p>
-				<p>3.-<a onClick={remoMentonBarra}>▶️</a>remo al menton con barra<a className='red'></a></p>
-				<p>4.-<a onClick={pressArnoldSentado}>▶️</a>press arnold con mancuernas<a className='red'></a></p>
-				<p>5.-<a onClick={patadasMancuernas}>▶️</a>patadas con mancuerna<a className='red'></a></p>
-				<p>6.-<a onClick={fondosAsistidos}>▶️</a>fondos maquina asistida<a className='red'></a></p>
-				<p>7.-<a onClick={copaUnaMano}>▶️</a>copa 1 mano<a className='red'></a></p>
-				<p>8.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className='red'></a></p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
+				<p>1.-<a onClick={pressMilitarBarraPie}>▶️</a>press militar de pie con barra<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>2.-<a onClick={elevacionesLateralesMancuernasSentado}>▶️</a>elevaciones laterales en banco<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>3.-<a onClick={remoMentonBarra}>▶️</a>remo al menton con barra<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>4.-<a onClick={pressArnoldSentado}>▶️</a>press arnold con mancuernas<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>5.-<a onClick={patadasMancuernas}>▶️</a>patadas con mancuerna<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>6.-<a onClick={fondosAsistidos}>▶️</a>fondos maquina asistida<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>7.-<a onClick={copaUnaMano}>▶️</a>copa 1 mano<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>8.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className='red'> 4 series al fallo</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
 			<div className='justify'>
 				 <h1>Dia 2 espalda-trapecio-biceps</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
-				<p>1.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown agarre abierto en polea<a className='red'></a></p>
-				<p>3.-<a onClick={remoBarra}>▶️</a>remo con barra<a className='red'></a></p>
-				<p>4.-<a onClick={remoMancuerna}>▶️</a>remo con mancuerna<a className='red'></a></p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
+				<p>1.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>2.-<a onClick={pulldownPolea}>▶️</a>pulldown agarre abierto en polea<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>3.-<a onClick={remoBarra}>▶️</a>remo con barra<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>4.-<a onClick={remoMancuerna}>▶️</a>remo con mancuerna<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
 				<p>5.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos con mancuernas<a className='red'></a></p>
-				<p>6.-<a onClick={elevacionesLateralesInclinado}>▶️</a>elevaciones laterales para trapecio<a className='red'></a></p>
-				<p>7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps en banco inclinado<a className='red'></a></p>
-				<p>8.-<a onClick={curlInvertidoBarra}>▶️</a>curl invertido con barra <a className='red'></a></p>
+				<p>6.-<a onClick={elevacionesLateralesInclinado}>▶️</a>elevaciones laterales para trapecio<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps en banco inclinado<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>8.-<a onClick={curlInvertidoBarra}>▶️</a>curl invertido con barra <a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 2</p>
 			</div>
 			<hr />
 			<div className='justify'>
 				<h1 className='red'>Dia 3 pecho</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
 				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
 				<p>2.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho banco plano con mancuernas<a className='red'></a></p>
 				<p>3.-<a onClick={pressPechoInclinadoMancuernas}>▶️</a>press pecho inclinado con mancuernas<a className='red'></a></p>
@@ -1360,7 +1359,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				<h1>Dia 4 Jalon</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
 				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'></a></p>
 				<p>2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'></a></p>
 				<p>3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas<a className='red'></a></p>
@@ -1374,7 +1373,7 @@ const Alejandra = () => {
 			<div className='justify'>
 				<h1 className='red'>Dia 5 Empuje</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-				<p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
 				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina<a className='red'></a></p>
 				<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>elevaciones laterales con mancuerna<a className='red'></a></p>
 				<p>3.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
@@ -1384,7 +1383,7 @@ const Alejandra = () => {
 				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
 			</div>
-	</Collapsible> */}
+	</Collapsible>
 	{/* Rutina semana 5 */}
 	{/* <Collapsible open={true} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
