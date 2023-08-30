@@ -1347,12 +1347,12 @@ const Alejandra = () => {
 				<h1 className='red'>Dia 3 pecho</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
-				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho banco plano con mancuernas<a className='red'></a></p>
-				<p>3.-<a onClick={pressPechoInclinadoMancuernas}>▶️</a>press pecho inclinado con mancuernas<a className='red'></a></p>
-				<p>4.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas en banco inclinado<a className='red'></a></p>
-				<p>5.-<a onClick={crossOverPoleaAlta}>▶️</a>cross over polea alta en polea<a className='red'></a></p>
-				<p>6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className='red'></a></p>
+				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>2.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho banco plano con mancuernas<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>3.-<a onClick={pressPechoInclinadoMancuernas}>▶️</a>press pecho inclinado con mancuernas<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>4.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas en banco inclinado<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>5.-<a onClick={crossOverPoleaAlta}>▶️</a>cross over polea alta en polea<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className='red'>4 series al fallo</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nive3</p>
 			</div>
 			<hr />
