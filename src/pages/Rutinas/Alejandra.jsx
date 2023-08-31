@@ -1239,7 +1239,7 @@ const Alejandra = () => {
 			</div>
 	</Collapsible>
 	{/*Rutina Semana #3*/}
-	<Collapsible open={true} className='dia' trigger="Semana 3" triggerWhenOpen="Semana 3" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia' trigger="Semana 3" triggerWhenOpen="Semana 3" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 	<h1 className='red'>Dia 1 Pierna y gluteos</h1>
 		<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1302,17 +1302,17 @@ const Alejandra = () => {
 			<h1 className='red'>Dia 5 Full</h1>
 			<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>Todos los ejercicios 4 series de 8-10 repeticiones al 80%</p>
-				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'>-pesado</a></p>
-				<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className='red'>-pesado</a></p>
+				<p>1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className='red'>4 series de 8-10 repeticiones al 80%</a></p>
+				<p>2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className='red'>4 series de 8-10 repeticiones al 80%</a></p>
 				<p>3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas<a className='red'>-ligero</a></p>
-				<p>4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina <a className='red'>-pesado</a></p>
-				<p>5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className='red'>-pesado</a></p>
-				<p>6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado<a className='red'>-pesado</a></p>
+				<p>4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina <a className='red'>4 series de 8-10 repeticiones al 80%</a></p>
+				<p>5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className='red'>4 series de 8-10 repeticiones al 80%</a></p>
+				<p>6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado<a className='red'>4 series de 8-10 repeticiones al 80%</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 3</p>
 			</div>
 	</Collapsible>
 	{/* Rutina semana 4 */}
-	<Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={true} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 				<h1 className='red'>Dia 1 hombro-triceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
