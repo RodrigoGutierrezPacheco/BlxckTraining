@@ -1360,13 +1360,13 @@ const Alejandra = () => {
 				<h1>Dia 4 Jalon</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
-				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'></a></p>
-				<p>2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'></a></p>
-				<p>3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas<a className='red'></a></p>
-				<p>4.-<a onClick={curlBicepsMaquinaScott}>▶️</a>Curl biceps en maquina Scott<a className='red'></a></p>
-				<p>5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas tipo sumo<a className='red'></a></p>
-				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina<a className='red'></a></p>
-				<p>7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina<a className='red'></a></p>
+				<p>1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>4.-<a onClick={curlBicepsMaquinaScott}>▶️</a>Curl biceps en maquina Scott<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas tipo sumo<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina<a className='red'> 4 series al fallo</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
 			</div>
 			<hr />
@@ -1374,13 +1374,13 @@ const Alejandra = () => {
 				<h1 className='red'>Dia 5 Empuje</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
 				 <p className='red'>Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series </p>
-				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina<a className='red'></a></p>
-				<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>elevaciones laterales con mancuerna<a className='red'></a></p>
-				<p>3.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'></a></p>
-				<p>4.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquian<a className='red'></a></p>
-				<p>5.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla con Mancuerna<a className='red'></a></p>
-				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'></a></p>
-				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
+				<p>1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>elevaciones laterales con mancuerna<a className='red'> 3 series de 12-15 reps al 60%-70%</a></p>
+				<p>3.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>4.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>5.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla con Mancuerna<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className='red'> 4 series de 8-10 reps al 70%-80%</a></p>
+				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'> 4 series al fallo</a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
 			</div>
 	</Collapsible>
