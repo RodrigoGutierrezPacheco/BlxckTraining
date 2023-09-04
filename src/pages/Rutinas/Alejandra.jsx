@@ -1312,7 +1312,7 @@ const Alejandra = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 4 */}
-	<Collapsible open={true} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 				<h1 className='red'>Dia 1 hombro-triceps</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1385,7 +1385,7 @@ const Alejandra = () => {
 			</div>
 	</Collapsible>
 	{/* Rutina semana 5 */}
-	{/* <Collapsible open={true} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={true} className='dia' trigger="Semana 5" triggerWhenOpen="Semana 5" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 				<h1 className='red'>Dia 1 Torso</h1>
 				<p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1457,7 +1457,7 @@ const Alejandra = () => {
 				<p>7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel2</p>
 			</div>
-	</Collapsible> */}
+	</Collapsible>
 	<button onClick={whatsapp} className='button2'>¿Tienes alguna duda o problema con tu rutina?</button>
 	<footer className="footer">
 			<h1 className="lFooter">Blxck Training</h1>
