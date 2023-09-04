@@ -48,7 +48,6 @@ const MiRutina = () => {
 			case 'mire':
 			case 'ale':
 			case:'eca':
-			case:'pool':
 				setUserRoutine(<Basico1/>)
 				break;
 			default:
