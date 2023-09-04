@@ -966,7 +966,7 @@ const Basico1 = () => {
 		<div>
 		{/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
 		{/* Rutina Semana #1  */}
-		<Collapsible open={false} trigger="->Semana 1" className='dia' triggerWhenOpen="->Semana 1" triggerStyle={{fontSize:'5rem'}}>
+		<Collapsible open={false} trigger="Semana 1" className='dia' triggerWhenOpen="Semana 1" triggerStyle={{fontSize:'5rem'}}>
     <div className='justify'>
 
         <h1 className='red'>Día 1 - Superior</h1>
