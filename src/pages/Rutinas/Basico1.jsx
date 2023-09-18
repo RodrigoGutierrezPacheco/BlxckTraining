@@ -1019,7 +1019,7 @@ const Basico1 = () => {
     </div>
 		</Collapsible>
 	{/* Rutina Semana #2  */}
-	<Collapsible open={true} className='dia black1' trigger="Semana 2" triggerWhenOpen="Semana 2" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={false} className='dia black1' trigger="Semana 2" triggerWhenOpen="Semana 2" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 				<h1>--Dia 1 Pierna</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1082,7 +1082,7 @@ const Basico1 = () => {
 			</div>
 	</Collapsible>
 	{/*Rutina Semana #3*/}
-	{/* <Collapsible open={false} className='dia' trigger="Semana 3" triggerWhenOpen="Semana 3" triggerStyle={{fontSize:'5rem'}}>
+	<Collapsible open={true} className='dia' trigger="Semana 3" triggerWhenOpen="Semana 3" triggerStyle={{fontSize:'5rem'}}>
 	<div className='justify'>
 	<h1>--Dia 1 Pierna</h1>
 				 <p className='red'>*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -1158,7 +1158,7 @@ const Basico1 = () => {
 				<p>6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className='red'></a></p>
 				<p className='red'>*Termina con programa cardio S8-Principiante-Nivel 3</p>
 			</div>
-	</Collapsible> */}
+	</Collapsible>
 	{/* Rutina semana 4 */}
 	{/* <Collapsible open={false} className='dia black1' trigger="Semana 4" triggerWhenOpen="Semana 4" triggerStyle={{fontSize:'5rem'}}>
 			<div className='justify'>
