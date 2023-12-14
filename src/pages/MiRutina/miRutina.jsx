@@ -8,6 +8,7 @@ import users from '../Users/Users';
 import Dalet from '../Rutinas/Dalet';
 import Basico1 from '../Rutinas/Basico1';
 import Prueba from '../Rutinas/Prueba';
+import Estefany from '../Rutinas/Estefany';
 
 const MiRutina = () => {
   function whatsapp() {
@@ -43,6 +44,9 @@ const MiRutina = () => {
 			case 'alejandro':
 				setUserRoutine(<Alejandro/>);
 				break;
+				case 'estefany':
+					setUserRoutine(<Estefany/>);
+					break;
 			case 'susy':
 			case 'ale':
 			case 'mire':
