@@ -1899,7 +1899,7 @@ const Alejandra = () => {
       >
         <div className="justify">
           <h1 className="red">Dia 1 Torso</h1>
-          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+          <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
           <p className="red">
             3 series 8-15 repeticiones, descanso de 1-2 min, peso bajo
           </p>
