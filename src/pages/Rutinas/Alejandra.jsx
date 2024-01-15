@@ -1114,7 +1114,7 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad Moderada</h1>
+      <h1>Intensidad baja</h1>
       <Collapsible
         open={false}
         trigger="Semana 1"
@@ -1694,7 +1694,7 @@ const Alejandra = () => {
       </Collapsible> 
       {/* Rutina semana 4 */}
       <Collapsible
-        open={true}
+        open={false}
         className="dia black1"
         trigger="Semana 4"
         triggerWhenOpen="Semana 4"
@@ -1890,7 +1890,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>
       {/* Rutina semana 5 */}
-      {/* <Collapsible
+       <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
@@ -1901,25 +1901,25 @@ const Alejandra = () => {
           <h1 className="red">Dia 1 Torso</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
-            6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso
+            3 series 8-15 repeticiones, descanso de 1-2 min, peso bajo
           </p>
           <p>
-            1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas de pie
+            1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas sentado
             <a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={pulldownSupino}>▶️</a>pulldown agarre supino "invertido"<a className="red"></a>
+            2.-<a onClick={elevacionesLateralesMancuernasSentado}>▶️</a>elevaciones laterales sentado<a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={cristosBancoInclinado}>▶️</a>cristos en banco inclinado<a className="red"></a>
+            3.-<a onClick={curlBicepsMancuernas}>▶️</a>curl de biceps con mancuerna sentado<a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={curlBicepsPoleaBajaCuerda}>▶️</a>curl biceps en polea baja con cuerdas<a className="red"></a>
+            4.-<a onClick={copaUnaMano}>▶️</a>copa a 1 mano sentado<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={jalonTrasNucaPoleaAlta}>▶️</a>jalones tras nuca en polea alta<a className="red"></a>
+            5.-<a onClick={pressPechoInclinadoMancuernas}>▶️</a>press pecho bando inclinado con mancuernas<a className="red"></a>
           </p>
-          <p>
+          {/* <p>
             6.-<a onClick={sentadillaBarra}>▶️</a>sentadilla con barra<a className="red"></a>
           </p>
           <p>
@@ -1930,8 +1930,8 @@ const Alejandra = () => {
           </p>
           <p>
             9.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className="red"></a>
-          </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
+          </p> */}
+          <p className="red">*Termina con programa con bicicleta, 10 min ritmo bajo</p>
         </div>
         <hr />
         <div className="justify">
@@ -2054,7 +2054,7 @@ const Alejandra = () => {
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel2</p>
         </div>
-      </Collapsible> */}
+      </Collapsible> 
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
