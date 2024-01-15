@@ -1933,7 +1933,7 @@ const Alejandra = () => {
           </p> */}
           <p className="red">*Termina con programa con bicicleta, 10 min ritmo bajo</p>
         </div>
-        <hr />
+        {/* <hr />
         <div className="justify">
           <h1>Dia 2 cuadriceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
@@ -2053,7 +2053,7 @@ const Alejandra = () => {
             7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className="red"></a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel2</p>
-        </div>
+        </div> */}
       </Collapsible> 
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
