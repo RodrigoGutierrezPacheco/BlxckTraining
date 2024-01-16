@@ -1109,6 +1109,19 @@ const Alejandra = () => {
 		
   }
 
+	function pantorrillaSentadoMancuernas() {
+    Swal.fire({
+      title: 'Pantorrilla sentado con mancuernas o barra',
+      imageUrl: 'images/pantorrilaSentadoMancuernas.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+		
+  }
+
   return (
     <div>
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
@@ -1933,29 +1946,29 @@ const Alejandra = () => {
           </p> */}
           <p className="red">*Termina con programa con bicicleta, 10 min ritmo bajo</p>
         </div>
-        {/* <hr />
+        <hr />
         <div className="justify">
           <h1>Dia 2 cuadriceps</h1>
-          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+          <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
           <p className="red">
-            6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso
+            3 series 8-15 repeticiones, descando de 1-2 min, peso bajo
           </p>
           <p>
             1.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps en maquina<a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={prensaCerrada}>▶️</a>prensa para cuadriceps posicion cerrada<a className="red"></a>
+            2.-<a onClick={curlFemoralSentado}>▶️</a>Curl femoral<a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={desplantesEstaticos}>▶️</a>desplante estatico con mancuernas<a className="red"></a>
+            3.-<a onClick={abduccion}>▶️</a>abducciones maquina<a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={sentadillaMancuerna}>▶️</a>sentadilla<a className="red"></a>
+            4.-<a onClick={adduccion}>▶️</a>adduciones en maquina<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={sentadillaIsometrica}>▶️</a>sentadilla isometrica<a className="red"></a>
+            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrilla sentado con mancuernas<a className="red"></a>
           </p>
-          <p>
+          {/* <p>
             6.-<a onClick={abduccion}>▶️</a>abducciones en maquina<a className="red"></a>
           </p>
           <p>
@@ -1964,9 +1977,9 @@ const Alejandra = () => {
           <p>
             8.-<a onClick={pantorrillaLibre}>▶️</a>pantorrilla en maquina<a className="red"></a>
           </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
+          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p> */}
         </div>
-        <hr />
+        {/* <hr />
         <div className="justify">
           <h1 className="red">Dia 3 pecho-espalda</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
