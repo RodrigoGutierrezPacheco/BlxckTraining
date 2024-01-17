@@ -1979,34 +1979,44 @@ const Alejandra = () => {
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p> */}
         </div>
-        {/* <hr />
-        <div className="justify">
-          <h1 className="red">Dia 3 pecho-espalda</h1>
-          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">
-            6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso
-          </p>
-          <p>
-            1.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className="red"></a>
-          </p>
-          <p>
-            2.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquina<a className="red"></a>
-          </p>
-          <p>
-            3.-<a onClick={pulldownMaquina}>▶️</a>pulldown en maquina<a className="red"></a>
-          </p>
-          <p>
-            4.-<a onClick={remoMaquina}>▶️</a>remo en maquina<a className="red"></a>
-          </p>
-          <p>
-            5.-<a onClick={pulloverPoleaAlta}>▶️</a>pullover en polea alta<a className="red"></a>
-          </p>
-          <p>
-            6.-<a onClick={abdomenInferiorMaquina}>▶️</a>abdomen inferior en maquina<a className="red"></a>
-          </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nive3</p>
-        </div>
         <hr />
+        <div className="justify">
+          <h1 className="red">Dia 3 Torso</h1>
+          <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
+          <p className="red">
+            3 series 8-15 repeticiones, descanso de 1-2 min, peso bajo
+          </p>
+          <p>
+            1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas sentado
+            <a className="red"></a>
+          </p>
+          <p>
+            2.-<a onClick={elevacionesLateralesMancuernasSentado}>▶️</a>elevaciones laterales sentado<a className="red"></a>
+          </p>
+          <p>
+            3.-<a onClick={curlBicepsMancuernas}>▶️</a>curl de biceps con mancuerna sentado<a className="red"></a>
+          </p>
+          <p>
+            4.-<a onClick={copaUnaMano}>▶️</a>copa a 1 mano sentado<a className="red"></a>
+          </p>
+          <p>
+            5.-<a onClick={pressPechoInclinadoMancuernas}>▶️</a>press pecho bando inclinado con mancuernas<a className="red"></a>
+          </p>
+          {/* <p>
+            6.-<a onClick={sentadillaBarra}>▶️</a>sentadilla con barra<a className="red"></a>
+          </p>
+          <p>
+            7.-<a onClick={pesoMuertoPoleaBaja}>▶️</a>peso muerto en polea baja<a className="red"></a>
+          </p>
+          <p>
+            8.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina<a className="red"></a>
+          </p>
+          <p>
+            9.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen<a className="red"></a>
+          </p> */}
+          <p className="red">*Termina con programa con bicicleta, 10 min ritmo bajo</p>
+        </div>
+        {/* <hr />
         <div className="justify">
           <h1>Dia 4 Jalon</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
