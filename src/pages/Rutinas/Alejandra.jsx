@@ -2018,7 +2018,7 @@ const Alejandra = () => {
         </div>
          <hr />
 				 <div className="justify">
-          <h1>Dia 2 cuadriceps</h1>
+          <h1>Dia 4 cuadriceps</h1>
           <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
           <p className="red">
             3 series 8-15 repeticiones, descando de 1-2 min, peso bajo
