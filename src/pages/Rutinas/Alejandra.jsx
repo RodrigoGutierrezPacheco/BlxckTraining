@@ -2050,36 +2050,36 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p> */}
         </div>
         <hr />
-        {/* <div className="justify">
-          <h1 className="red">Dia 5 Empuje</h1>
+        <div className="justify">
+          <h1 className="red">Dia 5 Full</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
-            6 series 8-10 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso
+            3 series 8-15 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso
           </p>
           <p>
-            1.-<a onClick={pressMilitarMaquina}>▶️</a>Press Militar en maquina<a className="red"></a>
+            1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>Press Militar con mancuernas sentado<a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>elevaciones laterales con mancuerna
+            2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>curl biceps con mancuernas sentado
             <a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className="red"></a>
+            3.-<a onClick={copaUnaMano}>▶️</a>copa a 1 mano sentado<a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={aperturasMaquina}>▶️</a>aperturas en maquian<a className="red"></a>
+            4.-<a onClick={extencionCuadriceps}>▶️</a>extencion de cuadriceps en maquina<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla con Mancuerna<a className="red"></a>
+            5.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina<a className="red"></a>
           </p>
-          <p>
+          {/* <p>
             6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className="red"></a>
           </p>
           <p>
             7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className="red"></a>
-          </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel2</p>
-        </div> */}
+          </p> */}
+          <p className="red">*Termina con programa bicicleta 10min ritmo ligero</p>
+        </div>
       </Collapsible> 
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
