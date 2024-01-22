@@ -1138,7 +1138,7 @@ const Alejandra = () => {
         <div className="justify">
           <h1 className="red">Dia 1 Hombro</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">60% de esfuerzo 4 series de 10-12 reps</p>
+          <p className="red">50% de esfuerzo 4 series de 8-10 reps</p>
           <p>
             1.-<a onClick={pressMilitarBarraSentado}>▶️</a>Press Militar con barra sentado<a className="red"></a>
           </p>
