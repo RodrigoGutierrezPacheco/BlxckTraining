@@ -1167,30 +1167,30 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio con bicicleta 15 min ritmo ligero</p>
         </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1>Dia 2 Pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">60% de esfuerzo 4 series de 10-12 reps</p>
           <p>
-            1.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla profunda
+            1.-<a onClick={extencionCuadriceps}>▶️</a>extencinoes cuadriceps
             <a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={prensaCerrada}>▶️</a>Prensa para cuadriceps
+            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral maquina
             <a className="red"> </a>
           </p>
           <p>
-            3.-<a onClick={curlFemoralSentado}>▶️</a>Curl femoral sentado
+            3.-<a onClick={abduccion}>▶️</a>abduccion
             <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={extencionCuadriceps}>▶️</a>Extensiones de cuádriceps en máquina<a className="red"></a>
+            4.-<a onClick={adduccion}>▶️</a>adduccion<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={desplantesCaminando}>▶️</a>desplantes caminando
+            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrila en maquina
             <a className="red"></a>
           </p>
-          <p>
+          {/* <p>
             6.-<a onClick={hipThrust}>▶️</a>Hip Thrust<a className="red"></a>
           </p>
           <p>
@@ -1204,11 +1204,11 @@ const Alejandra = () => {
           <p>
             9.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina
             <a className="red"></a>
-          </p>
+          </p> */}
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
-        </div> */}
+        </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1 className="red">Dia 3 espalda-biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">60% de esfuerzo 4 series de 10-12 reps</p>
@@ -1248,7 +1248,7 @@ const Alejandra = () => {
             </a>
             curl de biceps con mancuernas<a className="red"></a>
           </p>
-          <p>
+          {/* <p>
             6.-
             <a onClick={curlConcentrado} className="pointer">
               ▶️
@@ -1259,11 +1259,11 @@ const Alejandra = () => {
             7.-
             <a onClick={hiperextencionesMaquina} className="pointer">
               ▶️
-            </a>
+            </a> */}
             hiperextenciones en maquina<a className="red"></a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
-        </div> */}
+        </div>
         <hr />
         {/* <div className="justify">
           <h1 className="red">Dia 4 pierna</h1>
