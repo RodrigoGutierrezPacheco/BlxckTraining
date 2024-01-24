@@ -1170,7 +1170,7 @@ const Alejandra = () => {
         <div className="justify">
           <h1>Dia 2 Pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">60% de esfuerzo 4 series de 10-12 reps</p>
+          <p className="red">50% de esfuerzo 4 series de 8-10 reps</p>
           <p>
             1.-<a onClick={extencionCuadriceps}>▶️</a>extencinoes cuadriceps
             <a className="red"></a>
@@ -1211,8 +1211,7 @@ const Alejandra = () => {
         <div className="justify">
           <h1 className="red">Dia 3 espalda-biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">60% de esfuerzo 4 series de 10-12 reps</p>
-          <p className='red'>4 series 20 repeticiones, peso necesario para sacar las 20-22 repeticiones, descanso lo que sea necesario para volver a sacar las mismas reps con mismo peso</p>
+          <p className="red">50% de esfuerzo 4 series de 8-10 reps</p>
           <p>
             1.-
             <a onClick={pulldownMaquina} className="pointer">
