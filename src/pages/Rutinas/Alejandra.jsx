@@ -1260,8 +1260,6 @@ const Alejandra = () => {
               ▶️
             </a> */}
             hiperextenciones en maquina<a className="red"></a>
-          </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
         <hr />
         {/* <div className="justify">
