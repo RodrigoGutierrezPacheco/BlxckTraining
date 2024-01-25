@@ -1262,37 +1262,46 @@ const Alejandra = () => {
             hiperextenciones en maquina<a className="red"></a>
         </div>
         <hr />
-        {/* <div className="justify">
-          <h1 className="red">Dia 4 pierna</h1>
+        <div className="justify">
+          <h1>Dia 4 Pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">60% de esfuerzo 4 series de 10-12 reps</p>
+          <p className="red">50% de esfuerzo 4 series de 8-10 reps</p>
           <p>
-            1.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen
+            1.-<a onClick={extencionCuadriceps}>▶️</a>extencinoes cuadriceps
             <a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps maquina a 1 pierna<a className="red"></a>
+            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral maquina
+            <a className="red"> </a>
           </p>
           <p>
-            3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla estricta con mancuerna *hasta abajo*<a className="red"></a>
-          </p>
-          <p>
-            4.-<a onClick={desplantesEstaticos}>▶️</a>desplantes estaticos con barra<a className="red"></a>
-          </p>
-          <p>
-            5.-<a onClick={prensaSumo}>▶️</a>prensa sumo para femoral
+            3.-<a onClick={abduccion}>▶️</a>abduccion
             <a className="red"></a>
           </p>
           <p>
-            6.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina
+            4.-<a onClick={adduccion}>▶️</a>adduccion<a className="red"></a>
+          </p>
+          <p>
+            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrila en maquina
+            <a className="red"></a>
+          </p>
+          {/* <p>
+            6.-<a onClick={hipThrust}>▶️</a>Hip Thrust<a className="red"></a>
+          </p>
+          <p>
+            7.-<a onClick={abduccion}>▶️</a>Abducciones en maquina
             <a className="red"></a>
           </p>
           <p>
-            7.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina
+            8.-<a onClick={patadasGluteo}>▶️</a>patadas gluteo
             <a className="red"></a>
           </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
-        </div> */}
+          <p>
+            9.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina
+            <a className="red"></a>
+          </p> */}
+          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
+        </div>
         <hr />
         {/* <div className="justify">
           <h1 className="red">Dia 5 fullbody</h1>
