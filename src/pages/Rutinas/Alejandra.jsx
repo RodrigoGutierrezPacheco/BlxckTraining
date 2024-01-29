@@ -1378,14 +1378,14 @@ const Alejandra = () => {
             2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina a 1 pierna<a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla en banco sin peso
+            3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla sin peso
             <a className="red"></a>
           </p>
           <p>
             4.-<a onClick={desplanteBulgaro}>▶️</a> medios desplantes bulgaros sin peso<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={buenosDiasBarra}>▶️</a>peso muerto con mancuernas, medio recorrido
+            5.-<a onClick={buenosDiasBarra}>▶️</a>buenos dias, poco peso
             <a className="red"></a>
           </p>
           <p>
@@ -1394,7 +1394,7 @@ const Alejandra = () => {
           </p>
           <p>
             7.-<a onClick={abduccion}>▶️</a>adducciones en maquina
-            <a className="red">-pesado</a>
+            <a className="red"></a>
           </p>
           {/* <p>
             8.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen libre
