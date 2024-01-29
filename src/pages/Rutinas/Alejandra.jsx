@@ -1129,7 +1129,7 @@ const Alejandra = () => {
       {/* Rutina Semana #1  */}
       <h1>Intensidad media</h1>
       <Collapsible
-        open={true}
+        open={false}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1359,7 +1359,7 @@ const Alejandra = () => {
       </Collapsible>
       {/* Rutina Semana #2  */}
        <Collapsible
-        open={false}
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
