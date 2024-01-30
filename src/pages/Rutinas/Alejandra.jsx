@@ -1122,6 +1122,58 @@ const Alejandra = () => {
 		
   }
 
+	function sentadillaTRX() {
+    Swal.fire({
+      title: 'sentadilla en trx',
+      imageUrl: 'images/sentadillaTRX.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+		
+  }
+
+	function desplantexTRX() {
+    Swal.fire({
+      title: 'desplantes en trx',
+      imageUrl: 'images/desplantesTRX.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+		
+  }
+
+	function remoTRX() {
+    Swal.fire({
+      title: 'remo en trx',
+      imageUrl: 'images/remoTRX.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+		
+  }
+
+	function pressPechoTRX() {
+    Swal.fire({
+      title: 'press pecho en trx',
+      imageUrl: 'images/pressPechoTRX.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+		
+  }
+
   return (
     <div>
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
@@ -1407,47 +1459,45 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 1</p>
         </div>
         <hr />
-        {/* <div className="justify">
-          <h1 className="red">Dia 2 Empuje</h1>
+         <div className="justify">
+          <h1 className="red">Dia 2 funcional</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">pesado: 5 series 8-12 reps movimientos controlados</p>
-          <p className="red">ligero: 4 series 15-20 reps movimientos fluidos</p>
-          <p className="red">Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
+          <p className="red">5 series 30s cada ejercicio</p>
           <p>
-            1.-<a onClick={pressMilitarBarraPie}>▶️</a>Press con barra de pie
-            <a className="red">-pesado</a>
+            1.-<a onClick={sentadillaTRX}>▶️</a>sentadilla en TRX
+            <a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={elevacionesLateralesPoleaBaja}>▶️</a>elevaciones laterales en polea baja
-            <a className="red">-ligero</a>
+            2.-<a onClick={desplantexTRX}>▶️</a>desplantes en TRX
+            <a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>aperturas para posterior en polea baja
-            <a className="red">-ligero</a>
+            3.-<a onClick={remoTRX}>▶️</a>Remo para espalda en TRX
+            <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={pressPechoBarraInclinado}>▶️</a>press pecho con barra en banco inclinado
-            <a className="red">-pesado</a>
+            4.-<a onClick={pressPechoTRX}>▶️</a>press pecho en trx
+            <a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={aperturasMancuernasBancoInclinado}>▶️</a>aperturas en banco inclinado
-            <a className="red">-ligero</a>
+            5.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con mancuernas
+            <a className="red"></a>
           </p>
           <p>
-            6.-<a onClick={fondosMaquina}>▶️</a>fondos en maquina
-            <a className="red">-pesado</a>
+            6.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>elevaciones frontales martillo con mancuernas 
+            <a className="red"></a>
           </p>
           <p>
-            7.-<a onClick={pressFrancesMancuernas}>▶️</a>press frances con mancuernas<a className="red">-pesado</a>
+            7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps banco inclinado<a className="red">-pesado</a>
           </p>
-          <p>
+          {/* <p>
             8.-<a onClick={crunchesSuelo}>▶️</a>crunches en suelo
             <a className="red">-ligero</a>
-          </p>
+          </p> */}
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
         <hr />
-        <div className="justify">
+        {/* <div className="justify">
           <h1 className="red">Dia 3 Espalda-Biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">pesado: 5 series 8-12 reps movimientos controlados</p>
@@ -1485,9 +1535,9 @@ const Alejandra = () => {
             <a className="red">-pesado</a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
-        </div>
+        </div> */}
         <hr />
-        <div className="justify">
+        {/* <div className="justify">
           <h1 className="red">Dia 4 pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">pesado: 5 series 8-12 reps movimientos controlados</p>
@@ -1521,9 +1571,9 @@ const Alejandra = () => {
             <a className="red">-pesado</a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
-        </div>
+        </div> */}
         <hr />
-        <div className="justify">
+        {/* <div className="justify">
           <h1 className="red">Dia 5 fullbody</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
@@ -1550,7 +1600,7 @@ const Alejandra = () => {
             6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado<a className="red"></a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel1</p>
-        </div> */}
+        </div>  */}
       </Collapsible>  
       {/*Rutina Semana #3*/}
        {/* <Collapsible
