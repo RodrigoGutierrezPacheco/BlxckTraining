@@ -1497,45 +1497,39 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1 className="red">Dia 3 Espalda-Biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">pesado: 5 series 8-12 reps movimientos controlados</p>
-          <p className="red">ligero: 4 series 15-20 reps movimientos fluidos</p>
-          <p className="red">Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
           <p>
-            1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en maquina
-            <a className="red">-ligero</a>
+            1.-<a onClick={pulldownSupino}>▶️</a>Pulldown en maquina agarre supino
+            <a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea
-            <a className="red">-pesado</a>
+            2.-<a onClick={remoMaquina}>▶️</a>remo en maquina 
+            <a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={pulloverPoleaAlta}>▶️</a>pulldown over polea alta
-            <a className="red">-ligero</a>
+            3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas
+            <a className="red"></a>
           </p>
           <p>
             4.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion
-            <a className="red">-pesado</a>
+            <a className="red"></a>
           </p>
           <p>
             5.-<a onClick={curlConcentrado}>▶️</a>curl concentrado
-            <a className="red">-pesado</a>
+            <a className="red"></a>
           </p>
           <p>
             6.-<a onClick={curlBicepsPoleaBajaCuerda}>▶️</a>curl biceps en polea baja con cuerda
-            <a className="red">-pesado</a>
+            <a className="red"></a>
           </p>
           <p>
-            7.-<a onClick={hiperextencionesMaquina}>▶️</a>Hiperextenciones en maquina<a className="red">-ligero</a>
-          </p>
-          <p>
-            8.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>Encogimientos con mancuernas
-            <a className="red">-pesado</a>
+            7.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>Encogimientos con mancuernas
+            <a className="red"></a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
-        </div> */}
+        </div>
         <hr />
         {/* <div className="justify">
           <h1 className="red">Dia 4 pierna</h1>
