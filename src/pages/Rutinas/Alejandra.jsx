@@ -1531,11 +1531,9 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1 className="red">Dia 4 pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">pesado: 5 series 8-12 reps movimientos controlados</p>
-          <p className="red">ligero: 4 series 15-20 reps movimientos fluidos</p>
           <p className="red">Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
           <p>
             1.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen
@@ -1565,7 +1563,7 @@ const Alejandra = () => {
             <a className="red">-pesado</a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
-        </div> */}
+        </div>
         <hr />
         {/* <div className="justify">
           <h1 className="red">Dia 5 fullbody</h1>
