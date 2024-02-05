@@ -1411,7 +1411,7 @@ const Alejandra = () => {
       </Collapsible>
       {/* Rutina Semana #2  */}
        <Collapsible
-        open={true}
+        open={false}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1490,10 +1490,6 @@ const Alejandra = () => {
           <p>
             7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps banco inclinado<a className="red">-pesado</a>
           </p>
-          {/* <p>
-            8.-<a onClick={crunchesSuelo}>▶️</a>crunches en suelo
-            <a className="red">-ligero</a>
-          </p> */}
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
         <hr />
@@ -1565,38 +1561,47 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
         <hr />
-        {/* <div className="justify">
-          <h1 className="red">Dia 5 fullbody</h1>
+				<div className="justify">
+          <h1 className="red">Dia 5 funcional</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">
-            5 series 8-12 repeticiones, peso necesario para sacar mismas repeticiones en todas las series, descanso lo
-            que sea necesario para volver a sacar las mismas reps con mismo peso
-          </p>
+          <p className="red">5 series 30s cada ejercicio</p>
           <p>
-            1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina <a className="red"></a>
-          </p>
-          <p>
-            2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina <a className="red"></a>
-          </p>
-          <p>
-            3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas
+            1.-<a onClick={sentadillaTRX}>▶️</a>sentadilla en TRX
             <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina <a className="red"></a>
+            2.-<a onClick={desplantexTRX}>▶️</a>desplantes en TRX
+            <a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className="red"></a>
+            3.-<a onClick={remoTRX}>▶️</a>Remo para espalda en TRX
+            <a className="red"></a>
           </p>
           <p>
-            6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado<a className="red"></a>
+            4.-<a onClick={pressPechoTRX}>▶️</a>press pecho en trx
+            <a className="red"></a>
           </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel1</p>
-        </div>  */}
+          <p>
+            5.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con mancuernas
+            <a className="red"></a>
+          </p>
+          <p>
+            6.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>elevaciones frontales martillo con mancuernas 
+            <a className="red"></a>
+          </p>
+          <p>
+            7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps banco inclinado<a className="red">-pesado</a>
+          </p>
+          {/* <p>
+            8.-<a onClick={crunchesSuelo}>▶️</a>crunches en suelo
+            <a className="red">-ligero</a>
+          </p> */}
+          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
+        </div>
       </Collapsible>  
       {/*Rutina Semana #3*/}
-       {/* <Collapsible
-        open={false}
+       <Collapsible
+        open={true}
         className="dia"
         trigger="Semana 3"
         triggerWhenOpen="Semana 3"
@@ -1639,7 +1644,7 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
         <hr />
-        <div className="justify">
+        {/* <div className="justify">
           <h1>Dia 2 espalda y biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
@@ -1748,7 +1753,6 @@ const Alejandra = () => {
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel2*</p>
         </div>
-
         <hr />
         <div className="justify">
           <h1 className="red">Dia 5 Full</h1>
@@ -1778,8 +1782,8 @@ const Alejandra = () => {
             <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
-        </div>
-      </Collapsible>  */}
+        </div> */}
+      </Collapsible>  
       {/* Rutina semana 4 */}
       {/* <Collapsible
         open={false}
