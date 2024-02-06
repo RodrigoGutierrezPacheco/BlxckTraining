@@ -1644,7 +1644,7 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1>Dia 2 espalda y biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
@@ -1782,7 +1782,7 @@ const Alejandra = () => {
             <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
-        </div> */}
+        </div>
       </Collapsible>  
       {/* Rutina semana 4 */}
       {/* <Collapsible
