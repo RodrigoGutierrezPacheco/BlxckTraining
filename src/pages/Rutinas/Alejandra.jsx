@@ -1677,39 +1677,34 @@ const Alejandra = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
         <hr />
-        <div className="justify">
-          <h1 className="red">Dia 3 Jalon</h1>
+				<div className="justify">
+          <h1 className="red">Dia 3 Full</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">
-            Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series{' '}
+          <p className="red">Todos los ejercicios 4 series de 8-10 repeticiones al 80%</p>
+          <p>
+            1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina{' '}
+            <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p>
-            1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina
-            <a className="red">-pesado</a>
+            2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina{' '}
+            <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p>
-            2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina
-            <a className="red">-pesado</a>
+            3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas
+            <a className="red">-ligero</a>
           </p>
           <p>
-            3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas
-            <a className="red">-pesado</a>
+            4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina{' '}
+            <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p>
-            4.-<a onClick={curlBicepsMaquinaScott}>▶️</a>Curl biceps en maquina Scott<a className="red">-pesado</a>
+            5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p>
-            5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas tipo sumo<a className="red">-pesado</a>
+            6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado
+            <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
-          <p>
-            6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina
-            <a className="red">-pesado</a>
-          </p>
-          <p>
-            7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina
-            <a className="red">-pesado</a>
-          </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel2</p>
+          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
         <hr />
         <div className="justify">
@@ -1755,33 +1750,38 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 5 Full</h1>
+          <h1 className="red">Dia 5 Jalon</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">Todos los ejercicios 4 series de 8-10 repeticiones al 80%</p>
-          <p>
-            1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina{' '}
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
+          <p className="red">
+            Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos maximo entre series{' '}
           </p>
           <p>
-            2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina{' '}
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
+            1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina
+            <a className="red">-pesado</a>
           </p>
           <p>
-            3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con Mancuernas
-            <a className="red">-ligero</a>
+            2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina
+            <a className="red">-pesado</a>
           </p>
           <p>
-            4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina{' '}
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
+            3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie con mancuernas
+            <a className="red">-pesado</a>
           </p>
           <p>
-            5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos <a className="red">4 series de 8-10 repeticiones al 80%</a>
+            4.-<a onClick={curlBicepsMaquinaScott}>▶️</a>Curl biceps en maquina Scott<a className="red">-pesado</a>
           </p>
           <p>
-            6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps Martillo Sentado
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
+            5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas tipo sumo<a className="red">-pesado</a>
           </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
+          <p>
+            6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina
+            <a className="red">-pesado</a>
+          </p>
+          <p>
+            7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina
+            <a className="red">-pesado</a>
+          </p>
+          <p className="red">*Termina con programa cardio S8-Principiante-Nivel2</p>
         </div>
       </Collapsible>  
       {/* Rutina semana 4 */}
