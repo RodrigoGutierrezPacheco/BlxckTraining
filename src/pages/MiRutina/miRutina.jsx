@@ -9,6 +9,8 @@ import Dalet from '../Rutinas/Dalet';
 import Basico1 from '../Rutinas/Basico1';
 import Prueba from '../Rutinas/Prueba';
 import Estefany from '../Rutinas/Estefany';
+import Susina from '../Rutinas/Susina';
+import Jorge from '../Rutinas/Jorge';
 
 const MiRutina = () => {
   function whatsapp() {
@@ -41,17 +43,18 @@ const MiRutina = () => {
 			case 'prueba':
 				setUserRoutine(<Prueba />);
 				break;
+				case 'susy':
+					setUserRoutine(<Susina />);
+					break;
+					case 'jorge':
+						setUserRoutine(<Jorge />);
+						break;
 			case 'alejandro':
 				setUserRoutine(<Alejandro/>);
 				break;
 				case 'estefany':
 					setUserRoutine(<Estefany/>);
 					break;
-			case 'susy':
-			case 'ale':
-			case 'mire':
-			case 'ale':
-			case 'eca':
 			case 'pool':
 				setUserRoutine(<Basico1/>)
 				break;
