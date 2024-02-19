@@ -1179,7 +1179,7 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad media</h1>
+      <h1>Intensidad alta 85%-90%</h1>
       <Collapsible
         open={false}
         trigger="Semana 1"
@@ -1786,7 +1786,7 @@ const Alejandra = () => {
       </Collapsible>  
       {/* Rutina semana 4 */}
        <Collapsible
-        open={true}
+        open={false}
         className="dia black1"
         trigger="Semana 4"
         triggerWhenOpen="Semana 4"
@@ -1982,7 +1982,7 @@ const Alejandra = () => {
         </div>
       </Collapsible> 
       {/* Rutina semana 5 */}
-       {/* <Collapsible
+       <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
@@ -1993,7 +1993,7 @@ const Alejandra = () => {
           <h1 className="red">Dia 1 Torso</h1>
           <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
           <p className="red">
-            3 series 8-15 repeticiones, descanso de 1-2 min, peso bajo
+            3 series 8-15 repeticiones, descanso de 1-2 min, peso alto
           </p>
           <p>
             1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas sentado
@@ -2030,7 +2030,7 @@ const Alejandra = () => {
           <h1>Dia 2 cuadriceps</h1>
           <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
           <p className="red">
-            3 series 8-15 repeticiones, descando de 1-2 min, peso bajo
+            3 series 8-15 repeticiones, descando de 1-2 min, peso alto
           </p>
           <p>
             1.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps en maquina<a className="red"></a>
@@ -2063,7 +2063,7 @@ const Alejandra = () => {
           <h1 className="red">Dia 3 Torso</h1>
           <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
           <p className="red">
-            3 series 8-15 repeticiones, descanso de 1-2 min, peso bajo
+            3 series 8-15 repeticiones, descanso de 1-2 min, peso alto
           </p>
           <p>
             1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas sentado
@@ -2100,7 +2100,7 @@ const Alejandra = () => {
           <h1>Dia 4 cuadriceps</h1>
           <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
           <p className="red">
-            3 series 8-15 repeticiones, descando de 1-2 min, peso bajo
+            3 series 8-15 repeticiones, descando de 1-2 min, peso alto
           </p>
           <p>
             1.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps en maquina<a className="red"></a>
@@ -2159,7 +2159,7 @@ const Alejandra = () => {
           </p>
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero</p>
         </div>
-      </Collapsible>  */}
+      </Collapsible> 
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>

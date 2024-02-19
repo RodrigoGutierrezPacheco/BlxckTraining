@@ -1181,7 +1181,7 @@ const Jorge = () => {
       {/* Rutina Semana #1  */}
       <h1>Intensidad media</h1>
       <Collapsible
-        open={true}
+        open={false}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1357,8 +1357,8 @@ const Jorge = () => {
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-       {/* <Collapsible
-        open={false}
+        <Collapsible
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1500,40 +1500,7 @@ const Jorge = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
         <hr />
-				<div className="justify">
-          <h1 className="red">Dia 5 funcional</h1>
-          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">5 series 30s cada ejercicio</p>
-          <p>
-            1.-<a onClick={sentadillaTRX}>▶️</a>sentadilla en TRX
-            <a className="red"></a>
-          </p>
-          <p>
-            2.-<a onClick={desplantexTRX}>▶️</a>desplantes en TRX
-            <a className="red"></a>
-          </p>
-          <p>
-            3.-<a onClick={remoTRX}>▶️</a>Remo para espalda en TRX
-            <a className="red"></a>
-          </p>
-          <p>
-            4.-<a onClick={pressPechoTRX}>▶️</a>press pecho en trx
-            <a className="red"></a>
-          </p>
-          <p>
-            5.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con mancuernas
-            <a className="red"></a>
-          </p>
-          <p>
-            6.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>elevaciones frontales martillo con mancuernas 
-            <a className="red"></a>
-          </p>
-          <p>
-            7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps banco inclinado<a className="red">-pesado</a>
-          </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
-        </div>
-      </Collapsible>   */}
+      </Collapsible> 
       {/*Rutina Semana #3*/}
        {/* <Collapsible
         open={false}
