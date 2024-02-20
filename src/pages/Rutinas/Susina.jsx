@@ -1358,7 +1358,7 @@ const Susina = () => {
       </Collapsible>
       {/* Rutina Semana #2  */}
       <Collapsible
-        open={false}
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
