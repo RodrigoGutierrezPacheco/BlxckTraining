@@ -3,7 +3,7 @@ import Ejercicios from '../Ejercicios'
 import Swal from 'sweetalert2'
 import Collapsible from 'react-collapsible'
 
-const Jorge = () => {
+const Susina = () => {
   function whatsapp() {
     window.location.href = 'https://api.whatsapp.com/send?phone=525638686467'
   }
@@ -1357,8 +1357,8 @@ const Jorge = () => {
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-        <Collapsible
-        open={true}
+      <Collapsible
+        open={false}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1500,10 +1500,10 @@ const Jorge = () => {
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
         <hr />
-      </Collapsible> 
+      </Collapsible>  
       {/*Rutina Semana #3*/}
-       {/* <Collapsible
-        open={false}
+        <Collapsible
+        open={true}
         className="dia"
         trigger="Semana 3"
         triggerWhenOpen="Semana 3"
@@ -1685,7 +1685,7 @@ const Jorge = () => {
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel2</p>
         </div>
-      </Collapsible>   */}
+      </Collapsible>  
       {/* Rutina semana 4 */}
        {/* <Collapsible
         open={true}
@@ -2073,4 +2073,4 @@ const Jorge = () => {
   )
 }
 
-export default Jorge
+export default Susina
