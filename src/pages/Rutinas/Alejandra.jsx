@@ -1411,14 +1411,14 @@ const Alejandra = () => {
             2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina a 1 pierna<a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla sin peso
+            3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla con barra
             <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={desplanteBulgaro}>▶️</a> medios desplantes bulgaros sin peso<a className="red"></a>
+            4.-<a onClick={desplanteBulgaro}>▶️</a> medios desplantes bulgaros con mancuerns<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={buenosDiasBarra}>▶️</a>buenos dias, poco peso
+            5.-<a onClick={buenosDiasBarra}>▶️</a>buenos dias, barra
             <a className="red"></a>
           </p>
           <p>
