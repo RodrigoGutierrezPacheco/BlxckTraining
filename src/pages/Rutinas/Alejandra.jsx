@@ -1170,9 +1170,9 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad alta 85%-95% 3 series 8-10 reps, ejecucion de movimiento controlado 2 segundos subiendo - 2 segundos bajando</h1>
+      <h1>Intensidad a 70%-80% 4 series 15 reps, ejecucion de movimiento fluido</h1>
       <Collapsible
-        open={true}
+        open={false}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1393,8 +1393,8 @@ const Alejandra = () => {
         </div>
       </Collapsible>
       {/* Rutina Semana #2  */}
-      {/* <Collapsible
-        open={false}
+       <Collapsible
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1403,8 +1403,6 @@ const Alejandra = () => {
         <div className="justify">
           <h1>Dia 1 Pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">4 series 15 reps movimientos fluidos, peso moderado</p>
-          <p className="red">Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
           <p>
             1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina a 1 pierna
             <a className="red"></a>
@@ -1469,7 +1467,7 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 3 Espalda-Biceps</h1>
+          <h1 className="">Dia 3 Espalda-Biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p>
             1.-<a onClick={pulldownSupino}>▶️</a>Pulldown en maquina agarre supino
@@ -1505,7 +1503,6 @@ const Alejandra = () => {
         <div className="justify">
           <h1 className="red">Dia 4 pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">Descanso necesario para volver a sacar las mismas repeticiones con el mismo peso</p>
           <p>
             1.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen
             <a className="red">-ligero</a>
@@ -1537,7 +1534,7 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 5 funcional</h1>
+          <h1 className="">Dia 5 funcional</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">5 series 30s cada ejercicio</p>
           <p>
@@ -1569,7 +1566,7 @@ const Alejandra = () => {
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
-      </Collapsible> */}
+      </Collapsible> 
       {/*Rutina Semana #3*/}
       {/* <Collapsible
         open={false}
