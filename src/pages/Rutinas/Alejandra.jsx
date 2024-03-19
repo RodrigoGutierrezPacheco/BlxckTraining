@@ -1948,8 +1948,8 @@ const Alejandra = () => {
         </div>
       </Collapsible>
       {/* Rutina semana 5 */}
-      {/* <Collapsible
-        open={true}
+       <Collapsible
+        open={false}
         className="dia"
         trigger="Semana 5"
         triggerWhenOpen="Semana 5"
@@ -1958,7 +1958,7 @@ const Alejandra = () => {
         <div className="justify">
           <h1 className="red">Dia 1 Torso</h1>
           <p className="red">*Inicia con calentamiento en bicicleta 10min*</p>
-          <p className="red">3 series 8-15 repeticiones, descanso de 1-2 min, peso alto</p>
+          <p className="red">3 series 8-15 repeticiones, descanso de 1-2 min, peso alto 85%-90%</p>
           <p>
             1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>press militar neutro con mancuernas sentado
             <a className="red"></a>
@@ -2124,7 +2124,7 @@ const Alejandra = () => {
         </div>
 
 
-      </Collapsible> */}
+      </Collapsible> 
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
