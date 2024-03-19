@@ -1569,7 +1569,7 @@ const Alejandra = () => {
       </Collapsible> 
       {/*Rutina Semana #3*/}
        <Collapsible
-        open={true}
+        open={false}
         className="dia"
         trigger="Semana 3"
         triggerWhenOpen="Semana 3"
