@@ -7,7 +7,7 @@ const users = [
 	// { username: 'mire', password: 'mire' },
 	// { username: 'ale', password: 'ale' },
 	// { username: 'juan', password: 'juan' },
-  // { username: 'pepe', password: 'DobleP' },
+  { username: 'pepe', password: 'DobleP' },
   // { username: 'daniel', password: 'daniel' },
   // { username: 'flori', password: 'flori' },
   // { username: 'migue', password: 'migue' },
