@@ -1165,6 +1165,42 @@ const Alejandra = () => {
     })
   }
 
+	function skippings() {
+    Swal.fire({
+      title: 'saltos skippings',
+      imageUrl: 'images/skipping.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+  }
+
+	function crunchesCruzados() {
+    Swal.fire({
+      title: 'crunches cruzados para abdomen',
+      imageUrl: 'images/crunchesCruzados.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+  }
+
+	function jumpingJacks() {
+    Swal.fire({
+      title: 'saltos jumping Jacks',
+      imageUrl: 'images/jumpingJacks.gif',
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: 'Custom image',
+      confirmButtonText: 'Entendido',
+      confirmButtonColor: 'black'
+    })
+  }
+
   return (
     <div>
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
@@ -1193,15 +1229,16 @@ const Alejandra = () => {
             <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={sentadillaMancuerna}>▶️</a>sentadilla con mancuerna 
+            4.-<a onClick={sentadillaMancuerna}>▶️</a>sentadilla con mancuerna
             <a className="red"></a>
           </p>
           <p>
             5.-<a onClick={abduccion}>▶️</a>abducciones en maquina
             <a className="red"></a>
           </p>
-					<p>
-            6.-<a onClick={abdomenInferiorPiernasCompletas}>▶️</a>elevaciones de piernas para abdomen inferior en suelo<a className="red"></a>
+          <p>
+            6.-<a onClick={abdomenInferiorPiernasCompletas}>▶️</a>elevaciones de piernas para abdomen inferior en suelo
+            <a className="red"></a>
           </p>
           <p className="red">*Termina con programa cardio con bicicleta 15 min ritmo ligero</p>
         </div>
@@ -1210,93 +1247,90 @@ const Alejandra = () => {
           <h1>Dia 2 Pierna</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p>
-            1.-<a onClick={extencionCuadriceps}>▶️</a>extencinoes cuadriceps
-            <a className="red"></a>
+            1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps-
+            <a className="red">pausa 2 segundos concentricos</a>
           </p>
           <p>
-            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral maquina
-            <a className="red"> </a>
+            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral maquina-
+            <a className="red"> pausa 2 segundos concentricos</a>
           </p>
           <p>
-            3.-<a onClick={abduccion}>▶️</a>abduccion
-            <a className="red"></a>
+            3.-<a onClick={abduccion}>▶️</a>abduccion-
+            <a className="red">movimientos fluidos</a>
           </p>
           <p>
-            4.-<a onClick={adduccion}>▶️</a>adduccion<a className="red"></a>
+            4.-<a onClick={adduccion}>▶️</a>adduccion-<a className="red">movimientos fluidos</a>
           </p>
           <p>
-            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrila en maquina
-            <a className="red"></a>
-          </p>
-          {/* <p>
-            6.-<a onClick={hipThrust}>▶️</a>Hip Thrust<a className="red"></a>
+            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrila en maquina-
+            <a className="red">movimientos controlados</a>
           </p>
           <p>
-            7.-<a onClick={abduccion}>▶️</a>Abducciones en maquina
-            <a className="red"></a>
+            6.-<a onClick={hipThrust}>▶️</a>Hip Thrust-<a className="red">movimientos explosivos</a>
           </p>
           <p>
-            8.-<a onClick={patadasGluteo}>▶️</a>patadas gluteo
-            <a className="red"></a>
+            7.-<a onClick={abduccion}>▶️</a>Abducciones en maquina-
+            <a className="red">movimiento fluidos</a>
           </p>
           <p>
-            9.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina
-            <a className="red"></a>
-          </p> */}
+            8.-<a onClick={patadasGluteo}>▶️</a>patadas gluteo-
+            <a className="red">movimiento fluidos</a>
+          </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 3 espalda-biceps</h1>
-          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+          <h1 className="red">Dia 3 HIIT sin peso</h1>
+          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* - todos los ejercicios 30-40 segundos, con descanso de 10 segundos entre ejercicios y 5 min entre circuito.</p>
           <p>
             1.-
-            <a onClick={pulldownMaquina} className="pointer">
+            <a onClick={sentadillaBancoSinPeso} className="pointer">
               ▶️
             </a>
-            pulldown en maquina<a className="red"></a>
+            sentadilla sin peso<a className="red"></a>
           </p>
           <p>
             2.-
-            <a onClick={pulldownPolea} className="pointer">
+            <a onClick={lagartijasMilitares} className="pointer">
               ▶️
             </a>
-            pulldown en polea<a className="red"></a>
+            lagartijas<a className="red"></a>
           </p>
           <p>
             3.-
-            <a onClick={remoMancuerna} className="pointer">
+            <a onClick={skippings} className="pointer">
               ▶️
             </a>
-            remo con mancuerna<a className="red"></a>
+            skippings<a className="red"></a>
           </p>
           <p>
             4.-
-            <a onClick={pulloverPoleaAlta} className="pointer">
+            <a onClick={crunchesCruzados} className="pointer">
               ▶️
             </a>
-            pullover<a className="red"></a>
+            crunches cruzados abdomen<a className="red"></a>
           </p>
           <p>
             5.-
-            <a onClick={curlBicepsMancuernas} className="pointer">
+            <a onClick={fondosBanco} className="pointer">
               ▶️
             </a>
-            curl de biceps con mancuernas<a className="red"></a>
+            fondo en banco<a className="red"></a>
           </p>
-          {/* <p>
+					<p>
             6.-
-            <a onClick={curlConcentrado} className="pointer">
+            <a onClick={jumpingJacks} className="pointer">
               ▶️
             </a>
-            curl de biceps concentrado<a className="red"></a>
+            jumping jacks<a className="red"></a>
           </p>
-          <p>
+					<p>
             7.-
-            <a onClick={hiperextencionesMaquina} className="pointer">
+            <a onClick={sentadillaIsometrica} className="pointer">
               ▶️
-            </a> */}
-          hiperextenciones en maquina<a className="red"></a>
+            </a>
+            sentadilla isometrica<a className="red"></a>
+          </p>
         </div>
         <hr />
         <div className="justify">
@@ -1393,7 +1427,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>
       {/* Rutina Semana #2  */}
-       {/* <Collapsible
+      {/* <Collapsible
         open={false}
         className="dia black1"
         trigger="Semana 2"
@@ -1568,7 +1602,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>  */}
       {/*Rutina Semana #3*/}
-       {/* <Collapsible
+      {/* <Collapsible
         open={false}
         className="dia"
         trigger="Semana 3"
@@ -1948,7 +1982,7 @@ const Alejandra = () => {
         </div>
       </Collapsible> */}
       {/* Rutina semana 5 */}
-       {/* <Collapsible
+      {/* <Collapsible
         open={false}
         className="dia"
         trigger="Semana 5"
