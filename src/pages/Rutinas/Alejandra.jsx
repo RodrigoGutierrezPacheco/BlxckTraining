@@ -1501,37 +1501,57 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="">Dia 3 Espalda-Biceps</h1>
-          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
+          <h1 className="red">Dia 3 HIIT sin peso</h1>
+          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* - todos los ejercicios 30-40 segundos, con descanso de 10 segundos entre ejercicios y 5 min entre circuito.</p>
           <p>
-            1.-<a onClick={pulldownSupino}>▶️</a>Pulldown en maquina agarre supino
-            <a className="red"></a>
+            1.-
+            <a onClick={sentadillaBancoSinPeso} className="pointer">
+              ▶️
+            </a>
+            sentadilla sin peso<a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={remoMaquina}>▶️</a>remo en maquina
-            <a className="red"></a>
+            2.-
+            <a onClick={lagartijasMilitares} className="pointer">
+              ▶️
+            </a>
+            lagartijas<a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas
-            <a className="red"></a>
+            3.-
+            <a onClick={skippings} className="pointer">
+              ▶️
+            </a>
+            skippings<a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion
-            <a className="red"></a>
+            4.-
+            <a onClick={crunchesCruzados} className="pointer">
+              ▶️
+            </a>
+            crunches cruzados abdomen<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={curlConcentrado}>▶️</a>curl concentrado
-            <a className="red"></a>
+            5.-
+            <a onClick={fondosBanco} className="pointer">
+              ▶️
+            </a>
+            fondo en banco<a className="red"></a>
           </p>
-          <p>
-            6.-<a onClick={curlBicepsPoleaBajaCuerda}>▶️</a>curl biceps en polea baja con cuerda
-            <a className="red"></a>
+					<p>
+            6.-
+            <a onClick={jumpingJacks} className="pointer">
+              ▶️
+            </a>
+            jumping jacks<a className="red"></a>
           </p>
-          <p>
-            7.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>Encogimientos con mancuernas
-            <a className="red"></a>
+					<p>
+            7.-
+            <a onClick={sentadillaIsometrica} className="pointer">
+              ▶️
+            </a>
+            sentadilla isometrica<a className="red"></a>
           </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
         <hr />
         <div className="justify">
