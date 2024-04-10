@@ -1588,37 +1588,37 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="">Dia 5 funcional</h1>
+          <h1 className="">Dia 5 Espalda-Biceps</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
-          <p className="red">5 series 30s cada ejercicio</p>
           <p>
-            1.-<a onClick={sentadillaTRX}>▶️</a>sentadilla en TRX
+            1.-<a onClick={pulldownSupino}>▶️</a>Pulldown en maquina agarre supino
             <a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={desplantexTRX}>▶️</a>desplantes en TRX
+            2.-<a onClick={remoMaquina}>▶️</a>remo en maquina
             <a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={remoTRX}>▶️</a>Remo para espalda en TRX
+            3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas
             <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={pressPechoTRX}>▶️</a>press pecho en trx
+            4.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion
             <a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con mancuernas
+            5.-<a onClick={curlConcentrado}>▶️</a>curl concentrado
             <a className="red"></a>
           </p>
           <p>
-            6.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>elevaciones frontales martillo con mancuernas
+            6.-<a onClick={curlBicepsPoleaBajaCuerda}>▶️</a>curl biceps en polea baja con cuerda
             <a className="red"></a>
           </p>
           <p>
-            7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps banco inclinado<a className="red">-pesado</a>
+            7.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>Encogimientos con mancuernas
+            <a className="red"></a>
           </p>
-          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 3</p>
+          <p className="red">*Termina con programa cardio S8-Principiante-Nivel 2</p>
         </div>
       </Collapsible>  
       {/*Rutina Semana #3*/}
