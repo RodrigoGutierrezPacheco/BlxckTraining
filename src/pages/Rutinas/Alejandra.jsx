@@ -1737,35 +1737,26 @@ const Alejandra = () => {
           </p>
           <p>
             1.-<a onClick={pressMilitarMaquina}>▶️</a> Press Militar en máquina agarre cerrado
-            <a className="red"> 4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p>
             2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a> Elevaciones laterales con mancuernas
-            <a className="red"> 3 series de 12 repeticiones al 70%</a>
           </p>
           <p>
             3.-<a onClick={facepull}>▶️</a> Face Pull en polea
-            <a className="red"> 3 series de 12 repeticiones al 70%</a>
           </p>
           <p>
-            4.-<a onClick={lagartijasMilitares}>▶️</a> Push-ups o lagartijas regulares
-            <a className="red"> 3 series de 12-15 repeticiones al 70%</a>
           </p>
           <p>
             5.-<a onClick={fondosBanco}>▶️</a> Fondos para tríceps en máquina/banco
-            <a className="red"> 3 series de 10-12 repeticiones al 80%</a>
           </p>
           <p>
             6.-<a onClick={desplantesEstaticos}>▶️</a> desplantes con mancuernas
-            <a className="red"> 3 series de 10 repeticiones por pierna al 75%</a>
           </p>
           <p>
             7.-<a onClick={prensaCerrada}>▶️</a> Prensa de piernas en máquina
-            <a className="red"> 4 series de 8-10 repeticiones al 80%</a>
           </p>
           <p>
             8.-<a onClick={crunchMaquina}>▶️</a> Crunches abdominales
-            <a className="red"> 4 series de 20 repeticiones al 70%</a>
           </p>
           <p className="red">*Termina con programa cardio S8-Principiante-Nivel2*</p>
         </div>
