@@ -2034,7 +2034,8 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 4 Full</h1>
+          <h1 className="red">Dia 4 Full-AMRAP</h1>
+          <p className="">As Many Rounds o Reps As Possible - Todas las repticiones que puedas realizar en 20-30 segundos</p>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
            Cada ejercicio 5-6 series de 20-30 segundos, movimientos explosivos maxima velocidad, peso 20%-40%
