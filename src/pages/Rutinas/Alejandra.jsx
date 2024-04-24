@@ -2034,48 +2034,35 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1>Dia 4 Jalon</h1>
+          <h1 className="red">Dia 4 Full</h1>
+          <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
-            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
-          </p>
-          <p className="red">
-            Ejecucion de los ejercicios en 3-4 segundos, descanso de 1-2 minutos
-            maximo entre series{" "}
+           Cada ejercicio 5-6 series de 20-30 segundos, movimientos explosivos maxima velocidad, peso 20%-40%
           </p>
           <p>
-            1.-<a onClick={pulldownMaquina}>▶️</a>Pulldown en Maquina
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>Press Militar con mancuernas sentado
+            <a className="red"></a>
           </p>
           <p>
-            2.-<a onClick={remoMaquina}>▶️</a>Remo en Maquina
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>curl biceps con mancuernas sentado
+            <a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps de Pie
-            con mancuernas
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            3.-<a onClick={copaUnaMano}>▶️</a>copa a 1 mano sentado<a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={curlBicepsMaquinaScott}>▶️</a>Curl biceps en maquina
-            Scott
-            <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
+            4.-<a onClick={extencionCuadriceps}>▶️</a>extencion de cuadriceps en maquina<a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas
-            tipo sumo
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            5.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina<a className="red"></a>
           </p>
           <p>
-            6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            6.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en maquina<a className="red"></a>
           </p>
           <p>
-            7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina
-            <a className="red"> 4 series al fallo</a>
+            7.-<a onClick={crunchMaquina}>▶️</a>abdominales crunch en maquina<a className="red"></a>
           </p>
-          <p className="red">
-            *Termina con programa cardio S8-Principiante-Nivel2
-          </p>
+          <p className="red">*Termina con programa bicicleta 10min ritmo ligero</p>
         </div>
         <hr />
         <div className="justify">
