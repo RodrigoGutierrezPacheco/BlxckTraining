@@ -48,19 +48,19 @@ const MiRutina = () => {
 					setUserRoutine(<Susina />);
 					break;
 					case 'jorge':
-						setUserRoutine(<Jorge />);
+						setUserRoutine(<Alejandra />);
 						break;
 			case 'alejandro':
 				setUserRoutine(<Alejandro/>);
 				break;
         case 'pool':
-          setUserRoutine(<Pool/>);
+          setUserRoutine(<Alejandra/>);
           break;
 				case 'estefany':
 					setUserRoutine(<Estefany/>);
 					break;
 			case 'pool':
-				setUserRoutine(<Basico1/>)
+				setUserRoutine(<Alejandra/>)
 				break;
 			default:
 				setUserRoutine(<Alejandra />);
