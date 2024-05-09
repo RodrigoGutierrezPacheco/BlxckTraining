@@ -1432,61 +1432,44 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 5 FULL AMRAP peso 20%-30%</h1>
+          <h1 className="red">Dia 5 AMRAP Fullbody</h1>
+          <p className="red">*Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*</p>
           <p className="red">
-            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
-            todos los ejercicios 30-40 segundos, con descanso de 10 segundos
-            entre ejercicios y 5 min entre circuito.
+            Realiza todas las repeticiones y series que puedas de cada ejercicios durante 1 minuto, seran 5-6 vueltas por cada ejercicio descansando 1 minuto, con 20%-30% de peso
           </p>
           <p>
-            1.-
-            <a onClick={sentadillaBancoSinPeso} className="pointer">
-              ▶️
-            </a>
-            sentadilla sin peso<a className="red"></a>
+            1.- <a onClick={sentadillaBarra}>▶️</a> Sentadilla con barra
+            <a className="red"></a>
           </p>
           <p>
-            2.-
-            <a onClick={lagartijasMilitares} className="pointer">
-              ▶️
-            </a>
-            lagartijas<a className="red"></a>
+            2.- <a onClick={pressPechoPlanoBarra}>▶️</a> Press de banca con barra
+            <a className="red"></a>
           </p>
           <p>
-            3.-
-            <a onClick={skippings} className="pointer">
-              ▶️
-            </a>
-            skippings<a className="red"></a>
+            3.- <a onClick={dominadasAsistidas}>▶️</a> Dominadas asistidas
+            <a className="red"></a>
           </p>
           <p>
-            4.-
-            <a onClick={crunchesCruzados} className="pointer">
-              ▶️
-            </a>
-            crunches cruzados abdomen<a className="red"></a>
+            4.- <a onClick={fondosMaquina}>▶️</a> Fondos en maquina
+            <a className="red"></a>
           </p>
           <p>
-            5.-
-            <a onClick={fondosBanco} className="pointer">
-              ▶️
-            </a>
-            fondo en banco<a className="red"></a>
+            5.- <a onClick={pesoMuertoBarra}>▶️</a> Peso muerto con barra
+            <a className="red"></a>
           </p>
           <p>
-            6.-
-            <a onClick={jumpingJacks} className="pointer">
-              ▶️
-            </a>
-            jumping jacks<a className="red"></a>
+            6.- <a onClick={remoBarra}>▶️</a> Remo con barra
+            <a className="red"></a>
           </p>
           <p>
-            7.-
-            <a onClick={sentadillaIsometrica} className="pointer">
-              ▶️
-            </a>
-            sentadilla isometrica<a className="red"></a>
+            7.- <a onClick={pressMilitarNeutroMancuernas}>▶️</a> Press de hombros con mancuernas
+            <a className="red"></a>
           </p>
+          <p>
+            8.- <a onClick={curlBicepsBarra}>▶️</a> Curl de bíceps con barra recta
+            <a className="red"></a>
+          </p>
+          <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
         </div>
         <hr />
       </Collapsible>
