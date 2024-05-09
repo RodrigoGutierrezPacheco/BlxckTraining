@@ -1411,7 +1411,7 @@ const Alejandra = () => {
             maquina
             <a className="red"></a>
           </p>
-          {/* <p>
+           <p>
             6.-<a onClick={hipThrust}>▶️</a>Hip Thrust<a className="red"></a>
           </p>
           <p>
@@ -1425,66 +1425,70 @@ const Alejandra = () => {
           <p>
             9.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina
             <a className="red"></a>
-          </p> */}
+          </p> 
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
           </p>
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 5 espalda-biceps</h1>
+          <h1 className="red">Dia 5 HIIT sin peso</h1>
           <p className="red">
-            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
+            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
+            todos los ejercicios 30-40 segundos, con descanso de 10 segundos
+            entre ejercicios y 5 min entre circuito.
           </p>
           <p>
             1.-
-            <a onClick={pulldownMaquina} className="pointer">
+            <a onClick={sentadillaBancoSinPeso} className="pointer">
               ▶️
             </a>
-            pulldown en maquina<a className="red"></a>
+            sentadilla sin peso<a className="red"></a>
           </p>
           <p>
             2.-
-            <a onClick={pulldownPolea} className="pointer">
+            <a onClick={lagartijasMilitares} className="pointer">
               ▶️
             </a>
-            pulldown en polea<a className="red"></a>
+            lagartijas<a className="red"></a>
           </p>
           <p>
             3.-
-            <a onClick={remoMancuerna} className="pointer">
+            <a onClick={skippings} className="pointer">
               ▶️
             </a>
-            remo con mancuerna<a className="red"></a>
+            skippings<a className="red"></a>
           </p>
           <p>
             4.-
-            <a onClick={pulloverPoleaAlta} className="pointer">
+            <a onClick={crunchesCruzados} className="pointer">
               ▶️
             </a>
-            pullover<a className="red"></a>
+            crunches cruzados abdomen<a className="red"></a>
           </p>
           <p>
             5.-
-            <a onClick={curlBicepsMancuernas} className="pointer">
+            <a onClick={fondosBanco} className="pointer">
               ▶️
             </a>
-            curl de biceps con mancuernas<a className="red"></a>
+            fondo en banco<a className="red"></a>
           </p>
-          {/* <p>
+          <p>
             6.-
-            <a onClick={curlConcentrado} className="pointer">
+            <a onClick={jumpingJacks} className="pointer">
               ▶️
             </a>
-            curl de biceps concentrado<a className="red"></a>
+            jumping jacks<a className="red"></a>
           </p>
           <p>
             7.-
-            <a onClick={hiperextencionesMaquina} className="pointer">
+            <a onClick={sentadillaIsometrica} className="pointer">
               ▶️
-            </a> */}
-          hiperextenciones en maquina<a className="red"></a>
+            </a>
+            sentadilla isometrica<a className="red"></a>
+          </p>
         </div>
+        <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
       {/* <Collapsible
