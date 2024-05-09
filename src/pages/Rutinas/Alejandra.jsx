@@ -1432,7 +1432,7 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 5 HIIT sin peso</h1>
+          <h1 className="red">Dia 5 FULL AMRAP peso 20%-30%</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
             todos los ejercicios 30-40 segundos, con descanso de 10 segundos
