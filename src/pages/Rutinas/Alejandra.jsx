@@ -1244,7 +1244,7 @@ const Alejandra = () => {
       {/* Rutina Semana #1  */}
       <h1>Intensidad a 80%-85% 4 series 12 reps, ejecucion de movimiento controlado</h1>
       <Collapsible
-        open={true}
+        open={false}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1411,7 +1411,7 @@ const Alejandra = () => {
             maquina
             <a className="red"></a>
           </p>
-           <p>
+          <p>
             6.-<a onClick={hipThrust}>▶️</a>Hip Thrust<a className="red"></a>
           </p>
           <p>
@@ -1425,7 +1425,7 @@ const Alejandra = () => {
           <p>
             9.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina
             <a className="red"></a>
-          </p> 
+          </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
           </p>
@@ -1474,46 +1474,42 @@ const Alejandra = () => {
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-      {/* <Collapsible
-        open={false}
+      <Collapsible
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
-          <h1>Dia 1 Pierna</h1>
+          <h1>Dia 1 Empuje</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
           </p>
           <p>
-            1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps en
-            maquina a 1 pierna
-            <a className="red"></a>
+            1.-<a onClick={pressMilitarMaquina}>▶️</a>-Press militar máquina
+            <a className="red">4 series 8-12reps</a>
           </p>
           <p>
-            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina a 1
-            pierna<a className="red"></a>
+            2.-<a onClick={elevacionesLateralesInclinado}>▶️</a>Elevaciones laterales con mancuernas ambas manos<a className="red"> 4 series 15 reps</a>
           </p>
           <p>
-            3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla con barra
-            <a className="red"></a>
+            3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Aperturas para deltoides posterior en polea baja<a className="red"> 4 series 10-12 reps</a>
           </p>
           <p>
-            4.-<a onClick={desplanteBulgaro}>▶️</a> medios desplantes bulgaros
-            con mancuerns<a className="red"></a>
+            4.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className="red"> 4 series de 15 reps</a>
           </p>
           <p>
-            5.-<a onClick={buenosDiasBarra}>▶️</a>buenos dias, barra
-            <a className="red"></a>
+            5.-<a onClick={aperturasMaquina}>▶️</a>aperturas para pecho en maquina
+            <a className="red"> 4 series 15 reps</a>
           </p>
           <p>
-            6.-<a onClick={hipThrust}>▶️</a>abducciones en maquina
-            <a className="red"></a>
+            6.-<a onClick={copa2Manos}>▶️</a>copa a 2 manos sentado
+            <a className="red"> 4 series 12 reps</a>
           </p>
           <p>
-            7.-<a onClick={abduccion}>▶️</a>adducciones en maquina
-            <a className="red"></a>
+            7.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta con cuerdas
+            <a className="red"> 4 series 15 reps</a>
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 1
@@ -1521,40 +1517,36 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 2 funcional</h1>
+          <h1 className="red">Dia 2 jalon</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
           </p>
-          <p className="red">5 series 30s cada ejercicio</p>
           <p>
-            1.-<a onClick={sentadillaTRX}>▶️</a>sentadilla en TRX
-            <a className="red"></a>
+            1.-<a onClick={pulldownPolea}>▶️</a>pulldown prono en maquina
+            <a className="red"> 4 series 10-15-reps</a>
           </p>
           <p>
-            2.-<a onClick={desplantexTRX}>▶️</a>desplantes en TRX
-            <a className="red"></a>
+            2.-<a onClick={remoMaquina}>▶️</a>remo en maquina
+            <a className="red"> 4 series 12 reps</a>
           </p>
           <p>
-            3.-<a onClick={remoTRX}>▶️</a>Remo para espalda en TRX
-            <a className="red"></a>
+            3.-<a onClick={remoMancuerna}>▶️</a>remo con mancuerna
+            <a className="red"> 4 srries 10 reps c/u</a>
           </p>
           <p>
-            4.-<a onClick={pressPechoTRX}>▶️</a>press pecho en trx
-            <a className="red"></a>
+            4.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos lateraleres con mancuernas
+            <a className="red"> 4 series al fallo</a>
           </p>
           <p>
-            5.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones
-            laterales con mancuernas
-            <a className="red"></a>
+            5.-<a onClick={curlBicepsRotacionPie}>▶️</a>Curl biceps rotacion con mancuernas de pie
+            <a className="red"> 4 series 10-15 reps</a>
           </p>
           <p>
-            6.-<a onClick={elevacionesFrontalesMartillo}>▶️</a>elevaciones
-            frontales martillo con mancuernas
-            <a className="red"></a>
+            6.-<a onClick={curlConcentrado}>▶️</a>curl concentrado con mancuernas
+            <a className="red"> 4 series 10 reps</a>
           </p>
           <p>
-            7.-<a onClick={curlBicepsInclinado}>▶️</a>curl biceps banco
-            inclinado<a className="red">-pesado</a>
+            7.-<a onClick={curlBicepsMaquinaScott}>▶️</a>curl de biceps en maquina scott<a className="red">4 series 12 reps</a>
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
@@ -1562,7 +1554,7 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 3 HIIT sin peso</h1>
+          <h1 className="red">Dia 3 pierna</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
             todos los ejercicios 30-40 segundos, con descanso de 10 segundos
@@ -1570,136 +1562,148 @@ const Alejandra = () => {
           </p>
           <p>
             1.-
-            <a onClick={sentadillaBancoSinPeso} className="pointer">
+            <a onClick={sentadillaMancuerna} className="pointer">
               ▶️
             </a>
-            sentadilla sin peso<a className="red"></a>
+            sentadilla con mancuernas<a className="red"> 4 series 12-15 reps</a>
           </p>
           <p>
             2.-
-            <a onClick={lagartijasMilitares} className="pointer">
+            <a onClick={prensaCerrada} className="pointer">
               ▶️
             </a>
-            lagartijas<a className="red"></a>
+            prensa cerrada en maquina o con barra libre<a className="red"> 4 series 12 reps</a>
           </p>
           <p>
             3.-
-            <a onClick={skippings} className="pointer">
+            <a onClick={desplanteBulgaro} className="pointer">
               ▶️
             </a>
-            skippings<a className="red"></a>
+            desplantes bulgaros<a className="red"> 4 series 10 reps c/u</a>
           </p>
           <p>
             4.-
-            <a onClick={crunchesCruzados} className="pointer">
+            <a onClick={extencionCuadriceps} className="pointer">
               ▶️
             </a>
-            crunches cruzados abdomen<a className="red"></a>
+            extencion de cuadriceps en maquina<a className="red"> 4 series al fallo</a>
           </p>
           <p>
             5.-
-            <a onClick={fondosBanco} className="pointer">
+            <a onClick={abduccion} className="pointer">
               ▶️
             </a>
-            fondo en banco<a className="red"></a>
+            abducciones en maquina<a className="red"> 4 series 15 reps</a>
           </p>
           <p>
             6.-
-            <a onClick={jumpingJacks} className="pointer">
+            <a onClick={hipThrust} className="pointer">
               ▶️
             </a>
-            jumping jacks<a className="red"></a>
+            hip thrust con barra<a className="red"> 4 saeries 10-12 reps</a>
           </p>
           <p>
             7.-
-            <a onClick={sentadillaIsometrica} className="pointer">
+            <a onClick={pantorrillaLibre} className="pointer">
               ▶️
             </a>
-            sentadilla isometrica<a className="red"></a>
+            pantorrilla de pie con mancuernas<a className="red"> 4 series al fallo</a>
           </p>
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 4 pierna</h1>
+          <h1>Dia 4 Empuje</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
           </p>
           <p>
-            1.-<a onClick={crunchesPiernasArriba}>▶️</a>abdomen
-            <a className="red">-ligero</a>
+            1.-<a onClick={pressMilitarMaquina}>▶️</a>-Press militar máquina
+            <a className="red">4 series 8-12reps</a>
           </p>
           <p>
-            2.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps
-            maquina a 1 pierna
-            <a className="red">-pesado</a>
+            2.-<a onClick={elevacionesLateralesInclinado}>▶️</a>Elevaciones laterales con mancuernas ambas manos<a className="red"> 4 series 15 reps</a>
           </p>
           <p>
-            3.-<a onClick={sentadillaBarra}>▶️</a>sentadilla estricta con
-            mancuerna *hasta abajo*
-            <a className="red">-pesado</a>
+            3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Aperturas para deltoides posterior en polea baja<a className="red"> 4 series 10-12 reps</a>
           </p>
           <p>
-            4.-<a onClick={desplantesEstaticos}>▶️</a>desplantes estaticos con
-            barra<a className="red">-ligero</a>
+            4.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className="red"> 4 series de 15 reps</a>
           </p>
           <p>
-            5.-<a onClick={prensaSumo}>▶️</a>prensa sumo para femoral
-            <a className="red">-pesado</a>
+            5.-<a onClick={aperturasMaquina}>▶️</a>aperturas para pecho en maquina
+            <a className="red"> 4 series 15 reps</a>
           </p>
           <p>
-            6.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina
-            <a className="red">-pesado</a>
+            6.-<a onClick={copa2Manos}>▶️</a>copa a 2 manos sentado
+            <a className="red"> 4 series 12 reps</a>
           </p>
           <p>
-            7.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina
-            <a className="red">-pesado</a>
+            7.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta con cuerdas
+            <a className="red"> 4 series 15 reps</a>
           </p>
           <p className="red">
-            *Termina con programa cardio S8-Principiante-Nivel 2
+            *Termina con programa cardio S8-Principiante-Nivel 1
           </p>
         </div>
         <hr />
         <div className="justify">
-          <h1 className="">Dia 5 Espalda-Biceps</h1>
+          <h1 className="red">Dia 5 pierna</h1>
           <p className="red">
-            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
+            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
+            todos los ejercicios 30-40 segundos, con descanso de 10 segundos
+            entre ejercicios y 5 min entre circuito.
           </p>
           <p>
-            1.-<a onClick={pulldownSupino}>▶️</a>Pulldown en maquina agarre
-            supino
-            <a className="red"></a>
+            1.-
+            <a onClick={sentadillaMancuerna} className="pointer">
+              ▶️
+            </a>
+            sentadilla con mancuernas<a className="red"> 4 series 12-15 reps</a>
           </p>
           <p>
-            2.-<a onClick={remoMaquina}>▶️</a>remo en maquina
-            <a className="red"></a>
+            2.-
+            <a onClick={prensaCerrada} className="pointer">
+              ▶️
+            </a>
+            prensa cerrada en maquina o con barra libre<a className="red"> 4 series 12 reps</a>
           </p>
           <p>
-            3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas
-            <a className="red"></a>
+            3.-
+            <a onClick={desplanteBulgaro} className="pointer">
+              ▶️
+            </a>
+            desplantes bulgaros<a className="red"> 4 series 10 reps c/u</a>
           </p>
           <p>
-            4.-<a onClick={curlBicepsRotacionPie}>▶️</a>curl biceps con rotacion
-            <a className="red"></a>
+            4.-
+            <a onClick={extencionCuadriceps} className="pointer">
+              ▶️
+            </a>
+            extencion de cuadriceps en maquina<a className="red"> 4 series al fallo</a>
           </p>
           <p>
-            5.-<a onClick={curlConcentrado}>▶️</a>curl concentrado
-            <a className="red"></a>
+            5.-
+            <a onClick={abduccion} className="pointer">
+              ▶️
+            </a>
+            abducciones en maquina<a className="red"> 4 series 15 reps</a>
           </p>
           <p>
-            6.-<a onClick={curlBicepsPoleaBajaCuerda}>▶️</a>curl biceps en polea
-            baja con cuerda
-            <a className="red"></a>
+            6.-
+            <a onClick={hipThrust} className="pointer">
+              ▶️
+            </a>
+            hip thrust con barra<a className="red"> 4 saeries 10-12 reps</a>
           </p>
           <p>
-            7.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>Encogimientos
-            con mancuernas
-            <a className="red"></a>
-          </p>
-          <p className="red">
-            *Termina con programa cardio S8-Principiante-Nivel 2
+            7.-
+            <a onClick={pantorrillaLibre} className="pointer">
+              ▶️
+            </a>
+            pantorrilla de pie con mancuernas<a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible>
       {/*Rutina Semana #3*/}
       {/* <Collapsible
         open={false}
