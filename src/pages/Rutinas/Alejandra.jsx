@@ -1911,13 +1911,13 @@ const Alejandra = () => {
       </Collapsible>
       {/* Rutina semana 4 */}
       <Collapsible
-        open={true}
+        open={false}
         className="dia black1"
         trigger="Semana 4"
         triggerWhenOpen="Semana 4"
         triggerStyle={{ fontSize: "5rem" }}
       >
-        {/* <div className="justify">
+        <div className="justify">
           <h1 className="red">Dia 1 pecho-hombro-triceps</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
@@ -2058,7 +2058,7 @@ const Alejandra = () => {
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nive3
           </p>
-        </div> */}
+        </div>
         <hr />
         <div className="justify">
           <h1 className="red">Dia 4 Full-AMRAP</h1>
@@ -2138,7 +2138,7 @@ const Alejandra = () => {
         </div>
       </Collapsible> 
       {/* Rutina semana 5 */}
-      {/* <Collapsible
+       <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
@@ -2149,7 +2149,7 @@ const Alejandra = () => {
           <h1 className="red">Dia 1 Full</h1>
           <p className="red">*Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*</p>
           <p className="red">
-            4 series 8-15 repeticiones, descanso de 1-2 min, peso alto 85%-90%
+            4 series 8-15 repeticiones, descanso de 1-2 min, peso bajo 40%-50%
           </p>
           <p>
             1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>Press Militar con mancuernas sentado
@@ -2323,7 +2323,7 @@ const Alejandra = () => {
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
         </div>
 
-      </Collapsible> */}
+      </Collapsible> 
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
