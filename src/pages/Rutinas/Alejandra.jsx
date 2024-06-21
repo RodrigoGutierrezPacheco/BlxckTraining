@@ -1242,9 +1242,9 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad a 80%-85% 4 series 12 reps, ejecucion de movimiento controlado</h1>
+      <h1>Intensidad a 40%-45% 4 series 12 reps, ejecucion de movimiento controlado</h1>
       <Collapsible
-        open={false}
+        open={true}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1474,7 +1474,7 @@ const Alejandra = () => {
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-      <Collapsible
+      {/* <Collapsible
         open={false}
         className="dia black1"
         trigger="Semana 2"
@@ -1703,9 +1703,9 @@ const Alejandra = () => {
             pantorrilla de pie con mancuernas<a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible>
+      </Collapsible> */}
       {/*Rutina Semana #3*/}
-       <Collapsible
+       {/* <Collapsible
         open={false}
         className="dia"
         trigger="Semana 3"
@@ -1908,9 +1908,9 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel2
           </p>
         </div>
-      </Collapsible>
+      </Collapsible> */}
       {/* Rutina semana 4 */}
-      <Collapsible
+      {/* <Collapsible
         open={false}
         className="dia black1"
         trigger="Semana 4"
@@ -2136,7 +2136,7 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel2
           </p>
         </div>
-      </Collapsible> 
+      </Collapsible>  */}
       {/* Rutina semana 5 */}
        <Collapsible
         open={true}
