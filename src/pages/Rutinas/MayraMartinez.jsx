@@ -3,7 +3,7 @@ import Ejercicios from "../Ejercicios";
 import Swal from "sweetalert2";
 import Collapsible from "react-collapsible";
 
-const Alejandra = () => {
+const MayraMartinez = () => {
   function whatsapp() {
     window.location.href = "https://api.whatsapp.com/send?phone=525638686467";
   }
@@ -1237,12 +1237,24 @@ const Alejandra = () => {
     });
   }
 
+  function mediasLagartijas() {
+    Swal.fire({
+      title: "medias lagartijas en suelo",
+      imageUrl: "images/mediasLagartijas.gif",
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: "Custom image",
+      confirmButtonText: "Entendido",
+      confirmButtonColor: "black",
+    });
+  }
+
   return (
     <div>
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad a 40%-45% 4 series 12 reps, ejecucion de movimiento controlado</h1>
+      <h1>Intensidad a 40%-45% 4 series 8-10 reps, ejecución de movimiento controlado</h1>
       <Collapsible
         open={true}
         trigger="Semana 1"
@@ -1250,10 +1262,11 @@ const Alejandra = () => {
         triggerWhenOpen="Semana 1"
         triggerStyle={{ fontSize: "5rem" }}
       >
+        {/* Dia 1 */}
         <div className="justify">
           <h1 className="red">Dia 1 hombro, pecho, femoral</h1>
           <p className="red">
-            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
+            *Inicia con calentamiento en caminadora/eliptica/bicicleta 15min*
           </p>
           <p>
             1.-<a onClick={pressMilitarMaquina}>▶️</a>press militar en maquina
@@ -1264,70 +1277,52 @@ const Alejandra = () => {
             <a className="red"></a>
           </p>
           <p>
-            3.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina
+            3.-<a onClick={copa2Manos}>▶️</a>copa a 2 manos sentada
             <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={sentadillaMancuerna}>▶️</a>sentadilla con mancuerna
+            4.-<a onClick={sentadillaMancuerna}>▶️</a>media sentadilla "mitad de recorrido" con mancuerna
             <a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={abduccion}>▶️</a>abducciones en maquina
-            <a className="red"></a>
-          </p>
-          <p>
-            6.-<a onClick={abdomenInferiorPiernasCompletas}>▶️</a>elevaciones de
-            piernas para abdomen inferior en suelo
+            5.-<a onClick={crunchSuelo}>▶️</a>medios crunches en suelo
             <a className="red"></a>
           </p>
           <p className="red">
-            *Termina con programa cardio con bicicleta 15 min ritmo ligero
+            *Termina con programa cardio con bicicleta 10 min ritmo ligero
           </p>
         </div>
         <hr />
+        {/* Dia 2 */}
         <div className="justify">
           <h1>Dia 2 Pierna</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
           </p>
           <p>
-            1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps-
-            <a className="red">pausa 2 segundos concentricos</a>
+            1.-<a onClick={extencionCuadriceps}>▶️</a>extenciones cuadriceps
           </p>
           <p>
-            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral maquina-
-            <a className="red"> pausa 2 segundos concentricos</a>
+            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral maquina
           </p>
           <p>
-            3.-<a onClick={abduccion}>▶️</a>abduccion-
-            <a className="red">movimientos fluidos</a>
+            3.-<a onClick={abduccion}>▶️</a>abduccion
           </p>
           <p>
-            4.-<a onClick={adduccion}>▶️</a>adduccion-
-            <a className="red">movimientos fluidos</a>
+            4.-<a onClick={adduccion}>▶️</a>adduccion
           </p>
           <p>
-            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrila en
-            maquina-
-            <a className="red">movimientos controlados</a>
+            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrilla con mancuerna
           </p>
           <p>
-            6.-<a onClick={hipThrust}>▶️</a>Hip Thrust-
-            <a className="red">movimientos explosivos</a>
-          </p>
-          <p>
-            7.-<a onClick={abduccion}>▶️</a>Abducciones en maquina-
-            <a className="red">movimiento fluidos</a>
-          </p>
-          <p>
-            8.-<a onClick={patadasGluteo}>▶️</a>patadas gluteo-
-            <a className="red">movimiento fluidos</a>
+            6.-<a onClick={patadasGluteo}>▶️</a>patadas gluteo
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
           </p>
         </div>
         <hr />
+        {/* Dia 3 */}
         <div className="justify">
           <h1 className="red">Dia 3 HIIT sin peso</h1>
           <p className="red">
@@ -1344,10 +1339,10 @@ const Alejandra = () => {
           </p>
           <p>
             2.-
-            <a onClick={lagartijasMilitares} className="pointer">
+            <a onClick={mediasLagartijas} className="pointer">
               ▶️
             </a>
-            lagartijas<a className="red"></a>
+           medias lagartijas<a className="red"></a>
           </p>
           <p>
             3.-
@@ -1386,6 +1381,7 @@ const Alejandra = () => {
           </p>
         </div>
         <hr />
+        {/* Dia 4 */}
         <div className="justify">
           <h1>Dia 4 Pierna</h1>
           <p className="red">
@@ -1404,26 +1400,23 @@ const Alejandra = () => {
             <a className="red"></a>
           </p>
           <p>
-            4.-<a onClick={adduccion}>▶️</a>adduccion<a className="red"></a>
-          </p>
-          <p>
-            5.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrila en
+            4.-<a onClick={pantorrillaSentadoMancuernas}>▶️</a>pantorrila en
             maquina
             <a className="red"></a>
           </p>
           <p>
-            6.-<a onClick={hipThrust}>▶️</a>Hip Thrust<a className="red"></a>
+            5.-<a onClick={hipThrust}>▶️</a>Hip Thrust<a className="red"></a>
           </p>
           <p>
-            7.-<a onClick={abduccion}>▶️</a>Abducciones en maquina
+            6.-<a onClick={abduccion}>▶️</a>Abducciones en maquina
             <a className="red"></a>
           </p>
           <p>
-            8.-<a onClick={patadasGluteo}>▶️</a>patadas gluteo
+            7.-<a onClick={patadasGluteo}>▶️</a>patadas gluteo
             <a className="red"></a>
           </p>
           <p>
-            9.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina
+            8.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina
             <a className="red"></a>
           </p>
           <p className="red">
@@ -1431,6 +1424,7 @@ const Alejandra = () => {
           </p>
         </div>
         <hr />
+        {/* Dia 5 */}
         <div className="justify">
           <h1 className="red">Dia 5 AMRAP Fullbody</h1>
           <p className="red">*Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*</p>
@@ -1438,35 +1432,31 @@ const Alejandra = () => {
             Realiza todas las repeticiones y series que puedas de cada ejercicios durante 1 minuto, seran 5-6 vueltas por cada ejercicio descansando 1 minuto, con 20%-30% de peso
           </p>
           <p>
-            1.- <a onClick={sentadillaBarra}>▶️</a> Sentadilla con barra
+            1.- <a onClick={sentadillaMancuerna}>▶️</a> Sentadilla con mancuerna
             <a className="red"></a>
           </p>
           <p>
-            2.- <a onClick={pressPechoPlanoBarra}>▶️</a> Press de banca con barra
+            2.- <a onClick={pressPechoMaquina}>▶️</a> press pecho en maquina
             <a className="red"></a>
           </p>
           <p>
-            3.- <a onClick={dominadasAsistidas}>▶️</a> Dominadas asistidas
+            3.- <a onClick={fondosMaquina}>▶️</a> Fondos en maquina
             <a className="red"></a>
           </p>
           <p>
-            4.- <a onClick={fondosMaquina}>▶️</a> Fondos en maquina
+            4.- <a onClick={desplantesEstaticos}>▶️</a> desplantes estaticos sin peso
             <a className="red"></a>
           </p>
           <p>
-            5.- <a onClick={pesoMuertoBarra}>▶️</a> Peso muerto con barra
+            5.- <a onClick={remoBarra}>▶️</a> Remo con barra
             <a className="red"></a>
           </p>
           <p>
-            6.- <a onClick={remoBarra}>▶️</a> Remo con barra
+            6.- <a onClick={pressMilitarNeutroMancuernas}>▶️</a> Press de hombros con mancuernas
             <a className="red"></a>
           </p>
           <p>
-            7.- <a onClick={pressMilitarNeutroMancuernas}>▶️</a> Press de hombros con mancuernas
-            <a className="red"></a>
-          </p>
-          <p>
-            8.- <a onClick={curlBicepsBarra}>▶️</a> Curl de bíceps con barra recta
+            7.- <a onClick={curlBicepsBarra}>▶️</a> Curl de bíceps con barra recta
             <a className="red"></a>
           </p>
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
@@ -2335,4 +2325,4 @@ const Alejandra = () => {
   );
 };
 
-export default Alejandra;
+export default MayraMartinez;

@@ -4,6 +4,7 @@ const users = [
 	{ username: 'jorge', password: 'jorge' },
 	{ username: 'susy', password: 'susy' },
 	{ username: 'Carlos Morales', password: 'CarlosMorales' },
+	{ username: 'Mayra Martinez', password: 'MayraMartinez' },
 	// { username: 'alejandra', password: 'alejandra' },
 	// { username: 'alejandro', password: 'alejandro' },
 	// { username: 'mire', password: 'mire' },
