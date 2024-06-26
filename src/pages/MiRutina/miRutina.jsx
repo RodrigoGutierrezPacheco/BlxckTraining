@@ -12,6 +12,7 @@ import Estefany from '../Rutinas/Estefany';
 import Susina from '../Rutinas/Susina';
 import Jorge from '../Rutinas/Jorge';
 import Pool from '../Rutinas/Pool';
+import Carlos from '../Rutinas/Carlos';
 
 const MiRutina = () => {
   function whatsapp() {
@@ -32,62 +33,66 @@ const MiRutina = () => {
       setUsername(savedUsername);
     }
   }, []);
+  console.log(localStorage?.getItem('username'))
 
-	useEffect(() => {
-		switch (username.toLowerCase()) {
-			case 'dalet':
-				setUserRoutine(<Dalet />);
-				break;
-				case 'jesus':
-					setUserRoutine(<Alejandra />);
-					break;
-			case 'prueba':
-				setUserRoutine(<Prueba />);
-				break;
-				case 'susy':
-					setUserRoutine(<Susina />);
-					break;
-					case 'jorge':
-						setUserRoutine(<Alejandra />);
-						break;
-			case 'alejandro':
-				setUserRoutine(<Alejandro/>);
-				break;
-        case 'pool':
-          setUserRoutine(<Alejandra/>);
-          break;
-				case 'estefany':
-					setUserRoutine(<Estefany/>);
-					break;
-			case 'pool':
-				setUserRoutine(<Alejandra/>)
-				break;
-			default:
-				setUserRoutine(<Alejandra />);
-				break;
-		}
-	}, [username, password]);
-	
+  useEffect(() => {
+    switch (username.toLowerCase()) {
+      case 'dalet':
+        setUserRoutine(<Dalet />);
+        break;
+      case 'jesus':
+        setUserRoutine(<Alejandra />);
+        break;
+      case 'prueba':
+        setUserRoutine(<Prueba />);
+        break;
+      case 'carlos morales':
+        setUserRoutine(<Carlos />)
+        break;
+      case 'susy':
+        setUserRoutine(<Susina />);
+        break;
+      case 'jorge':
+        setUserRoutine(<Alejandra />);
+        break;
+      case 'alejandro':
+        setUserRoutine(<Alejandro />);
+        break;
+      case 'pool':
+        setUserRoutine(<Alejandra />);
+        break;
+      case 'estefany':
+        setUserRoutine(<Estefany />);
+        break;
+      case 'pool':
+        setUserRoutine(<Alejandra />)
+        break;
+      default:
+        setUserRoutine(<Alejandra />);
+        break;
+    }
+  }, [username, password]);
 
-	const handleLogin = (event) => {
-		event.preventDefault();
-		const user = users.find((user) => user.username.toLowerCase() === username.toLowerCase().trim());
-		if (user && user.password === password) {
-			setLoggedIn(true);
-			localStorage.setItem('loggedIn', 'true');
-			localStorage.setItem('username', user.username.toLowerCase());
-			setUserNotFound(false);
-		} else {
-			Swal.fire({
-				icon: 'error',
-				title: 'Credenciales inválidas',
-				text: 'El nombre de usuario o la contraseña son incorrectos.',
-			});
-			setLoggedIn(false);
-			setUserNotFound(true);
-		}
-	};
-	
+
+  const handleLogin = (event) => {
+    event.preventDefault();
+    const user = users.find((user) => user.username.toLowerCase() === username.toLowerCase().trim());
+    if (user && user.password === password) {
+      setLoggedIn(true);
+      localStorage.setItem('loggedIn', 'true');
+      localStorage.setItem('username', user.username.toLowerCase());
+      setUserNotFound(false);
+    } else {
+      Swal.fire({
+        icon: 'error',
+        title: 'Credenciales inválidas',
+        text: 'El nombre de usuario o la contraseña son incorrectos.',
+      });
+      setLoggedIn(false);
+      setUserNotFound(true);
+    }
+  };
+
 
   const handleLogout = () => {
     setLoggedIn(false);
