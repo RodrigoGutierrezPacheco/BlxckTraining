@@ -1433,16 +1433,21 @@ const MayraMartinez = () => {
         <hr />
         <div className="justify">
           <h1 className="red">Dia 5 AMRAP Fullbody</h1>
-          <p className="red">*Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*</p>
           <p className="red">
-            Realiza todas las repeticiones y series que puedas de cada ejercicios durante 1 minuto, seran 5-6 vueltas por cada ejercicio descansando 1 minuto, con 20%-30% de peso
+            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
+          </p>
+          <p className="red">
+            Realiza todas las repeticiones y series que puedas de cada
+            ejercicios durante 1 minuto, seran 5-6 vueltas por cada ejercicio
+            descansando 1 minuto, con 20%-30% de peso
           </p>
           <p>
             1.- <a onClick={sentadillaBarra}>▶️</a> Sentadilla con barra
             <a className="red"></a>
           </p>
           <p>
-            2.- <a onClick={pressPechoPlanoBarra}>▶️</a> Press de banca con barra
+            2.- <a onClick={pressPechoPlanoBarra}>▶️</a> Press de banca con
+            barra
             <a className="red"></a>
           </p>
           <p>
@@ -1462,20 +1467,24 @@ const MayraMartinez = () => {
             <a className="red"></a>
           </p>
           <p>
-            7.- <a onClick={pressMilitarNeutroMancuernas}>▶️</a> Press de hombros con mancuernas
+            7.- <a onClick={pressMilitarNeutroMancuernas}>▶️</a> Press de
+            hombros con mancuernas
             <a className="red"></a>
           </p>
           <p>
-            8.- <a onClick={curlBicepsBarra}>▶️</a> Curl de bíceps con barra recta
+            8.- <a onClick={curlBicepsBarra}>▶️</a> Curl de bíceps con barra
+            recta
             <a className="red"></a>
           </p>
-          <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
+          <p className="red">
+            *Termina con programa bicicleta 10min ritmo ligero*
+          </p>
         </div>
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-       <Collapsible
-        open={true}
+      <Collapsible
+        open={false}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1491,16 +1500,22 @@ const MayraMartinez = () => {
             <a className="red">4 series 8-12reps</a>
           </p>
           <p>
-            2.-<a onClick={elevacionesLateralesInclinado}>▶️</a>Elevaciones laterales con mancuernas ambas manos<a className="red"> 4 series 15 reps</a>
+            2.-<a onClick={elevacionesLateralesInclinado}>▶️</a>Elevaciones
+            laterales con mancuernas ambas manos
+            <a className="red"> 4 series 15 reps</a>
           </p>
           <p>
-            3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Aperturas para deltoides posterior en polea baja<a className="red"> 4 series 10-12 reps</a>
+            3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Aperturas para
+            deltoides posterior en polea baja
+            <a className="red"> 4 series 10-12 reps</a>
           </p>
           <p>
-            4.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className="red"> 4 series de 15 reps</a>
+            4.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina
+            <a className="red"> 4 series de 15 reps</a>
           </p>
           <p>
-            5.-<a onClick={aperturasMaquina}>▶️</a>aperturas para pecho en maquina
+            5.-<a onClick={aperturasMaquina}>▶️</a>aperturas para pecho en
+            maquina
             <a className="red"> 4 series 15 reps</a>
           </p>
           <p className="red">
@@ -1526,19 +1541,23 @@ const MayraMartinez = () => {
             <a className="red"> 4 srries 10 reps c/u</a>
           </p>
           <p>
-            4.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos lateraleres con mancuernas
+            4.-<a onClick={encogimientosHombrosMancuernas}>▶️</a>encogimientos
+            lateraleres con mancuernas
             <a className="red"> 4 series al fallo</a>
           </p>
           <p>
-            5.-<a onClick={curlBicepsRotacionPie}>▶️</a>Curl biceps rotacion con mancuernas de pie
+            5.-<a onClick={curlBicepsRotacionPie}>▶️</a>Curl biceps rotacion con
+            mancuernas de pie
             <a className="red"> 4 series 10-15 reps</a>
           </p>
           <p>
-            6.-<a onClick={curlConcentrado}>▶️</a>curl concentrado con mancuernas
+            6.-<a onClick={curlConcentrado}>▶️</a>curl concentrado con
+            mancuernas
             <a className="red"> 4 series 10 reps</a>
           </p>
           <p>
-            7.-<a onClick={curlBicepsMaquinaScott}>▶️</a>curl de biceps en maquina scott<a className="red">4 series 12 reps</a>
+            7.-<a onClick={curlBicepsMaquinaScott}>▶️</a>curl de biceps en
+            maquina scott<a className="red">4 series 12 reps</a>
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
@@ -1564,7 +1583,8 @@ const MayraMartinez = () => {
             <a onClick={prensaCerrada} className="pointer">
               ▶️
             </a>
-            prensa cerrada en maquina o con barra libre<a className="red"> 4 series 12 reps</a>
+            prensa cerrada en maquina o con barra libre
+            <a className="red"> 4 series 12 reps</a>
           </p>
           <p>
             3.-
@@ -1578,7 +1598,8 @@ const MayraMartinez = () => {
             <a onClick={extencionCuadriceps} className="pointer">
               ▶️
             </a>
-            extencion de cuadriceps en maquina<a className="red"> 4 series al fallo</a>
+            extencion de cuadriceps en maquina
+            <a className="red"> 4 series al fallo</a>
           </p>
           <p>
             5.-
@@ -1599,7 +1620,8 @@ const MayraMartinez = () => {
             <a onClick={pantorrillaLibre} className="pointer">
               ▶️
             </a>
-            pantorrilla de pie con mancuernas<a className="red"> 4 series al fallo</a>
+            pantorrilla de pie con mancuernas
+            <a className="red"> 4 series al fallo</a>
           </p>
         </div>
         <hr />
@@ -1613,16 +1635,22 @@ const MayraMartinez = () => {
             <a className="red">4 series 8-12reps</a>
           </p>
           <p>
-            2.-<a onClick={elevacionesLateralesInclinado}>▶️</a>Elevaciones laterales con mancuernas ambas manos<a className="red"> 4 series 15 reps</a>
+            2.-<a onClick={elevacionesLateralesInclinado}>▶️</a>Elevaciones
+            laterales con mancuernas ambas manos
+            <a className="red"> 4 series 15 reps</a>
           </p>
           <p>
-            3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Aperturas para deltoides posterior en polea baja<a className="red"> 4 series 10-12 reps</a>
+            3.-<a onClick={hombroPosteriorPoleaBaja}>▶️</a>Aperturas para
+            deltoides posterior en polea baja
+            <a className="red"> 4 series 10-12 reps</a>
           </p>
           <p>
-            4.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina<a className="red"> 4 series de 15 reps</a>
+            4.-<a onClick={pressPechoMaquina}>▶️</a>press pecho en maquina
+            <a className="red"> 4 series de 15 reps</a>
           </p>
           <p>
-            5.-<a onClick={aperturasMaquina}>▶️</a>aperturas para pecho en maquina
+            5.-<a onClick={aperturasMaquina}>▶️</a>aperturas para pecho en
+            maquina
             <a className="red"> 4 series 15 reps</a>
           </p>
           <p>
@@ -1630,7 +1658,8 @@ const MayraMartinez = () => {
             <a className="red"> 4 series 12 reps</a>
           </p>
           <p>
-            7.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta con cuerdas
+            7.-<a onClick={jalonesPoleaAlta}>▶️</a>jalones en polea alta con
+            cuerdas
             <a className="red"> 4 series 15 reps</a>
           </p>
           <p className="red">
@@ -1657,7 +1686,8 @@ const MayraMartinez = () => {
             <a onClick={prensaCerrada} className="pointer">
               ▶️
             </a>
-            prensa cerrada en maquina o con barra libre<a className="red"> 4 series 12 reps</a>
+            prensa cerrada en maquina o con barra libre
+            <a className="red"> 4 series 12 reps</a>
           </p>
           <p>
             3.-
@@ -1671,7 +1701,8 @@ const MayraMartinez = () => {
             <a onClick={extencionCuadriceps} className="pointer">
               ▶️
             </a>
-            extencion de cuadriceps en maquina<a className="red"> 4 series al fallo</a>
+            extencion de cuadriceps en maquina
+            <a className="red"> 4 series al fallo</a>
           </p>
           <p>
             5.-
@@ -1692,13 +1723,14 @@ const MayraMartinez = () => {
             <a onClick={pantorrillaLibre} className="pointer">
               ▶️
             </a>
-            pantorrilla de pie con mancuernas<a className="red"> 4 series al fallo</a>
+            pantorrilla de pie con mancuernas
+            <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> 
+      </Collapsible>
       {/*Rutina Semana #3*/}
-       {/* <Collapsible
-        open={false}
+      <Collapsible
+        open={true}
         className="dia"
         trigger="Semana 3"
         triggerWhenOpen="Semana 3"
@@ -1740,8 +1772,8 @@ const MayraMartinez = () => {
             <a className="red"> 4 series al fallo al 50%-60%</a>
           </p>
           <p>
-            6.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen inferior{" "}
-            <a className="red"> 4 series al fallo al 50%-60%</a>
+            7.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen inferior{" "}
+            <a className="red"> 4 series al fallo</a>
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
@@ -1775,10 +1807,6 @@ const MayraMartinez = () => {
           </p>
           <p>
             5.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>martillos biceps
-            <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
-          </p>
-          <p>
-            6.-<a onClick={espaldaBajaLibre}>▶️</a>espalda baja libre
             <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
           </p>
           <p className="red">
@@ -1815,11 +1843,6 @@ const MayraMartinez = () => {
             5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos{" "}
             <a className="red">4 series de 8-10 repeticiones al 80%</a>
           </p>
-          <p>
-            6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps
-            Martillo Sentado
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
-          </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
           </p>
@@ -1828,30 +1851,24 @@ const MayraMartinez = () => {
         <div className="justify">
           <h1>Día 4 Empuje</h1>
           <p className="red">
-            Ejecución de los ejercicios 30-40 segundos , descanso de 1-2 minutos máximo entre series al 30%-40% del peso maximo
+            Ejecución de los ejercicios 30-40 segundos , descanso de 1-2 minutos
+            máximo entre series al 30%-40% del peso maximo
           </p>
           <p>
-            1.-<a onClick={pressMilitarMaquina}>▶️</a> Press Militar en máquina agarre cerrado
+            1.-<a onClick={pressMilitarMaquina}>▶️</a> Press Militar en máquina
+            agarre cerrado
           </p>
           <p>
-            2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a> Elevaciones laterales con mancuernas
+            2.-<a onClick={elevacionesLateralesMancuerna}>▶️</a> Elevaciones
+            laterales con mancuernas
           </p>
           <p>
             3.-<a onClick={facepull}>▶️</a> Face Pull en polea
           </p>
+          <p></p>
           <p>
-          </p>
-          <p>
-            5.-<a onClick={fondosBanco}>▶️</a> Fondos para tríceps en máquina/banco
-          </p>
-          <p>
-            6.-<a onClick={desplantesEstaticos}>▶️</a> desplantes con mancuernas
-          </p>
-          <p>
-            7.-<a onClick={prensaCerrada}>▶️</a> Prensa de piernas en máquina
-          </p>
-          <p>
-            8.-<a onClick={crunchMaquina}>▶️</a> Crunches abdominales
+            5.-<a onClick={fondosBanco}>▶️</a> Fondos para tríceps en
+            máquina/banco
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel2*
@@ -1888,19 +1905,11 @@ const MayraMartinez = () => {
             5.-<a onClick={prensaSumo}>▶️</a>Prensa, apertura de las piernas
             tipo sumo<a className="red">-pesado</a>
           </p>
-          <p>
-            6.-<a onClick={curlFemoralSentado}>▶️</a>Curl Femoral Maquina
-            <a className="red">-pesado</a>
-          </p>
-          <p>
-            7.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en Maquina
-            <a className="red">-pesado</a>
-          </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel2
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible>
       {/* Rutina semana 4 */}
       {/* <Collapsible
         open={false}
@@ -2130,7 +2139,7 @@ const MayraMartinez = () => {
         </div>
       </Collapsible>  */}
       {/* Rutina semana 5 */}
-       {/* <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"

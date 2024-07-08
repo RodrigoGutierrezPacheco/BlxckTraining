@@ -1475,7 +1475,7 @@ const Alejandra = () => {
       </Collapsible>
       {/* Rutina Semana #2  */}
        <Collapsible
-        open={true}
+        open={false}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1705,8 +1705,8 @@ const Alejandra = () => {
         </div>
       </Collapsible> 
       {/*Rutina Semana #3*/}
-       {/* <Collapsible
-        open={false}
+       <Collapsible
+        open={true}
         className="dia"
         trigger="Semana 3"
         triggerWhenOpen="Semana 3"
@@ -1722,21 +1722,19 @@ const Alejandra = () => {
             maximo entre series{" "}
           </p>
           <p>
-            1.-<a onClick={sentadillaFrontalBarra}>▶️</a>sentadilla frontal con
-            barra
+            1.-<a onClick={abduccion}>▶️</a>abduccion
             <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
           </p>
           <p>
-            2.-<a onClick={prensaCerrada}>▶️</a>prensa para cuadriceps
+            2.-<a onClick={adduccion}>▶️</a>adduccion
             <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
           </p>
           <p>
-            3.-<a onClick={hipThrust}>▶️</a>hip trhust con barra
+            3.-<a onClick={sentadillaMancuerna}>▶️</a> Sentadilla con mancuerna
             <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
           </p>
           <p>
-            4.-<a onClick={desplantesEstaticos}>▶️</a>desplantes estaticos con
-            mancuernas
+            4.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps maquina
             <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
           </p>
           <p>
@@ -1908,7 +1906,7 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel2
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible>
       {/* Rutina semana 4 */}
       {/* <Collapsible
         open={false}
