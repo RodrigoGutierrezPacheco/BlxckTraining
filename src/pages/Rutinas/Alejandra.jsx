@@ -1725,6 +1725,7 @@ const Alejandra = () => {
             1.-<a onClick={abduccion}>▶️</a>abduccion
             <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
           </p>
+          
           <p>
             2.-<a onClick={adduccion}>▶️</a>adduccion
             <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
