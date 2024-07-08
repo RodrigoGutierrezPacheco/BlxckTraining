@@ -54,7 +54,7 @@ const MiRutina = () => {
           setUserRoutine(<MayraMartinez />)
           break;
       case 'susy':
-        setUserRoutine(<Susina />);
+        setUserRoutine(<Alejandra />);
         break;
       case 'jorge':
         setUserRoutine(<Alejandra />);
