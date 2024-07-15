@@ -1706,7 +1706,7 @@ const Alejandra = () => {
       </Collapsible> 
       {/*Rutina Semana #3*/}
        <Collapsible
-        open={true}
+        open={false}
         className="dia"
         trigger="Semana 3"
         triggerWhenOpen="Semana 3"
@@ -1909,7 +1909,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>
       {/* Rutina semana 4 */}
-      {/* <Collapsible
+      <Collapsible
         open={false}
         className="dia black1"
         trigger="Semana 4"
@@ -2135,7 +2135,7 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel2
           </p>
         </div>
-      </Collapsible>  */}
+      </Collapsible>  
       {/* Rutina semana 5 */}
        {/* <Collapsible
         open={true}
