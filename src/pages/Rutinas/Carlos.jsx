@@ -1242,7 +1242,7 @@ const Carlos = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad a 75%-80%, ejecucion de movimiento controlado</h1>
+      <h1>Intensidad a 90%, ejecucion de movimiento controlado</h1>
       <Collapsible
         open={false}
         trigger="Semana 1"
@@ -1911,7 +1911,7 @@ const Carlos = () => {
       </Collapsible>
       {/* Rutina semana 4 */}
        <Collapsible
-        open={true}
+        open={false}
         className="dia black1"
         trigger="Semana 4"
         triggerWhenOpen="Semana 4"
@@ -2138,7 +2138,7 @@ const Carlos = () => {
         </div>
       </Collapsible> 
       {/* Rutina semana 5 */}
-       {/* <Collapsible
+        <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
@@ -2323,7 +2323,7 @@ const Carlos = () => {
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
         </div>
 
-      </Collapsible>  */}
+      </Collapsible>  
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
