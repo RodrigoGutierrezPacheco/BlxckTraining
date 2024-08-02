@@ -1,75 +1,79 @@
-import React, { useState, useEffect } from 'react';
-import Swal from 'sweetalert2';
-import Collapsible from 'react-collapsible';
-import Alejandra from '../Rutinas/Alejandra';
-import Alejandro from '../Rutinas/Alejandro';
-import Ejercicios from '../Ejercicios';
-import users from '../Users/Users';
-import Dalet from '../Rutinas/Dalet';
-import Basico1 from '../Rutinas/Basico1';
-import Prueba from '../Rutinas/Prueba';
-import Estefany from '../Rutinas/Estefany';
-import Susina from '../Rutinas/Susina';
-import Jorge from '../Rutinas/Jorge';
-import Pool from '../Rutinas/Pool';
-import Carlos from '../Rutinas/Carlos';
-import MayraMartinez from '../Rutinas/MayraMartinez';
+import React, { useState, useEffect } from "react";
+import Swal from "sweetalert2";
+import Collapsible from "react-collapsible";
+import Alejandra from "../Rutinas/Alejandra";
+import Alejandro from "../Rutinas/Alejandro";
+import Ejercicios from "../Ejercicios";
+import users from "../Users/Users";
+import Dalet from "../Rutinas/Dalet";
+import Basico1 from "../Rutinas/Basico1";
+import Prueba from "../Rutinas/Prueba";
+import Estefany from "../Rutinas/Estefany";
+import Susina from "../Rutinas/Susina";
+import Jorge from "../Rutinas/Jorge";
+import Pool from "../Rutinas/Pool";
+import Carlos from "../Rutinas/Carlos";
+import MayraMartinez from "../Rutinas/MayraMartinez";
+import Monica from "../Rutinas/Monica";
 
 const MiRutina = () => {
   function whatsapp() {
-    window.location.href = 'https://api.whatsapp.com/send?phone=525638686467';
+    window.location.href = "https://api.whatsapp.com/send?phone=525638686467";
   }
 
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [loggedIn, setLoggedIn] = useState(false);
   const [userNotFound, setUserNotFound] = useState(false);
   const [userRoutine, setUserRoutine] = useState(null);
 
   useEffect(() => {
-    const isLoggedIn = localStorage.getItem('loggedIn');
-    if (isLoggedIn === 'true') {
+    const isLoggedIn = localStorage.getItem("loggedIn");
+    if (isLoggedIn === "true") {
       setLoggedIn(true);
-      const savedUsername = localStorage.getItem('username');
+      const savedUsername = localStorage.getItem("username");
       setUsername(savedUsername);
     }
   }, []);
-  console.log(localStorage?.getItem('username'))
+  console.log(localStorage?.getItem("username"));
 
   useEffect(() => {
     switch (username.toLowerCase()) {
-      case 'dalet':
+      case "dalet":
         setUserRoutine(<Dalet />);
         break;
-      case 'jesus':
+      case "jesus":
         setUserRoutine(<Alejandra />);
         break;
-      case 'prueba':
+      case "prueba":
         setUserRoutine(<Prueba />);
         break;
-      case 'carlos morales':
-        setUserRoutine(<Carlos />)
+      case "carlos morales":
+        setUserRoutine(<Carlos />);
         break;
-        case 'mayra martinez':
-          setUserRoutine(<MayraMartinez />)
-          break;
-      case 'susy':
+      case "monica":
+        setUserRoutine(<Monica />);
+        break;
+      case "mayra martinez":
+        setUserRoutine(<MayraMartinez />);
+        break;
+      case "susy":
         setUserRoutine(<Alejandra />);
         break;
-      case 'jorge':
+      case "jorge":
         setUserRoutine(<Alejandra />);
         break;
-      case 'alejandro':
+      case "alejandro":
         setUserRoutine(<Alejandro />);
         break;
-      case 'pool':
+      case "pool":
         setUserRoutine(<Alejandra />);
         break;
-      case 'estefany':
+      case "estefany":
         setUserRoutine(<Estefany />);
         break;
-      case 'pool':
-        setUserRoutine(<Alejandra />)
+      case "pool":
+        setUserRoutine(<Alejandra />);
         break;
       default:
         setUserRoutine(<Alejandra />);
@@ -77,33 +81,33 @@ const MiRutina = () => {
     }
   }, [username, password]);
 
-
   const handleLogin = (event) => {
     event.preventDefault();
-    const user = users.find((user) => user.username.toLowerCase() === username.toLowerCase().trim());
+    const user = users.find(
+      (user) => user.username.toLowerCase() === username.toLowerCase().trim()
+    );
     if (user && user.password === password) {
       setLoggedIn(true);
-      localStorage.setItem('loggedIn', 'true');
-      localStorage.setItem('username', user.username.toLowerCase());
+      localStorage.setItem("loggedIn", "true");
+      localStorage.setItem("username", user.username.toLowerCase());
       setUserNotFound(false);
     } else {
       Swal.fire({
-        icon: 'error',
-        title: 'Credenciales inválidas',
-        text: 'El nombre de usuario o la contraseña son incorrectos.',
+        icon: "error",
+        title: "Credenciales inválidas",
+        text: "El nombre de usuario o la contraseña son incorrectos.",
       });
       setLoggedIn(false);
       setUserNotFound(true);
     }
   };
 
-
   const handleLogout = () => {
     setLoggedIn(false);
-    setUsername('');
-    setPassword('');
-    localStorage.removeItem('loggedIn');
-    localStorage.removeItem('username');
+    setUsername("");
+    setPassword("");
+    localStorage.removeItem("loggedIn");
+    localStorage.removeItem("username");
     setUserNotFound(false);
   };
 
@@ -163,5 +167,3 @@ const MiRutina = () => {
 };
 
 export default MiRutina;
-
-
