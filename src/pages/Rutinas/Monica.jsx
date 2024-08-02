@@ -1242,7 +1242,7 @@ const Monica = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad a 60%, ejecucion de movimiento controlado</h1>
+      <h1>Intensidad a 60%, ejecucion de movimiento controlado 4 series 12reps-20reps</h1>
       <Collapsible
         open={true}
         trigger="Semana 1"
