@@ -1261,11 +1261,11 @@ const Monica = () => {
           </p>
           <p>
             2.-<a onClick={sentadillaExplosiva}>▶️</a>sentadilla explosiva sin peso
-            <a className="red"></a>
+            <a className="red"> 4 series 30-40 segundos</a>
           </p>
           <p>
             3.-<a onClick={planchaIsometrica}>▶️</a>planchas isometricas
-            <a className="red"></a>
+            <a className="red"> 4 series 30-40 segundos</a>
           </p>
           <p>
             4.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina 
@@ -1273,7 +1273,7 @@ const Monica = () => {
           </p>
           <p>
             5.-<a onClick={sentadillaIsometrica}>▶️</a>sentadilla isometrica
-            <a className="red"></a>
+            <a className="red"> 4 series 30-40 segundos</a>
           </p>
           <p>
             6.-<a onClick={espaldaBajaMaquina}>▶️</a>espalda baja en maquina 
