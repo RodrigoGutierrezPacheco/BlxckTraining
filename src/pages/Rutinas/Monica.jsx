@@ -1251,29 +1251,29 @@ const Monica = () => {
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
-          <h1 className="red">Torso</h1>
+          <h1 className="red">Femoral-Abdomen</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
           </p>
           <p>
             1.-<a onClick={crunchSuelo}>▶️</a>crunches abdominales en suelo
-            <a className="red"></a>
+            <a className="red"> 4 series 30-40 segundos</a>
           </p>
           <p>
-            2.-<a onClick={sentadillaExplosiva}>▶️</a>sentadilla explosiva sin peso
-            <a className="red"> 4 series 30-40 segundos</a>
+            2.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral sentado
+            {/* <a className="red"> 4 series 30-40 segundos</a> */}
           </p>
           <p>
             3.-<a onClick={planchaIsometrica}>▶️</a>planchas isometricas
             <a className="red"> 4 series 30-40 segundos</a>
           </p>
           <p>
-            4.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina 
+            4.-<a onClick={pesoMuertoMancuerna}>▶️</a>peso muerto con mancuernas
             <a className="red"></a>
           </p>
           <p>
-            5.-<a onClick={sentadillaIsometrica}>▶️</a>sentadilla isometrica
-            <a className="red"> 4 series 30-40 segundos</a>
+            5.-<a onClick={desplanteBulgaro}>▶️</a>desplante bulgaro
+            {/* <a className="red"> 4 series 30-40 segundos</a> */}
           </p>
           <p>
             6.-<a onClick={espaldaBajaMaquina}>▶️</a>espalda baja en maquina 
@@ -1284,7 +1284,7 @@ const Monica = () => {
           </p>
         </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1>Dia 2 Pierna</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
@@ -1325,9 +1325,9 @@ const Monica = () => {
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
           </p>
-        </div> */}
+        </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1 className="red">Dia 3 HIIT sin peso</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
@@ -1383,9 +1383,9 @@ const Monica = () => {
             </a>
             sentadilla isometrica<a className="red"></a>
           </p>
-        </div> */}
+        </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1>Dia 4 Pierna</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
@@ -1428,9 +1428,9 @@ const Monica = () => {
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
           </p>
-        </div> */}
+        </div>
         <hr />
-        {/* <div className="justify">
+        <div className="justify">
           <h1 className="red">Dia 5 AMRAP Fullbody</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
@@ -1478,7 +1478,7 @@ const Monica = () => {
           <p className="red">
             *Termina con programa bicicleta 10min ritmo ligero*
           </p>
-        </div> */}
+        </div>
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
