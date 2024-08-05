@@ -1242,9 +1242,9 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Descarga 40%-45%</h1>
+      <h1>Descarga 70%</h1>
       <Collapsible
-        open={true}
+        open={false}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1483,8 +1483,8 @@ const Alejandra = () => {
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-      {/* <Collapsible
-        open={false}
+       <Collapsible
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1736,7 +1736,7 @@ const Alejandra = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible> 
       {/*Rutina Semana #3*/}
       {/* <Collapsible
         open={false}
