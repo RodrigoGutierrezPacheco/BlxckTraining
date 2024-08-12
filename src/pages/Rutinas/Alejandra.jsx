@@ -1237,12 +1237,36 @@ const Alejandra = () => {
     });
   }
 
+  function sentadillaSmith() {
+    Swal.fire({
+      title: "sentadilla en maquina smith",
+      imageUrl: "images/sentdillaSmith.gif",
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: "Custom image",
+      confirmButtonText: "Entendido",
+      confirmButtonColor: "black",
+    });
+  }
+
+  function extencionTricepsPoleaAlta() {
+    Swal.fire({
+      title: "extencion de triceps en polea alta",
+      imageUrl: "images/extencionTricepsPoleaAlta.gif",
+      imageWidth: 200,
+      imageHeight: 200,
+      imageAlt: "Custom image",
+      confirmButtonText: "Entendido",
+      confirmButtonColor: "black",
+    });
+  }
+
   return (
     <div>
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Descarga 70%</h1>
+      <h1>Intensidad media 70%-80%</h1>
       <Collapsible
         open={false}
         trigger="Semana 1"
@@ -1483,8 +1507,8 @@ const Alejandra = () => {
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-       <Collapsible
-        open={true}
+      <Collapsible
+        open={false}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1736,10 +1760,10 @@ const Alejandra = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> 
+      </Collapsible>
       {/*Rutina Semana #3*/}
-      {/* <Collapsible
-        open={false}
+      <Collapsible
+        open={true}
         className="dia"
         trigger="Semana 3"
         triggerWhenOpen="Semana 3"
@@ -1755,34 +1779,34 @@ const Alejandra = () => {
             maximo entre series{" "}
           </p>
           <p>
-            1.-<a onClick={abduccion}>▶️</a>abduccion
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            1.-<a onClick={sentadillaSmith}>▶️</a>sentadilla en smith
+            <a className="red"> 4 series de 8-10 reps</a>
           </p>
 
           <p>
-            2.-<a onClick={adduccion}>▶️</a>adduccion
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            2.-<a onClick={prensaCerrada}>▶️</a>prensa
+            <a className="red"> 4 series de 10-12 reps</a>
           </p>
           <p>
-            3.-<a onClick={sentadillaMancuerna}>▶️</a> Sentadilla con mancuerna
-            <a className="red"> 4 series de 8-10 reps al 70%-80%</a>
+            3.-<a onClick={desplantesCaminando}>▶️</a>Desplantes caminando
+            <a className="red"> 3 series de 12-15 reps</a>
           </p>
           <p>
-            4.-<a onClick={extencionCuadriceps}>▶️</a>extencion cuadriceps
+            4.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina
             maquina
-            <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
+            <a className="red"> 4 series al fallo</a>
           </p>
           <p>
-            5.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral en maquina
-            <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
+            5.-<a onClick={hipThrust}>▶️</a>hip thrust
+            <a className="red"> 4 series de 10-12 reps</a>
           </p>
           <p>
-            6.-<a onClick={pantorrillaMaquina}>▶️</a>pantorrilla en maquina
-            <a className="red"> 4 series al fallo al 50%-60%</a>
+            6.-<a onClick={curlFemoralSentado}>▶️</a>curl femoral sentada
+            <a className="red"> 3 series de 10-12 reps</a>
           </p>
           <p>
-            6.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen inferior{" "}
-            <a className="red"> 4 series al fallo al 50%-60%</a>
+            7.-<a onClick={pesoMuertoBarra}>▶️</a>peso muerto con barra{" "}
+            <a className="red"> 4 series al fallo</a>
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 3
@@ -1799,28 +1823,31 @@ const Alejandra = () => {
             maximo entre series{" "}
           </p>
           <p>
-            1.-<a onClick={remoNeutroPolea}>▶️</a>remo neutro en polea
-            <a className="red"> 4 series de 10-12 reps al 70%-80%</a>
+            1.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a>press pecho en
+            banco plano
+            <a className="red"> 4 series de 8-10 reps el</a>
           </p>
           <p>
-            2.-<a onClick={pulldownPolea}>▶️</a>pulldown en polea
-            <a className="red"> 4 series de 10-12 reps al 70%-80%</a>
+            2.-<a onClick={remoBarra}>▶️</a>remo con barra
+            <a className="red"> 4 series de 8-10 reps</a>
           </p>
           <p>
-            3.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas
-            <a className="red"> 4 series al fallo</a>
+            3.-<a onClick={pressPechoInclinadoMancuernas}>▶️</a>press pecho
+            inclinado con mancuernas
+            <a className="red"> 4 series de 10-12 reps</a>
           </p>
           <p>
-            4.-<a onClick={curlBicepsZ}>▶️</a>curl biceps con barra
-            <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
+            4.-<a onClick={dominadasAsistidas}>▶️</a>dominadas asistidas
+            <a className="red"> 4 series de 6-10 reps</a>
           </p>
           <p>
-            5.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>martillos biceps
-            <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
+            5.-<a onClick={cristosBancoInclinado}>▶️</a>aperturas en banco
+            inclinado
+            <a className="red"> 3 series de 12-15 reps</a>
           </p>
           <p>
-            6.-<a onClick={espaldaBajaLibre}>▶️</a>espalda baja libre
-            <a className="red"> 3 series de 12-15 reps al 60%-70%</a>
+            6.-<a onClick={remoMancuerna}>▶️</a>remo con mancuernas
+            <a className="red"> 3 series de 10-12 reps</a>
           </p>
           <p className="red">
             *Termina con programa cardio S8-Principiante-Nivel 2
@@ -1828,43 +1855,51 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 3 Full</h1>
+          <h1 className="red">Día 4: Hombro, Bíceps y Tríceps</h1>
           <p className="red">
-            *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
+            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
           </p>
+          <p>
+            1.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>Press Militar con Mancuernas{" "}
+            <a className="red">4 series de 8-10 reps</a>
+          </p>
+
+          <p>
+            2.-<a onClick={elevacionesFrontalesDisco}>▶️</a>Elevaciones Frontales con
+            disco{" "}
+            <a className="red">4 series de 8-10 reps</a>
+          </p>
+
+          <p>
+            3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones Laterales con
+            Mancuernas <a className="red">4 series de 10-15reps</a>
+          </p>
+
+          <p>
+            4.-<a onClick={curlBicepsBarra}>▶️</a>Curl de Bíceps con Barra{" "}
+            <a className="red">4 series de 8-10 reps</a>
+          </p>
+
+          <p>
+            5.-<a onClick={curlConcentrado}>▶️</a>Curl Concentrado con Mancuerna{" "}
+            <a className="red">4 series de 8-10 reps</a>
+          </p>
+
+          <p>
+            6.-<a onClick={pressFrancesMancuernas}>▶️</a>Press Francés con mancuernas{" "}
+            <a className="red">4 series de 8-10 reps</a>
+          </p>
+
+          <p>
+            7.-<a onClick={extencionTricepsPoleaAlta}>▶️</a>Extensión de Tríceps en Polea{" "}
+            <a className="red">4 series de 8-10 reps</a>
+          </p>
+
           <p className="red">
-            Todos los ejercicios 4 series de 8-10 repeticiones al 80%
-          </p>
-          <p>
-            1.-<a onClick={pressPechoMaquina}>▶️</a>Press pecho en maquina{" "}
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
-          </p>
-          <p>
-            2.-<a onClick={aperturasMaquina}>▶️</a>Aperturas en maquina{" "}
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
-          </p>
-          <p>
-            3.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones
-            Laterales con Mancuernas
-            <a className="red">-ligero</a>
-          </p>
-          <p>
-            4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina{" "}
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
-          </p>
-          <p>
-            5.-<a onClick={copa2Manos}>▶️</a>Copa a 2 manos{" "}
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
-          </p>
-          <p>
-            6.-<a onClick={curlBicepsMartilloMancuerna}>▶️</a>Curl Biceps
-            Martillo Sentado
-            <a className="red">4 series de 8-10 repeticiones al 80%</a>
-          </p>
-          <p className="red">
-            *Termina con programa cardio S8-Principiante-Nivel 3
+            *Termina con programa cardio S8-Principiante-Nivel 3*
           </p>
         </div>
+
         <hr />
         <div className="justify">
           <h1>Día 4 Empuje</h1>
@@ -1944,7 +1979,7 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel2
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible>
       {/* Rutina semana 4 */}
       {/* <Collapsible
         open={false}
