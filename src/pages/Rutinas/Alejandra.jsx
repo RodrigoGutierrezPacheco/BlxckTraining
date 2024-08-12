@@ -250,7 +250,7 @@ const Alejandra = () => {
 
   function hipThrust() {
     Swal.fire({
-      title: "Hip thrust con mancuerna en banco",
+      title: "Hip thrust en banco",
       imageUrl: "images/hipThrust.gif",
       imageWidth: 400,
       imageHeight: 200,
