@@ -15,6 +15,7 @@ import Pool from "../Rutinas/Pool";
 import Carlos from "../Rutinas/Carlos";
 import MayraMartinez from "../Rutinas/MayraMartinez";
 import Monica from "../Rutinas/Monica";
+import Rodrigo from "../Rutinas/Rodrigo";
 
 const MiRutina = () => {
   function whatsapp() {
@@ -35,7 +36,6 @@ const MiRutina = () => {
       setUsername(savedUsername);
     }
   }, []);
-  console.log(localStorage?.getItem("username"));
 
   useEffect(() => {
     switch (username.toLowerCase()) {
@@ -56,6 +56,12 @@ const MiRutina = () => {
         break;
       case "mayra martinez":
         setUserRoutine(<MayraMartinez />);
+        break;
+      case "rodrigo":
+        setUserRoutine(<Rodrigo />);
+        break;
+      case "hector":
+        setUserRoutine(<Rodrigo />);
         break;
       case "susy":
         setUserRoutine(<Alejandra />);
