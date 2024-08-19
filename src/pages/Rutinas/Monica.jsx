@@ -1244,7 +1244,7 @@ const Monica = () => {
       {/* Rutina Semana #1  */}
       <h1>Intensidad a 60%, ejecucion de movimiento controlado 4 series 12reps-20reps</h1>
       <Collapsible
-        open={true}
+        open={false}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1482,8 +1482,8 @@ const Monica = () => {
         <hr />
       </Collapsible>
       {/* Rutina Semana #2  */}
-      {/* <Collapsible
-        open={false}
+      <Collapsible
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1726,7 +1726,7 @@ const Monica = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible> 
       {/*Rutina Semana #3*/}
       {/* <Collapsible
         open={false}
