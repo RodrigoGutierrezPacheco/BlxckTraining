@@ -1266,9 +1266,9 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad media 70%-80% 5 series de 8-12 reps</h1>
-       <Collapsible
-        open={true}
+      <h1>Intensidad media 70%-80%</h1>
+       {/* <Collapsible
+        open={false}
         trigger="Semana 1"
         className="dia "
         triggerWhenOpen="Semana 1"
@@ -1505,10 +1505,10 @@ const Alejandra = () => {
           </p>
         </div>
         <hr />
-      </Collapsible> 
+      </Collapsible>  */}
       {/* Rutina Semana #2  */}
-      {/* <Collapsible
-        open={false}
+       <Collapsible
+        open={true}
         className="dia black1"
         trigger="Semana 2"
         triggerWhenOpen="Semana 2"
@@ -1521,7 +1521,7 @@ const Alejandra = () => {
           </p>
           <p>
             1.-<a onClick={pressMilitarMaquina}>▶️</a>-Press militar máquina
-            <a className="red">4 series 8-12reps</a>
+            <a className="red"> 4 series 8-12reps</a>
           </p>
           <p>
             2.-<a onClick={elevacionesLateralesInclinado}>▶️</a>Elevaciones
@@ -1598,7 +1598,7 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 3 pierna</h1>
+          <h1 className="">Dia 3 pierna</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
             todos los ejercicios 30-40 segundos, con descanso de 10 segundos
@@ -1659,7 +1659,7 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1>Dia 4 Empuje</h1>
+          <h1 className="red">Dia 4 Empuje</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min*
           </p>
@@ -1701,7 +1701,7 @@ const Alejandra = () => {
         </div>
         <hr />
         <div className="justify">
-          <h1 className="red">Dia 5 pierna</h1>
+          <h1 className="">Dia 5 pierna</h1>
           <p className="red">
             *Inicia con calentamiento en caminadora/eliptica/bicicleta 10min* -
             todos los ejercicios 30-40 segundos, con descanso de 10 segundos
@@ -1760,7 +1760,7 @@ const Alejandra = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible> 
       {/*Rutina Semana #3*/}
       {/* <Collapsible
         open={false}
