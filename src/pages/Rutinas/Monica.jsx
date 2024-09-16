@@ -1911,7 +1911,7 @@ const Monica = () => {
       </Collapsible> 
       {/* Rutina semana 4 */}
       <Collapsible
-        open={true}
+        open={false}
         className="dia black1"
         trigger="Semana 4"
         triggerWhenOpen="Semana 4"
@@ -2116,7 +2116,7 @@ const Monica = () => {
         </div>
       </Collapsible>
       {/* Rutina semana 5 */}
-       {/* <Collapsible
+       <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
@@ -2301,7 +2301,7 @@ const Monica = () => {
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
         </div>
 
-      </Collapsible>   */}
+      </Collapsible>  
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
