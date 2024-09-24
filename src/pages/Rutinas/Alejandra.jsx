@@ -1266,8 +1266,8 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad media 70%-80%</h1>
-       {/* <Collapsible
+      <h1>Intensidad moderada 80%</h1>
+      {/* <Collapsible
         open={false}
         trigger="Semana 1"
         className="dia "
@@ -1507,7 +1507,7 @@ const Alejandra = () => {
         <hr />
       </Collapsible>  */}
       {/* Rutina Semana #2  */}
-       <Collapsible
+       {/* <Collapsible
         open={false}
         className="dia black1"
         trigger="Semana 2"
@@ -1760,7 +1760,7 @@ const Alejandra = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> 
+      </Collapsible>  */}
       {/*Rutina Semana #3*/}
       <Collapsible
         open={true}
@@ -1976,8 +1976,8 @@ const Alejandra = () => {
           </p>
 
           <p>
-            4.-<a onClick={jalonTrasNucaPoleaAlta}>▶️</a>Jalón en Polea con Agarre
-            Estrecho <a className="red">4 series de 8-12 reps</a>
+            4.-<a onClick={jalonTrasNucaPoleaAlta}>▶️</a>Jalón en Polea con
+            Agarre Estrecho <a className="red">4 series de 8-12 reps</a>
           </p>
 
           <p>
@@ -2242,7 +2242,7 @@ const Alejandra = () => {
         </div>
       </Collapsible> */}
       {/* Rutina semana 5 */}
-       {/* <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
