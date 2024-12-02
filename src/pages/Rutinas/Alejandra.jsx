@@ -1267,7 +1267,7 @@ const Alejandra = () => {
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
       <h1>Intensidad baja 60%</h1>
-       <Collapsible
+      {/* <Collapsible
         open={true}
         trigger="Semana 1"
         className="dia "
@@ -1505,13 +1505,13 @@ const Alejandra = () => {
           </p>
         </div>
         <hr />
-      </Collapsible>   
+      </Collapsible>    */}
       {/* Rutina Semana #2  */}
-       {/* <Collapsible
+      <Collapsible
         open={true}
         className="dia black1"
-        trigger="Semana 2"
-        triggerWhenOpen="Semana 2"
+        trigger="Semana 1"
+        triggerWhenOpen="Semana 1"
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
@@ -1760,9 +1760,9 @@ const Alejandra = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible>  */}
+      </Collapsible>
       {/*Rutina Semana #3*/}
-       {/* <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia"
         trigger="Semana 3"
@@ -2001,7 +2001,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>  */}
       {/* Rutina semana 4 */}
-        {/* <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia black1"
         trigger="Semana 4"
@@ -2242,7 +2242,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>  */}
       {/* Rutina semana 5 */}
-        {/* <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
