@@ -2005,7 +2005,7 @@ const Alejandra = () => {
         open={true}
         className="dia black1"
         trigger="Semana 3"
-        triggerWhenOpen="Semana 4"
+        triggerWhenOpen="Semana 3"
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
