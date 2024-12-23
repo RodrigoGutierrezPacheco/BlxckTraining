@@ -1266,7 +1266,7 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad media-elevada 80%</h1>
+      <h1>Intensidad baja 40%-50%</h1>
       {/* <Collapsible
         open={true}
         trigger="Semana 1"
@@ -2001,7 +2001,7 @@ const Alejandra = () => {
         </div>
       </Collapsible> */}
       {/* Rutina semana 4 */}
-       <Collapsible
+       {/* <Collapsible
         open={true}
         className="dia black1"
         trigger="Semana 3"
@@ -2240,13 +2240,13 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel2
           </p>
         </div>
-      </Collapsible> 
+      </Collapsible>  */}
       {/* Rutina semana 5 */}
-      {/* <Collapsible
+      <Collapsible
         open={true}
         className="dia"
-        trigger="Semana 5"
-        triggerWhenOpen="Semana 5"
+        trigger="Semana 4"
+        triggerWhenOpen="Semana 4"
         triggerStyle={{ fontSize: '5rem' }}
       >
         <div className="justify">
@@ -2427,7 +2427,7 @@ const Alejandra = () => {
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
         </div>
 
-      </Collapsible> */}
+      </Collapsible> 
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
