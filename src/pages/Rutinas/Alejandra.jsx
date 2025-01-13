@@ -1303,15 +1303,14 @@ const Alejandra = () => {
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
       <h1>Intensidad baja-media 50%-60%</h1>
-      <h1 className="red">5 series 12-16reps</h1>
-      <Collapsible
+      <h1 className="red">5 series 20reps</h1>
+      {/* <Collapsible
         open={true}
         trigger="Semana 1"
         className="dia"
         triggerWhenOpen="Semana 1"
         triggerStyle={{ fontSize: "5rem" }}
       >
-        {/* Día 1 */}
         <div className="justify">
           <h1 className="red">Dia 1 Full Body: Empuje y Core</h1>
           <p className="red">
@@ -1342,7 +1341,6 @@ const Alejandra = () => {
         </div>
         <hr />
 
-        {/* Día 2 */}
         <div className="justify">
           <h1>Dia 2 Full Body: Tirón y Pierna Posterior</h1>
           <p className="red">
@@ -1373,7 +1371,6 @@ const Alejandra = () => {
         </div>
         <hr />
 
-        {/* Día 3 */}
         <div className="justify">
           <h1 className="red">Dia 3 Full Body: HIIT y Resistencia</h1>
           <p className="red">
@@ -1404,7 +1401,6 @@ const Alejandra = () => {
         </div>
         <hr />
 
-        {/* Día 4 */}
         <div className="justify">
           <h1>Dia 4 Full Body: Pierna y Core</h1>
           <p className="red">
@@ -1437,10 +1433,10 @@ const Alejandra = () => {
             *Termina con: 15 min bicicleta (resistencia ligera)*
           </p>
         </div>
-      </Collapsible>
+      </Collapsible> */}
 
       {/* Rutina Semana #2  */}
-      {/* <Collapsible
+      <Collapsible
         open={true}
         className="dia black1"
         trigger="Semana 1"
@@ -1693,7 +1689,7 @@ const Alejandra = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible>
       {/*Rutina Semana #3*/}
       {/* <Collapsible
         open={true}
