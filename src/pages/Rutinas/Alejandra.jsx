@@ -1439,8 +1439,8 @@ const Alejandra = () => {
       <Collapsible
         open={true}
         className="dia black1"
-        trigger="Semana 1"
-        triggerWhenOpen="Semana 1"
+        trigger="Semana 2"
+        triggerWhenOpen="Semana 2"
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
