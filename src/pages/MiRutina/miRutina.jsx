@@ -16,6 +16,7 @@ import Carlos from "../Rutinas/Carlos";
 import MayraMartinez from "../Rutinas/MayraMartinez";
 import Monica from "../Rutinas/Monica";
 import Rodrigo from "../Rutinas/Rodrigo";
+import Floridalma from "../Rutinas/Flor";
 
 const MiRutina = () => {
   function whatsapp() {
@@ -44,9 +45,6 @@ const MiRutina = () => {
         break;
       case "jesus":
         setUserRoutine(<Alejandra />);
-        break;
-      case "prueba":
-        setUserRoutine(<Prueba />);
         break;
       case "carlos morales":
         setUserRoutine(<Carlos />);
@@ -80,6 +78,9 @@ const MiRutina = () => {
         break;
       case "pool":
         setUserRoutine(<Alejandra />);
+        break;
+      case "flor":
+        setUserRoutine(<Floridalma/>)
         break;
       default:
         setUserRoutine(<Alejandra />);

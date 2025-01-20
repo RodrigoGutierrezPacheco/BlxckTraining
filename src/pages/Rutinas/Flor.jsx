@@ -3,7 +3,7 @@ import Ejercicios from "../Ejercicios";
 import Swal from "sweetalert2";
 import Collapsible from "react-collapsible";
 
-const Alejandra = () => {
+const Floridalma = () => {
   function whatsapp() {
     window.location.href = "https://api.whatsapp.com/send?phone=525638686467";
   }
@@ -1275,7 +1275,7 @@ const Alejandra = () => {
 
   function mountainClimbers() {
     Swal.fire({
-      title: "mountain climbers",	
+      title: "mountain climbers",
       imageUrl: "images/burpees.webp",
       imageWidth: 200,
       imageHeight: 200,
@@ -1285,9 +1285,9 @@ const Alejandra = () => {
     });
   }
 
-    function planchaLateral() {
+  function planchaLateral() {
     Swal.fire({
-      title: "plancha lateral",	
+      title: "plancha lateral",
       imageUrl: "images/planchaLateral.webp",
       imageWidth: 200,
       imageHeight: 200,
@@ -1301,9 +1301,9 @@ const Alejandra = () => {
     <div>
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
+
       {/* Rutina Semana #1  */}
-      <h1>Intensidad media 60%-70% </h1>
-      {/* <Collapsible
+      <Collapsible
         open={true}
         trigger="Semana 1"
         className="dia"
@@ -1311,128 +1311,125 @@ const Alejandra = () => {
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
-          <h1 className="red">Dia 1 Full Body: Empuje y Core</h1>
+          <h1 className="red">Dia 1 Full Body: Fuerza y Resistencia</h1>
           <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
+            *Inicia con calentamiento en bicicleta: 10 minutos ritmo moderado*
           </p>
           <p>
-            1.-<a onClick={pressPechoPlanoBarra}>▶️</a>Press de banca con barra
-          </p>
-          <p>
-            2.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>Press militar con
+            1.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla con
             mancuernas
           </p>
           <p>
-            3.-<a onClick={sentadillaFrontalBarra}>▶️</a>Sentadilla frontal con barra
+            2.-<a onClick={remoMancuerna}>▶️</a>Remo con banda elástica
           </p>
           <p>
-            4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina
+            3.-<a onClick={desplantesEstaticos}>▶️</a>Desplantes alternados con
+            mancuernas
           </p>
           <p>
-            5.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen inferior 40-segundos
+            4.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con
+            mancuernas
           </p>
           <p>
-            6.-<a onClick={planchaIsometrica}>▶️</a>Planchas isometricas 40-segundos
+            5.-<a onClick={planchaIsometrica}>▶️</a>Plancha isométrica con
+            elevación alternada de piernas
           </p>
           <p className="red">
-            *Termina con programa bicicleta 10min ritmo moderado*
+            *Termina con enfriamiento en bicicleta: 5 minutos ritmo suave*
+          </p>
+        </div>
+        <hr />
+
+        {/* <div className="justify">
+          <h1>Dia 2 Full Body: Fuerza y Core</h1>
+          <p className="red">
+            *Inicia con calentamiento en bicicleta: 10 minutos ritmo moderado*
+          </p>
+          <p>
+            1.-<a onClick={pesoMuertoConMancuernas}>▶️</a>Peso muerto con
+            mancuernas (8 libras)
+          </p>
+          <p>
+            2.-<a onClick={pressMilitarLiga}>▶️</a>Press militar con banda
+            elástica (liga cucha)
+          </p>
+          <p>
+            3.-<a onClick={zancadasLargas}>▶️</a>Zancadas largas con peso
+            corporal
+          </p>
+          <p>
+            4.-<a onClick={curlBicepsLiga}>▶️</a>Curl de bíceps con banda
+            elástica
+          </p>
+          <p>
+            5.-<a onClick={twistOblicuos}>▶️</a>Twist ruso de pie con mancuernas
+            (3 libras)
+          </p>
+          <p className="red">
+            *Termina con estiramientos de cuerpo completo: 5 minutos*
           </p>
         </div>
         <hr />
 
         <div className="justify">
-          <h1>Dia 2 Full Body: Tirón y Pierna Posterior</h1>
-          <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
+          <h1 className="red">Dia 3 Full Body: Resistencia y HIIT</h1>
+          <p className="red">*Inicia con calentamiento dinámico: 5 minutos*</p>
+          <p>
+            1.-<a onClick={sentadillaSalto}>▶️</a>Sentadilla con salto (peso
+            corporal)
           </p>
           <p>
-            1.-<a onClick={pesoMuertoBarra}>▶️</a>Peso muerto con barra
+            2.-<a onClick={burpees}>▶️</a>Burpees
           </p>
           <p>
-            2.-<a onClick={dominadasAsistidas}>▶️</a>Dominadas asistidas o libres
+            3.-<a onClick={remateConLiga}>▶️</a>Remo alto con banda elástica
+            (liga cucha)
           </p>
           <p>
-            3.-<a onClick={remoBarra}>▶️</a>Remo con barra o mancuerna
+            4.-<a onClick={skippings}>▶️</a>Skippings (rodillas altas)
           </p>
           <p>
-            4.-<a onClick={hipThrust}>▶️</a>Hip thrust con barra
-          </p>
-          <p>
-            5.-<a onClick={curlFemoralSentado}>▶️</a>Curl femoral en máquina
-          </p>
-          <p>
-            6.-<a onClick={facepull}>▶️</a>Face pulls con cuerda
-          </p>
-          <p>
-            7.-<a onClick={abduccion}>▶️</a>Abducciones en máquina
-          </p>
-          <p className="red">*Termina con 15 min caminadora a ritmo ligero*</p>
-        </div>
-        <hr />
-
-        <div className="justify">
-          <h1 className="red">Dia 3 Full Body: HIIT y Resistencia</h1>
-          <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
-          </p>
-          <p>
-            1.-<a onClick={burpees}>▶️</a>Burpees con salto
-          </p>
-          <p>
-            2.-<a onClick={sentadillaExplosiva}>▶️</a>Sentadilla con salto
-          </p>
-          <p>
-            3.-<a onClick={lagartijasMilitares}>▶️</a>Lagartijas
-          </p>
-          <p>
-            4.-<a onClick={mountainClimbers}>▶️</a>Mountain climbers
-          </p>
-          <p>
-            5.-<a onClick={skippings}>▶️</a>Skippings
-          </p>
-          <p>
-            6.-<a onClick={abdomenInferiorMaquina}>▶️</a>Abdomen inferior en maquina
+            5.-<a onClick={plankConRotacion}>▶️</a>Plancha con rotación a un
+            lado
           </p>
           <p className="red">
-            *Ejecuta cada ejercicio por 30-40 segundos, descanso de 10 segundos
-            entre ejercicios y 3-4 rondas en total.*
+            *Ejecuta cada ejercicio durante 40 segundos con 20 segundos de
+            descanso entre ellos. Realiza 4 rondas.*
           </p>
         </div>
         <hr />
 
         <div className="justify">
-          <h1>Dia 4 Full Body: Pierna y Core</h1>
+          <h1>Dia 4 Full Body: Estabilidad y Fuerza</h1>
           <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
+            *Inicia con calentamiento en bicicleta: 10 minutos ritmo moderado*
           </p>
           <p>
-            1.-<a onClick={sentadillaBarra}>▶️</a>Sentadilla trasera con barra
+            1.-<a onClick={pesoMuertoConBanda}>▶️</a>Peso muerto con banda
+            elástica (liga cucha)
           </p>
           <p>
-            2.-<a onClick={pesoMuertoPoleaBaja}>▶️</a>Peso muerto en polea baja
+            2.-<a onClick={elevacionesFrontalMancuernas}>▶️</a>Elevaciones
+            frontales con mancuernas (3 libras)
           </p>
           <p>
-            3.-<a onClick={desplantesCaminando}>▶️</a>desplantes
+            3.-<a onClick={zancadaLateral}>▶️</a>Zancada lateral con peso
+            corporal
           </p>
           <p>
-            4.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina o con
-            mancuerna
+            4.-<a onClick={remoVertical}>▶️</a>Remo vertical con mancuernas (8
+            libras)
           </p>
           <p>
-            5.-<a onClick={hipThrust}>▶️</a>hipthrust
-          </p>
-          <p>
-            6.-<a onClick={planchaLateral}>▶️</a>Plancha lateral con
-            elevación de pierna
-          </p>
-          <p>
-            7.-<a onClick={adduccion}>▶️</a>adducciones
+            5.-<a onClick={planchaLateral}>▶️</a>Plancha lateral con elevación
+            de cadera
           </p>
           <p className="red">
-            *Termina con: 15 min bicicleta (resistencia ligera)*
+            *Termina con estiramientos enfocados en piernas y espalda: 5
+            minutos*
           </p>
-        </div>
-      </Collapsible> */}
+        </div> */}
+      </Collapsible>
 
       {/* Rutina Semana #2  */}
       {/* <Collapsible
@@ -1691,7 +1688,7 @@ const Alejandra = () => {
       </Collapsible> */}
 
       {/*Rutina Semana #3*/}
-       <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia"
         trigger="Semana 3"
@@ -1928,7 +1925,7 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel 2*
           </p>
         </div>
-      </Collapsible> 
+      </Collapsible>  */}
 
       {/* Rutina semana 4 */}
       {/* <Collapsible
@@ -2369,4 +2366,4 @@ const Alejandra = () => {
   );
 };
 
-export default Alejandra;
+export default Floridalma;
