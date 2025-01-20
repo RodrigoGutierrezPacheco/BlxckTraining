@@ -1320,7 +1320,7 @@ const Floridalma = () => {
             mancuernas
           </p>
           <p>
-            2.-<a onClick={remoMancuerna}>▶️</a>Remo con banda elástica
+            2.-<a onClick={curlBicepsMancuernas}>▶️</a>Curl de biceps con mancuernas
           </p>
           <p>
             3.-<a onClick={desplantesEstaticos}>▶️</a>Desplantes alternados con
@@ -1331,11 +1331,10 @@ const Floridalma = () => {
             mancuernas
           </p>
           <p>
-            5.-<a onClick={planchaIsometrica}>▶️</a>Plancha isométrica con
-            elevación alternada de piernas
+            5.-<a onClick={planchaIsometrica}>▶️</a>Plancha isométrica
           </p>
           <p className="red">
-            *Termina con enfriamiento en bicicleta: 5 minutos ritmo suave*
+            *Termina con enfriamiento en bicicleta 30-40 mins*
           </p>
         </div>
         <hr />
