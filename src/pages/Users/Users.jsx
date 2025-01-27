@@ -1,8 +1,8 @@
 const users = [
 	{ username: 'Rodrigo', password: 'Rodrigo' },
 	{ username: 'Flor', password: 'Flor' },
-	// { username: "laura1", password: 'laura1' },
-	// { username: "laura", password: 'laura' },
+	{ username: "laura1", password: 'laura1' },
+	{ username: "laura", password: 'laura' },
 	// { username: "laura2", password: 'laura2' },
 	// { username: "lau", password: 'lau' },
 	// { username: "karina", password: 'karina' },
