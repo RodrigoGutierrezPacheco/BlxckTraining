@@ -1297,6 +1297,18 @@ const Floridalma = () => {
     });
   }
 
+    function sentadillaGoblet() {
+      Swal.fire({
+        title: "Sentadilla goblet con pesa rusa",
+        imageUrl: "images/sentadillaGoblet.gif",
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: "Custom image",
+        confirmButtonText: "Entendido",
+        confirmButtonColor: "black",
+      });
+    }
+
   return (
     <div>
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
@@ -1311,123 +1323,89 @@ const Floridalma = () => {
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
-          <h1 className="red">Dia 1 Full Body: Fuerza y Resistencia</h1>
+          <h1 className="red">Día 1 Full Body: Fuerza y Resistencia</h1>
           <p className="red">
-            *Inicia con calentamiento en bicicleta: 10 minutos ritmo moderado*
+            *Inicia con calentamiento: 10 minutos de skipping o jumping jacks*
           </p>
           <p>
-            1.-<a onClick={sentadillaMancuerna}>▶️</a>Sentadilla con
-            mancuernas
+            1.-<a onClick={sentadillaGoblet}>▶️</a>Sentadilla goblet con
+            mancuerna <a className="red">4 series de 10-12 reps</a>
           </p>
           <p>
-            2.-<a onClick={curlBicepsMancuernas}>▶️</a>Curl de biceps con mancuernas
+            2.-<a onClick={pesoMuertoMancuerna}>▶️</a>Peso muerto con
+            mancuernas <a className="red">4 series de 8-10 reps</a>
           </p>
           <p>
-            3.-<a onClick={desplantesEstaticos}>▶️</a>Desplantes alternados con
-            mancuernas
+            3.-<a onClick={pressArnoldSentado}>▶️</a>Press Arnold con mancuernas{" "}
+            <a className="red">4 series de 10-12 reps</a>
           </p>
           <p>
-            4.-<a onClick={elevacionesLateralesMancuerna}>▶️</a>Elevaciones laterales con
-            mancuernas
+            4.-<a onClick={remoMancuerna}>▶️</a>Remo inclinado con
+            mancuernas <a className="red">4 series de 10-12 reps</a>
           </p>
           <p>
-            5.-<a onClick={planchaIsometrica}>▶️</a>Plancha isométrica
+            5.-<a onClick={planchaIsometrica}>▶️</a>Plancha isométrica{" "}
+            <a className="red">3 series de 30-60 segundos</a>
           </p>
           <p className="red">
-            *Termina con enfriamiento en bicicleta 30-40 mins*
+            *Termina con enfriamiento: 5 minutos de estiramientos dinámicos*
           </p>
         </div>
         <hr />
-
-        {/* <div className="justify">
-          <h1>Dia 2 Full Body: Fuerza y Core</h1>
-          <p className="red">
-            *Inicia con calentamiento en bicicleta: 10 minutos ritmo moderado*
-          </p>
-          <p>
-            1.-<a onClick={pesoMuertoConMancuernas}>▶️</a>Peso muerto con
-            mancuernas (8 libras)
-          </p>
-          <p>
-            2.-<a onClick={pressMilitarLiga}>▶️</a>Press militar con banda
-            elástica (liga cucha)
-          </p>
-          <p>
-            3.-<a onClick={zancadasLargas}>▶️</a>Zancadas largas con peso
-            corporal
-          </p>
-          <p>
-            4.-<a onClick={curlBicepsLiga}>▶️</a>Curl de bíceps con banda
-            elástica
-          </p>
-          <p>
-            5.-<a onClick={twistOblicuos}>▶️</a>Twist ruso de pie con mancuernas
-            (3 libras)
-          </p>
-          <p className="red">
-            *Termina con estiramientos de cuerpo completo: 5 minutos*
-          </p>
-        </div>
-        <hr />
-
         <div className="justify">
-          <h1 className="red">Dia 3 Full Body: Resistencia y HIIT</h1>
-          <p className="red">*Inicia con calentamiento dinámico: 5 minutos*</p>
-          <p>
-            1.-<a onClick={sentadillaSalto}>▶️</a>Sentadilla con salto (peso
-            corporal)
+          <h1 className="red">Día 2 Full Body: Resistencia y Core</h1>
+          <p className="red">
+            *Inicia con calentamiento: 10 minutos de marcha en el lugar con
+            rodillas altas*
           </p>
           <p>
-            2.-<a onClick={burpees}>▶️</a>Burpees
+            1.-<a onClick={desplantesEstaticos}>▶️</a>Desplantes 
+            <a className="red">4 series de 10-12 reps por pierna</a>
           </p>
           <p>
-            3.-<a onClick={remateConLiga}>▶️</a>Remo alto con banda elástica
-            (liga cucha)
+            2.-<a onClick={curlMartilloSentado}>▶️</a>Curl martillo con mancuernas{" "}
+            <a className="red">4 series de 10-12 reps</a>
           </p>
           <p>
-            4.-<a onClick={skippings}>▶️</a>Skippings (rodillas altas)
+            3.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>Press militar con
+            mancuernas <a className="red">4 series de 10-12 reps</a>
           </p>
           <p>
-            5.-<a onClick={plankConRotacion}>▶️</a>Plancha con rotación a un
-            lado
+            4.-<a onClick={crunchesSuelo}>▶️</a>Crunches{" "}
+            <a className="red">3 series de 20-30 reps</a>
           </p>
           <p className="red">
-            *Ejecuta cada ejercicio durante 40 segundos con 20 segundos de
-            descanso entre ellos. Realiza 4 rondas.*
+            *Termina con enfriamiento: 5 minutos de estiramientos de piernas y
+            espalda*
           </p>
         </div>
         <hr />
-
         <div className="justify">
-          <h1>Dia 4 Full Body: Estabilidad y Fuerza</h1>
+          <h1 className="red">Día 3 Full Body: Potencia y Cardio</h1>
           <p className="red">
-            *Inicia con calentamiento en bicicleta: 10 minutos ritmo moderado*
+            *Inicia con calentamiento: 5 minutos de burpees o saltos con cuerda*
           </p>
           <p>
-            1.-<a onClick={pesoMuertoConBanda}>▶️</a>Peso muerto con banda
-            elástica (liga cucha)
+            1.-<a onClick={sentadillaExplosiva}>▶️</a>Sentadilla con salto y
+            mancuerna <a className="red">3 series de 15 reps</a>
           </p>
           <p>
-            2.-<a onClick={elevacionesFrontalMancuernas}>▶️</a>Elevaciones
-            frontales con mancuernas (3 libras)
+            2.-<a onClick={remoMancuerna}>▶️</a>Remo con mancuerna a una
+            mano <a className="red">4 series de 8-10 reps por lado</a>
           </p>
           <p>
-            3.-<a onClick={zancadaLateral}>▶️</a>Zancada lateral con peso
-            corporal
+            3.-<a onClick={skippings}>▶️</a>Skippings (rodillas altas con
+            mancuernas ligeras){" "}
+            <a className="red">3 series de 30-40 segundos</a>
           </p>
           <p>
-            4.-<a onClick={remoVertical}>▶️</a>Remo vertical con mancuernas (8
-            libras)
-          </p>
-          <p>
-            5.-<a onClick={planchaLateral}>▶️</a>Plancha lateral con elevación
-            de cadera
+            4.-<a onClick={planchaIsometrica}>▶️</a>Plancha{" "}
+            <a className="red">3 series de 20 reps</a>
           </p>
           <p className="red">
-            *Termina con estiramientos enfocados en piernas y espalda: 5
-            minutos*
+            *Termina con 10 minutos de cardio ligero y estiramientos*
           </p>
-        </div> */}
+        </div>
       </Collapsible>
 
       {/* Rutina Semana #2  */}
