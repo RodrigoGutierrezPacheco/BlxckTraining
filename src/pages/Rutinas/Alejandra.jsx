@@ -1338,6 +1338,9 @@ const Alejandra = () => {
         <div className="justify">
           <h1 className="red">Dia 1 Full Body: Empuje y Core</h1>
           <p className="red">
+            4 series de 15 reps
+          </p>
+          <p className="red">
             *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
           </p>
           <p>
