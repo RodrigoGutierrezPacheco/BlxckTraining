@@ -1326,7 +1326,7 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad media-baja 60%-70% </h1>
+      <h1>Intensidad media +70% </h1>
       {/* <Collapsible
         open={true}
         trigger="Semana 1"
@@ -1462,7 +1462,7 @@ const Alejandra = () => {
       </Collapsible>  */}
 
       {/* Rutina Semana #2  */}
-      <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia black1"
         trigger="Semana 2"
@@ -1715,10 +1715,10 @@ const Alejandra = () => {
             <a className="red"> 4 series al fallo</a>
           </p>
         </div>
-      </Collapsible>
+      </Collapsible> */}
 
       {/*Rutina Semana #3*/}
-      {/* <Collapsible
+      <Collapsible
         open={true}
         className="dia"
         trigger="Semana 3"
@@ -1955,7 +1955,7 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel 2*
           </p>
         </div>
-      </Collapsible>  */}
+      </Collapsible>  
 
       {/* Rutina semana 4 */}
       {/* <Collapsible
