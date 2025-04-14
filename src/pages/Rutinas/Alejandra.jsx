@@ -1326,7 +1326,7 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      <h1>Intensidad alta +80% </h1>
+      <h1>Intensidad mixta</h1>
       {/* <Collapsible
         open={true}
         trigger="Semana 1"
