@@ -1326,140 +1326,138 @@ const Alejandra = () => {
       {/* <h1 className='title red'>Estás en la ultima semana de tu entrenamiento</h1> */}
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
-      {/* <h1>Intensidad media-alta 80%</h1> */}
-      {/* <Collapsible
+      <h1>Intensidad alta +80%</h1>
+      <Collapsible
         open={true}
-        trigger="Semana 1"
+        trigger="Rutina de Fuerza - 5 Días"
         className="dia"
-        triggerWhenOpen="Semana 1"
+        triggerWhenOpen="Rutina de Fuerza - 5 Días"
         triggerStyle={{ fontSize: "5rem" }}
       >
+        {/* DÍA 1 - FUERZA SUPERIOR (Empuje) */}
         <div className="justify">
-          <h1 className="red">Dia 1 Full Body: Empuje y Core</h1>
-          <p className="red">
-            4 series de 15 reps
-          </p>
-          <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
+          <h1 className="red">Día 1: Press (Pecho/Hombros/Tríceps)</h1>
+          <p className="red">4-5 series x 3-5 reps (2-3 min descanso)</p>
+          <p>
+            1.-<a onClick={pressPechoMancuernasBancoPlano}>▶️</a> Press banca plano con
+             (peso máximo)
           </p>
           <p>
-            1.-<a onClick={pressPechoPlanoBarra}>▶️</a>Press de banca con barra
+            2.-<a onClick={pressMilitarBarraSentado}>▶️</a> Press militar con barra
           </p>
           <p>
-            2.-<a onClick={pressMilitarNeutroMancuernas}>▶️</a>Press militar con
+            3.-<a onClick={fondosAsistidos}>▶️</a> Fondos  (o press
+            inclinado mancuernas)
+          </p>
+          <p>
+            4.-<a onClick={extencionTricepsPoleaAlta}>▶️</a> Extensiones de tríceps
+            en polea alta
+          </p>
+          <p>
+            5.-<a onClick={planchaIsometrica}>▶️</a> Plancha isométrica (3
+            series x 30-45s)
+          </p>
+        </div>
+        <hr />
+
+        {/* DÍA 2 - FUERZA INFERIOR (Piernas Dominantes) */}
+        <div className="justify">
+          <h1>Día 2: Piernas (Cuádriceps Dominante)</h1>
+          <p className="red">4-5 series x 3-5 reps (3 min descanso)</p>
+          <p>
+            1.-<a onClick={sentadillaBarra}>▶️</a> Sentadilla trasera con
+            barra (peso máximo)
+          </p>
+          <p>
+            2.-<a onClick={prensaCerrada}>▶️</a> Prensa 45° (pies bajo plataforma)
+          </p>
+          <p>
+            3.-<a onClick={desplantesEstaticos}>▶️</a> desplantes
+          </p>
+          <p>
+            4.-<a onClick={extencionCuadriceps}>▶️</a> Extensión de cuadríceps
+            (3x8-10)
+          </p>
+          <p>
+            5.-<a onClick={pantorrillaMaquina}>▶️</a> Gemelos sentado (4x10-12)
+          </p>
+        </div>
+        <hr />
+
+        {/* DÍA 3 - FUERZA SUPERIOR (Tirón) */}
+        <div className="justify">
+          <h1 className="red">Día 3: Tirón (Espalda/Bíceps)</h1>
+          <p className="red">4-5 series x 3-5 reps (2-3 min descanso)</p>
+          <p>
+            1.-<a onClick={pesoMuertoBarra}>▶️</a> Peso muerto
+            convencional (peso máximo)
+          </p>
+          <p>
+            2.-<a onClick={dominadasAsistidas}>▶️</a> Dominadas  (o
+            remo con barra)
+          </p>
+          <p>
+            3.-<a onClick={remoBarra}>▶️</a> Remo con barra pegada al
+            cuerpo
+          </p>
+          <p>
+            4.-<a onClick={curlBicepsBarra}>▶️</a> Curl de bíceps con barra
+            recta
+          </p>
+          <p>
+            5.-<a onClick={facepull}>▶️</a> Face pulls (3x10-12)
+          </p>
+        </div>
+        <hr />
+
+        {/* DÍA 4 - FUERZA INFERIOR (Cadena Posterior) */}
+        <div className="justify">
+          <h1>Día 4: Cadena Posterior</h1>
+          <p className="red">4-5 series x 4-6 reps (3 min descanso)</p>
+          <p>
+            1.-<a onClick={sentadillaFrontalBarra}>▶️</a> Sentadilla frontal con
+            barra
+          </p>
+          <p>
+            2.-<a onClick={hipThrust}>▶️</a> Hip thrust con barra (peso
+            máximo)
+          </p>
+          <p>
+            3.-<a onClick={pesoMuertoMancuerna}>▶️ {""}</a> Peso muerto piernas
+            rectas
+          </p>
+          <p>
+            4.-<a onClick={curlFemoralSentado}>▶️</a> Curl femoral
+          </p>
+          <p>
+            5.-<a onClick={abdomenInferiorPiernasCompletas}>▶️</a> Abdominales
+            (3x8-10)
+          </p>
+        </div>
+        <hr />
+
+        {/* DÍA 5 - FUERZA COMPUESTA */}
+        <div className="justify">
+          <h1 className="red">Día 5: Full Body (Énfasis en Power)</h1>
+          <p className="red">3-4 series x 3-5 reps (2-3 min descanso)</p>
+          <p>
+            1.-<a onClick={pressArnoldSentado}>▶️</a> Press Arnold
+          </p>
+          <p>
+            2.-<a onClick={sentadillaGoblet}>▶️</a> Sentadillas goblet
             mancuernas
           </p>
           <p>
-            3.-<a onClick={sentadillaFrontalBarra}>▶️</a>Sentadilla frontal con barra
+            3.-<a onClick={pressPechoBarraInclinado}>▶️</a> Press banca agarre cerrado
           </p>
           <p>
-            4.-<a onClick={fondosMaquina}>▶️</a>Fondos en maquina
+            4.-<a onClick={remoTRX}>▶️</a> Remo TRX
           </p>
           <p>
-            5.-<a onClick={abdomenInferiorLibre}>▶️</a>abdomen inferior 40-segundos
-          </p>
-          <p>
-            6.-<a onClick={planchaIsometrica}>▶️</a>Planchas isometricas 40-segundos
-          </p>
-          <p className="red">
-            *Termina con programa bicicleta 10min ritmo moderado*
+            5.-<a onClick={encogimientosHombrosMancuernas}>▶️</a> Encogimientos (pesado, 3x20m)
           </p>
         </div>
-        <hr />
-
-        <div className="justify">
-          <h1>Dia 2 Full Body: Tirón y Pierna Posterior</h1>
-          <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
-          </p>
-          <p>
-            1.-<a onClick={pesoMuertoBarra}>▶️</a>Peso muerto con barra
-          </p>
-          <p>
-            2.-<a onClick={dominadasAsistidas}>▶️</a>Dominadas asistidas o libres
-          </p>
-          <p>
-            3.-<a onClick={remoBarra}>▶️</a>Remo con barra o mancuerna
-          </p>
-          <p>
-            4.-<a onClick={hipThrust}>▶️</a>Hip thrust con barra
-          </p>
-          <p>
-            5.-<a onClick={curlFemoralSentado}>▶️</a>Curl femoral en máquina
-          </p>
-          <p>
-            6.-<a onClick={facepull}>▶️</a>Face pulls con cuerda
-          </p>
-          <p>
-            7.-<a onClick={abduccion}>▶️</a>Abducciones en máquina
-          </p>
-          <p className="red">*Termina con 15 min caminadora a ritmo ligero*</p>
-        </div>
-        <hr />
-
-        <div className="justify">
-          <h1 className="red">Dia 3 Full Body: HIIT y Resistencia</h1>
-          <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
-          </p>
-          <p>
-            1.-<a onClick={burpees}>▶️</a>Burpees con salto
-          </p>
-          <p>
-            2.-<a onClick={sentadillaExplosiva}>▶️</a>Sentadilla con salto
-          </p>
-          <p>
-            3.-<a onClick={lagartijasMilitares}>▶️</a>Lagartijas
-          </p>
-          <p>
-            4.-<a onClick={mountainClimbers}>▶️</a>Mountain climbers
-          </p>
-          <p>
-            5.-<a onClick={skippings}>▶️</a>Skippings
-          </p>
-          <p>
-            6.-<a onClick={abdomenInferiorMaquina}>▶️</a>Abdomen inferior en maquina
-          </p>
-          <p className="red">
-            *Ejecuta cada ejercicio por 30-40 segundos, descanso de 10 segundos
-            entre ejercicios y 3-4 rondas en total.*
-          </p>
-        </div>
-        <hr />
-
-        <div className="justify">
-          <h1>Dia 4 Full Body: Pierna y Core</h1>
-          <p className="red">
-            *Inicia con calentamiento en caminadora/elíptica/bicicleta 10min*
-          </p>
-          <p>
-            1.-<a onClick={sentadillaBarra}>▶️</a>Sentadilla trasera con barra
-          </p>
-          <p>
-            2.-<a onClick={pesoMuertoPoleaBaja}>▶️</a>Peso muerto en polea baja
-          </p>
-          <p>
-            3.-<a onClick={desplantesCaminando}>▶️</a>desplantes
-          </p>
-          <p>
-            4.-<a onClick={pantorrillaMaquina}>▶️</a>Pantorrilla en máquina o con
-            mancuerna
-          </p>
-          <p>
-            5.-<a onClick={hipThrust}>▶️</a>hipthrust
-          </p>
-          <p>
-            6.-<a onClick={planchaLateral}>▶️</a>Plancha lateral con
-            elevación de pierna
-          </p>
-          <p>
-            7.-<a onClick={adduccion}>▶️</a>adducciones
-          </p>
-          <p className="red">
-            *Termina con: 15 min bicicleta (resistencia ligera)*
-          </p>
-        </div>
-      </Collapsible>  */}
+      </Collapsible>
 
       {/* Rutina Semana #2  */}
       {/* <Collapsible
@@ -1958,7 +1956,7 @@ const Alejandra = () => {
       </Collapsible>  */}
 
       {/* Rutina semana 4 */}
-        {/* <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia black1"
         trigger="Semana 4"
@@ -2178,7 +2176,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>   */}
       {/* Rutina semana 5 */}
-       <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia"
         trigger="Semana 4"
@@ -2363,7 +2361,7 @@ const Alejandra = () => {
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
         </div>
 
-      </Collapsible>    
+      </Collapsible>     */}
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
