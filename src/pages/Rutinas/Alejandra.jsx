@@ -1457,14 +1457,13 @@ const Alejandra = () => {
       </Collapsible> */}
 
       {/* Rutina Semana #2  */}
-      <Collapsible
+      {/* <Collapsible
         open={true}
         trigger="Rutina de Fuerza - Semana 2"
         className="dia"
         triggerWhenOpen="Rutina de Fuerza - Semana 2"
         triggerStyle={{ fontSize: "5rem" }}
       >
-        {/* DÍA 1 - PRESS (VARIANTES MÁS DESAFIANTES) */}
         <div className="justify">
           <h1 className="red">
             Día 1: Press (Pecho/Hombros/Tríceps) - Intensidad ↑
@@ -1491,7 +1490,6 @@ const Alejandra = () => {
         </div>
         <hr />
 
-        {/* DÍA 2 - PIERNAS (ÉNFASIS EN EXCÉNTRICO) */}
         <div className="justify">
           <h1>Día 2: Piernas (Control Excéntrico)</h1>
           <p className="red">
@@ -1517,7 +1515,6 @@ const Alejandra = () => {
         </div>
         <hr />
 
-        {/* DÍA 3 - TIRÓN (VARIANTES AGARRE) */}
         <div className="justify">
           <h1 className="red">Día 3: Tirón (Agarres Alternativos)</h1>
           <p className="red">4-5 series x 3-5 reps (2-3 min descanso)</p>
@@ -1542,7 +1539,6 @@ const Alejandra = () => {
         </div>
         <hr />
 
-        {/* DÍA 4 - CADENA POSTERIOR (HIP THRUST PRIORIZADO) */}
         <div className="justify">
           <h1>Día 4: Cadena Posterior (Volumen ↑)</h1>
           <p className="red">5 series x 4-6 reps (3 min descanso)</p>
@@ -1567,7 +1563,6 @@ const Alejandra = () => {
         </div>
         <hr />
 
-        {/* DÍA 5 - FULL BODY (POWER & FUERZA COMPUESTA) */}
         <div className="justify">
           <h1 className="red">Día 5: Full Body (Fuerza Explosiva)</h1>
           <p className="red">3-4 series x 3-6 reps (2-3 min descanso)</p>
@@ -1595,10 +1590,10 @@ const Alejandra = () => {
             <strong>Abdomen</strong>
           </p>
         </div>
-      </Collapsible>
+      </Collapsible> */}
 
       {/*Rutina Semana #3*/}
-      {/* <Collapsible
+      <Collapsible
         open={true}
         className="dia"
         trigger="Semana 3"
@@ -1835,7 +1830,7 @@ const Alejandra = () => {
             *Termina con programa cardio S8-Principiante-Nivel 2*
           </p>
         </div>
-      </Collapsible>  */}
+      </Collapsible>  
 
       {/* Rutina semana 4 */}
       {/* <Collapsible
