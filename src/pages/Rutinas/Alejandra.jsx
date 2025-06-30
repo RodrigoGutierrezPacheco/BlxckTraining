@@ -1328,10 +1328,10 @@ const Alejandra = () => {
       {/* Rutina Semana #1  */}
       {/* <h1>Intensidad alta +80% 4 series 12-15 reps</h1> */}
        <Collapsible
-        open={false}
-        trigger="Rutina de Fuerza - 5 Días"
+        open={true}
+        trigger="Dia 1"
         className="dia"
-        triggerWhenOpen="Rutina de Fuerza - 5 Días"
+        triggerWhenOpen="Dia 1"
         triggerStyle={{ fontSize: "5rem" }}
       >
         <div className="justify">
