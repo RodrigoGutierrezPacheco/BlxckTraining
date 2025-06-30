@@ -1327,7 +1327,7 @@ const Alejandra = () => {
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
       {/* <h1>Intensidad alta +80% 4 series 12-15 reps</h1> */}
-      {/* <Collapsible
+       <Collapsible
         open={false}
         trigger="Rutina de Fuerza - 5 Días"
         className="dia"
@@ -1454,7 +1454,7 @@ const Alejandra = () => {
             (pesado, 3x20m)
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible> 
 
       {/* Rutina Semana #2  */}
       {/* <Collapsible
@@ -2053,7 +2053,7 @@ const Alejandra = () => {
         </div>
       </Collapsible>   */}
       {/* Rutina semana 5 */}
-      <Collapsible
+      {/* <Collapsible
         open={true}
         className="dia"
         trigger="Semana 5"
@@ -2238,7 +2238,7 @@ const Alejandra = () => {
           <p className="red">*Termina con programa bicicleta 10min ritmo ligero*</p>
         </div>
 
-      </Collapsible>     
+      </Collapsible>      */}
       <button onClick={whatsapp} className="button2">
         ¿Tienes alguna duda o problema con tu rutina?
       </button>
