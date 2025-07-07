@@ -1327,7 +1327,7 @@ const Alejandra = () => {
       {/* -----------------RUTINA NIVEL 1 SIN LESIONES PRINCIPIANTE ------ */}
       {/* Rutina Semana #1  */}
       {/* <h1>Intensidad alta +80% 4 series 12-15 reps</h1> */}
-       <Collapsible
+       {/* <Collapsible
         open={true}
         trigger="Dia 1"
         className="dia"
@@ -1454,10 +1454,10 @@ const Alejandra = () => {
             (pesado, 3x20m)
           </p>
         </div>
-      </Collapsible> 
+      </Collapsible>  */}
 
       {/* Rutina Semana #2  */}
-      {/* <Collapsible
+       <Collapsible
         open={true}
         trigger="Rutina de Fuerza - Semana 2"
         className="dia"
@@ -1590,7 +1590,7 @@ const Alejandra = () => {
             <strong>Abdomen</strong>
           </p>
         </div>
-      </Collapsible> */}
+      </Collapsible> 
 
       {/*Rutina Semana #3*/}
       {/* <Collapsible
