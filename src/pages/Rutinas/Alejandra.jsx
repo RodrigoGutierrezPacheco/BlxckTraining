@@ -2052,6 +2052,7 @@ const Alejandra = () => {
           </p>
         </div>
       </Collapsible>  */}
+      
       {/* Rutina semana 5 */}
      <Collapsible
         open={true}
